@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Innovative Navbar and Carousel</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <style>
+        .navbar-custom {
+            background-color: #343a40;
+        }
+        .navbar-custom .navbar-brand,
+        .navbar-custom .nav-link {
+            color: #fff;
+        }
+        .navbar-custom .nav-link:hover {
+            color: #f8f9fa;
+        }
+        .search-bar {
+            width: 200px;
+        }
+        .carousel-caption {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        .image-container {
+          margin-top: 20px;
+          display: flex;
+          flex-wrap: wrap;
+      }
+      .image-container img {
+          width: 150px;
+          margin: 5px;
+          border: 1px solid #ddd;
+          padding: 5px;
+      }
+      button {
+          padding: 10px 20px;
+          font-size: 16px;
+          cursor: pointer;
+      }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-custom">
+        <a class="navbar-brand" href="index.html"> REWARD Program </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="Galary.html">Galary<span class="sr-only">(current)</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="Dashboard.html">Dashboard</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Aboutprogram.html">About Program</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Downloads.html">Downloads</a>
+            </li>
+        </div>
+      </nav>
+      <h2>Click the button to display images:</h2>
+
+      <button onclick="displayImages(0)">LRI Activities</button>
+      <button onclick="displayImages(1)">Hydrological Activities</button>
+      <div class="image-container" id="imageContainer">
+          <!-- Images will be displayed here -->
+      </div>
+      
+      <script>
+          function displayImages(i) {
+              // List of image URLs
+              if (i == 0) {
+              var imageUrls = [
+                  'image1.jpg',
+                  'image2.jpg',
+                  'image3.jpg',
+                  'image4.jpg',
+                  'image5.jpg'
+                  // Add more image URLs as needed
+              ];
+              }
+              else if (i==1){
+                  var imageUrls = [
+                  'image6.jpg',
+                  'image7.jpg',
+                  'image8.jpg',
+                  'image9.jpg',
+                  'image10.jpg'
+                  // Add more image URLs as needed
+              ];
+              }
+      
+              var container = document.getElementById('imageContainer');
+              container.innerHTML = ''; // Clear existing images
+      
+              // Append images to the container
+              imageUrls.forEach(function(url) {
+                  var img = document.createElement('img');
+                  img.src = url;
+                  container.appendChild(img);
+              });
+          }
+      </script>
+<!-- Bootstrap JS and dependencies -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
