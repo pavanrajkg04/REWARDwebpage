@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>GeoJSON Properties Table</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <style>
+        body {
+            display: flex;
+        }
+        .sidebar {
+            width: 250px;
+            background: #343a40;
+            color: #fff;
+            position: fixed;
+            height: 100%;
+            padding-top: 20px;
+        }
+        .sidebar a {
+            color: #fff;
+            display: block;
+            padding: 10px 15px;
+            text-decoration: none;
+        }
+        .sidebar a:hover {
+            background: #495057;
+        }
+        .content {
+            margin-left: 250px;
+            padding: 20px;
+            width: 100%;
+        }
+        .topbar {
+            background: #343a40;
+            color: #fff;
+            padding: 10px;
+            position: fixed;
+            width: calc(100% - 250px);
+            left: 250px;
+            top: 0;
+            z-index: 1;
+        }
+        .topbar .navbar-nav {
+            margin-left: auto;
+        }
+        .main-content {
+            margin-top: 60px;
+        }
+
+
+        #map {
+            height: 0;
+            width: 0%;
+            
+        }
+        #table {
+            width: 45%;
+            float: left;
+            padding: 0px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+
+</head>
+<body>
+<!-- Sidebar -->
+<div class="sidebar">
+    <h3 class="text-center">Dashboard</h3>
+    <a href="Dashboard.html" id="overview"><i class="fas fa-tachometer-alt"></i> Overview</a>
+    <a href="Dashboard_analytics.html"><i class="fas fa-chart-line"></i> Analytics</a>
+    <a href="Dashboard_Gis.html"><i class="fas fa-cogs"></i> GIS Maps & Data Details</a>
+    <a href="Dashboard_partnerlist.html"><i class="fas fa-cogs"></i> Partners Details</a>
+    <a href="Dashboard_project_details.html"><i class="fas fa-cogs"></i> REWARD MWS LIST </a>
+</div>
+<!-- Topbar -->
+<nav class="navbar topbar">
+    <a href="index.html"> < Go to home</a>
+</nav>
+<div class="content">
+    <div class="main-content">
+
+<div id="table">
+    <h2>REWARD MWS LIST</h2>
+    <table id="propertiesTable">
+        <thead>
+            <tr id="headerRow"></tr>
+        </thead>
+        <tbody id="bodyRows"></tbody>
+    </table>
+
+    <div id="map"></div>
+</div>
+</div>
+</div>
+
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<script>
+    // Initialize the map
+    var map = L.map('map').setView([51.505, -0.09], 13);
+
+    // Add OpenStreetMap tile layer
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '© OpenStreetMap contributors'
+    }).addTo(map);
+
+    // Function to display properties in a table
+    function displayPropertiesTable(properties) {
+        const tableHeader = document.getElementById('headerRow');
+        const tableBody = document.getElementById('bodyRows');
+
+        // Clear existing table content
+        tableHeader.innerHTML = '';
+        tableBody.innerHTML = '';
+
+        // Create table headers
+        const headers = Object.keys(properties[0]);
+        headers.forEach(header => {
+            const th = document.createElement('th');
+            th.textContent = header;
+            tableHeader.appendChild(th);
+        });
+
+        // Create table rows
+        properties.forEach(property => {
+            const tr = document.createElement('tr');
+            headers.forEach(header => {
+                const td = document.createElement('td');
+                td.textContent = property[header];
+                tr.appendChild(td);
+            });
+            tableBody.appendChild(tr);
+        });
+    }
+
+    // Fetch GeoJSON data and display on map and table
+    fetch('p1p2.geojson')
+        .then(response => response.json())
+        .then(data => {
+            // Add GeoJSON data to map
+            L.geoJSON(data).addTo(map);
+
+            // Extract properties and display in table
+            const properties = data.features.map(feature => feature.properties);
+            displayPropertiesTable(properties);
+        })
+        .catch(error => console.error('Error fetching GeoJSON:', error));
+</script>
+</body>
+</html>

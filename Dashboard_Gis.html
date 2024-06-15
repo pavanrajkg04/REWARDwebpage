@@ -73,6 +73,7 @@
             padding: 10px;
             text-align: left;
         }
+        
     </style>
 </head>
 <body>
@@ -84,6 +85,7 @@
     <a href="Dashboard_analytics.html"><i class="fas fa-chart-line"></i> Analytics</a>
     <a href="Dashboard_Gis.html"><i class="fas fa-cogs"></i> GIS Maps & Data Details</a>
     <a href="Dashboard_partnerlist.html"><i class="fas fa-cogs"></i> Partners Details</a>
+    <a href="Dashboard_project_details.html"><i class="fas fa-cogs"></i> REWARD MWS LIST </a>
 </div>
 <!-- Topbar -->
 <nav class="navbar topbar">
@@ -159,9 +161,9 @@
         // Add new rows for each property
         for (var key in properties) {
             if (properties.hasOwnProperty(key)) {
-                var row = document.createElement('tr');
-                var cellKey = document.createElement('td');
-                var cellValue = document.createElement('td');
+                var row = document.createElement('td');
+                var cellKey = document.createElement('tr');
+                var cellValue = document.createElement('tr');
 
                 cellKey.textContent = key;
                 cellValue.textContent = properties[key];
@@ -172,6 +174,8 @@
             }
         }
     }
+
+    
 </script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.0/xlsx.full.min.js"></script>
 
