@@ -14,7 +14,7 @@
     <script src="https://unpkg.com/shapefile@latest/dist/shapefile.js"></script>
     <style>
         #map {
-            height: 800px;
+            height: 500px;
         }
     </style>
     <!-- Custom CSS -->
@@ -60,6 +60,18 @@
         .main-content {
             margin-top: 60px;
         }
+
+        #info-table {
+            margin-top: 20px;
+        }
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
     </style>
 </head>
 <body>
@@ -84,6 +96,18 @@
             <div class="container-fluid">
                 <div id="map"></div>
             </div>
+            <div id="info-table">
+                <table id="popupTable">
+                    <thead>
+                        <tr>
+                            
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Content will be dynamically added here -->
+                    </tbody>
+                </table>
+            </div>
         </div>
     </div>
 </div>
@@ -93,6 +117,7 @@
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
 <script>
     var map = L.map('map').setView([12.9716, 77.5946], 7);
 
@@ -108,26 +133,44 @@
             // Adding GeoJSON data to the map
             L.geoJSON(data, {
                 onEachFeature: function (feature, layer) {
-                    layer.bindPopup(feature.properties.MICROWSH_1);
+                    // Combine the properties into a single popup content
+                    var popupContent = `
+                        <strong>Microwsh:</strong> ${feature.properties.MICROWSH_1}<br>
+                        <strong>Area (Ha):</strong> ${feature.properties.AREA_Ha}
+                        
+                    `;
+                    layer.bindPopup(popupContent);
+
+                    // Add event listener to update table on click
+                    layer.on('click', function () {
+                        updateTable(feature.properties);
+                    });
                 }
             }).addTo(map);
         })
         .catch(error => console.error('Error loading the GeoJSON file:', error));
-</script>
+        
 
-<script>
-    // Get all sidebar links
-    const sidebarLinks = document.querySelectorAll('.sidebar a');
+    function updateTable(properties) {
+        var tableBody = document.querySelector('#popupTable tbody');
+        tableBody.innerHTML = ''; // Clear existing content
 
-    // Add click event listener to each link
-    sidebarLinks.forEach(link => {
-        link.addEventListener('click', function() {
-            // Remove active class from all links
-            sidebarLinks.forEach(link => link.classList.remove('active'));
-            // Add active class to the clicked link
-            this.classList.add('active');
-        });
-    });
+        // Add new rows for each property
+        for (var key in properties) {
+            if (properties.hasOwnProperty(key)) {
+                var row = document.createElement('tr');
+                var cellKey = document.createElement('td');
+                var cellValue = document.createElement('td');
+
+                cellKey.textContent = key;
+                cellValue.textContent = properties[key];
+
+                row.appendChild(cellKey);
+                row.appendChild(cellValue);
+                tableBody.appendChild(row);
+            }
+        }
+    }
 </script>
 </body>
 </html>
