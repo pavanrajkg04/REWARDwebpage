@@ -28,7 +28,7 @@
         }
 
         .image-container {
-          margin-top: 20px;
+          margin-top: 60px;
           display: flex;
           flex-wrap: wrap;
       }
@@ -73,6 +73,9 @@
 
       <button onclick="displayImages(0)">LRI Activities</button>
       <button onclick="displayImages(1)">Hydrological Activities</button>
+      <button onclick="displayImages(2)">Trainings</button>
+      <button onclick="displayImages(3)">Wall paintings</button>
+      <button onclick="displayImages(4)">Meetings</button>
       <div class="image-container" id="imageContainer">
           <!-- Images will be displayed here -->
       </div>
@@ -100,6 +103,36 @@
                   // Add more image URLs as needed
               ];
               }
+              else if (i==2){
+                var imageUrls = [
+                'image6.jpg',
+                'image7.jpg',
+                'image8.jpg',
+                'image9.jpg',
+                'image10.jpg'
+                // Add more image URLs as needed
+            ];
+            }
+            else if (i==3){
+                var imageUrls = [
+                'image6.jpg',
+                'image7.jpg',
+                'image8.jpg',
+                'image9.jpg',
+                'image10.jpg'
+                // Add more image URLs as needed
+            ];
+            }
+            else if (i==4){
+                var imageUrls = [
+                'image6.jpg',
+                'image7.jpg',
+                'image8.jpg',
+                'image9.jpg',
+                'image10.jpg'
+                // Add more image URLs as needed
+            ];
+            }
       
               var container = document.getElementById('imageContainer');
               container.innerHTML = ''; // Clear existing images
