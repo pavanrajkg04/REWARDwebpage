@@ -74,9 +74,11 @@
 
       <button onclick="displayImages(0)">LRI Activities</button>
       <button onclick="displayImages(1)">Hydrological Activities</button>
+      <button onclick="displayImages(5)">CoE Activites</button>
       <button onclick="displayImages(2)">Trainings</button>
       <button onclick="displayImages(3)">Awareness</button>
       <button onclick="displayImages(4)">Meetings</button>
+      <button onclick="displayImages(6)">others</button>
       <div class="image-container" id="imageContainer">
           <!-- Images will be displayed here -->
       </div>
@@ -86,6 +88,10 @@
               // List of image URLs
               if (i == 0) {
               var imageUrls = [
+                'New/111/1.jpg',
+                'New/111/2.jpg',
+                'New/111/3.jpg',
+                'New/111/4.jpg',
                   'New/PRA.jpg',
                   'New/TCB 3.jpg',
                   'New/image4.jpg',
@@ -96,6 +102,10 @@
               }
               else if (i==1){
                   var imageUrls = [
+                  'New/111/5.jpg',
+                  'New/111/6.jpg',
+                  'New/111/7.jpg',
+                  'New/111/8.jpg',
                   'New/Hydrology.jpg',
                   'image7.jpg',
                   'image8.jpg',
@@ -104,22 +114,48 @@
                   // Add more image URLs as needed
               ];
               }
+              else if (i==5){
+                var imageUrls = [
+                'New/111/9.jpg',
+                'New/111/10.jpg',
+                'New/111/11.jpg',
+                'New/111/12.jpg',
+                // Add more image URLs as needed
+            ];
+            }
+            else if (i==6){
+                var imageUrls = [
+                'New/111/13.jpg',
+                'New/111/18.jpg',
+                'New/111/17.jpg',
+                'New/111/22.jpg',
+                'New/111/23.jpg',
+                
+               
+                // Add more image URLs as needed
+            ];
+            }
               else if (i==2){
                 var imageUrls = [
+                'New/111/21.jpg',
                 'New/S-- Training 2.jpg',
                 'New/S-1 Training.jpg',
                 'New/Trainings.jpg',
                 'New/A1 Training Beglihosahalli.jpg',
                 'New/Gramasabha.jpg',
-                'image9.jpg',
-                'image10.jpg'
+                'New/111/14.jpg',
+                'New/111/15.jpg',
+                'New/111/16.jpg',
+                
+
+
                 // Add more image URLs as needed
             ];
             }
             else if (i==3){
                 var imageUrls = [
+                'New/111/20.jpg',
                 'New/Awareness 1.jpg',
-                'New/A1 Training Beglihosahalli.jpg',
                 'New/Awareness 2.jpg',
                 'New/Awareness 3.jpg',
                 'New/Awareness 4.jpg',
@@ -131,6 +167,9 @@
                 'New/PRA 2.jpg',
                 'New/PRA.jpg',
                 'New/Jatha.jpg',
+                'New/111/16.jpg',
+                'New/111/17.jpg',
+                'New/111/20.jpg',
                 // Add more image URLs as needed
             ];
             }
