@@ -60,58 +60,105 @@
         .pdf-list li a:hover {
             background-color: #e0e0e0;
         }
+        .folder-title {
+            cursor: pointer;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            margin-bottom: 10px;
+            background-color: #f1f1f1;
+        }
+        .folder-title:hover {
+            background-color: #e1e1e1;
+        }
+        .folder-content {
+            margin-bottom: 20px;
+        }
     </style>
 </head>
 <body>
 
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-custom">
-        <a class="navbar-brand" href="#"> REWARD Program </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav mr-auto">
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-custom">
+    <a class="navbar-brand" href="#">REWARD Program</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="Galary.html">Galary<span class="sr-only">(current)</a>
+                <a class="nav-link" href="Galary.html">Galary<span class="sr-only">(current)</a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="Dashboard.html">Dashboard</a>
+                <a class="nav-link" href="Dashboard.html">Dashboard</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="Aboutprogram.html">About Program</a>
+                <a class="nav-link" href="Aboutprogram.html">About Program</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="Downloads.html">Downloads</a>
+                <a class="nav-link" href="Downloads.html">Downloads</a>
             </li>
-        </div>
-      </nav>
+        </ul>
+    </div>
+</nav>
 
 <div class="container">
     <h1>Download PDFs</h1>
 
-    <ul class="pdf-list">
-        <li>
-            <a href="path/to/your/pdf1.pdf" download>
-                <strong>PDF 1</strong>
-                <span>Description of PDF 1</span>
-            </a>
-        </li>
-        <li>
-            <a href="path/to/your/pdf2.pdf" download>
-                <strong>PDF 2</strong>
-                <span>Description of PDF 2</span>
-            </a>
-        </li>
-        <li>
-            <a href="path/to/your/pdf3.pdf" download>
-                <strong>PDF 3</strong>
-                <span>Description of PDF 3</span>
-            </a>
-        </li>
-        <!-- Add more <li> items for additional PDFs -->
-    </ul>
+    <!-- Folder 1 -->
+    <div class="folder-content">
+        <div class="folder-title" data-toggle="collapse" data-target="#folder1" aria-expanded="false" aria-controls="folder1">
+            Field Guides and Manuals
+        </div>
+        <div id="folder1" class="collapse">
+            <ul class="pdf-list">
+                <li>
+                    <a href="https://watershed.karnataka.gov.in/storage/pdf-files/REWARD%20MANUALS/RS&GIS.pdf" download>
+                        <strong>RS & GIS Manual</strong>
+                        <span>April 2022</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://watershed.karnataka.gov.in/storage/pdf-files/REWARD%20MANUALS/REWARD%20Field%20Guide.pdf" download>
+                        <strong>LRI Field Manual</strong>
+                        <span>2022</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://watershed.karnataka.gov.in/storage/pdf-files/REWARD%20MANUALS/hydrology%20manual.pdf" download>
+                        <strong>Hydrology Manual</strong>
+                        <span>Septmber 2022</span>
+                    </a>
+                </li>
+                
+            </ul>
+        </div>
+    </div>
 
+    <!-- Folder 2 -->
+    <div class="folder-content">
+        <div class="folder-title" data-toggle="collapse" data-target="#folder2" aria-expanded="false" aria-controls="folder2">
+            Detailed Project Reports 
+        </div>
+        <div id="folder2" class="collapse">
+            <ul class="pdf-list">
+                <li>
+                    <a href="path/to/your/pdf3.pdf" download>
+                        <strong>PDF 3</strong>
+                        <span>Description of PDF 3</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="path/to/your/pdf4.pdf" download>
+                        <strong>PDF 4</strong>
+                        <span>Description of PDF 4</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Add more folders as needed -->
 </div>
 
 <!-- Bootstrap JS and dependencies -->
