@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard Template</title>
+    <title>Analitics</title>
     <!-- Bootstrap CSS -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <!-- Font Awesome for icons -->
@@ -51,6 +51,24 @@
         .main-content {
             margin-top: 60px;
         }
+
+        .image-container {
+            margin-top: 20px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .image-container img {
+            width: 800px;
+            margin: 5px;
+            border: 1px solid #ddd;
+            padding: 5px;
+            background-color: black;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
     </style>
 </head>
 <body>
@@ -76,7 +94,18 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-12">
-                    <h2>LRI Section</h2>
+                    <h2>Click the button for current status:</h2>
+
+                    <button onclick="displayImages(0)">NBSS & LUP</button>
+                    <button onclick="displayImages(1)">UAS Bengaluru</button>
+                    <button onclick="displayImages(2)">CoA Mandya (P2)</button>
+                    <button onclick="displayImages(3)">UAS Dharwad</button>
+                    <button onclick="displayImages(4)">UAS Raichur</button>  
+                    <button onclick="displayImages(5)">UHS Bagalkot</button>  
+                    <button onclick="displayImages(6)">UAHS Shivamogga</button>  
+                                  <div class="image-container" id="imageContainer">
+                                      <!-- Images will be displayed here -->
+                                  </div>
                     <!-- Insert LRI content here -->
                     <div class="col-md-6">
                         <table class="table table-bordered">
@@ -160,8 +189,64 @@
                     </div>
                     
                     <p>This section will contain LRI content.</p>
+ 
 
+                    <script>
+                        function displayImages(i) {
+                            // List of image URLs
+                            if (i == 0) {
+                            var imageUrls = [
+                                'New/status/NBSS.png',  
+                                // Add more image URLs as needed
+                            ];
+                            }
+                            if (i == 1) {
+                                var imageUrls = [
+                                    'New/status/UASBen.png',  
+                                    // Add more image URLs as needed
+                                ];
+                                }
+                                if (i == 2) {
+                                    var imageUrls = [
+                                        'New/status/CoAMandya.png',  
+                                        // Add more image URLs as needed
+                                    ];
+                                    }
+                                    if (i == 3) {
+                                        var imageUrls = [
+                                            'New/status/Dharwad.png',  
+                                            // Add more image URLs as needed
+                                        ];
+                                        }
+                                        if (i == 4) {
+                                            var imageUrls = [
+                                                'New/status/Raichur.png',  
+                                                // Add more image URLs as needed
+                                            ];
+                                            }
+                                            if (i == 5) {
+                                                var imageUrls = [
+                                                    'New/status/Bagalkote.png',  
+                                                    // Add more image URLs as needed
+                                                ];
+                                                }
+                                                if (i == 6) {
+                                                    var imageUrls = [
+                                                        'New/status/Shivamogga.png',  
+                                                        // Add more image URLs as needed
+                                                    ];
+                                                    }
+                            var container = document.getElementById('imageContainer');
+                            container.innerHTML = ''; // Clear existing images
                     
+                            // Append images to the container
+                            imageUrls.forEach(function(url) {
+                                var img = document.createElement('img');
+                                img.src = url;
+                                container.appendChild(img);
+                            });
+                        }
+                    </script>
                 </div>
             </div>
         </div>
