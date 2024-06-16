@@ -57,10 +57,11 @@
         .section-right {
             flex: 0.8;
             margin: 0 10px;
+            background-color: black;
         }
         .section-middle {
             flex: 1.5;
-            margin: 0 10px;
+            margin:0px;
             background-color: white;
         }
         .card {
@@ -221,6 +222,25 @@
             margin: 10px;
           }
 
+          .image-button-Activity_status {
+            background-image: url('New/Activity Status.jpg'); /* Replace 'path_to_your_image.jpg' with your image path */
+            background-size:cover; /* Cover the entire button with the background image */
+            background-position: center; /* Center the background image */
+            width: 200px; /* Set width of the button */
+            height: 50px; /* Set height of the button */
+            border: none; /* Remove default border */
+            outline: none; /* Remove default outline */
+            cursor: pointer; /* Change cursor to pointer on hover */
+            /* Add any additional styling here, such as text color and font */
+            color: black;
+            font-size: 16px;
+            font-weight: bold;
+            text-align: center;
+            line-height: 50px; /* Center text vertically */
+            text-decoration: none; /* Remove underline from text */
+            margin: 10px;
+          }
+
             /* Style for the container div */
   .image-container {
     display: flex; /* Use flexbox for easy alignment */
@@ -270,13 +290,15 @@
         
         <button class="image-button-Dashboard"><a class="nav-link" href="Dashboard.html"></a></span></a></button>
         <button class="image-button-About_program"><a class="nav-link" href="Aboutprogram.html"></a></button>
-        <button class="image-button-Galary"><a class="nav-link" href="Galary.html"><span class="sr-only"></span></a></button>
+        <button class="image-button-Activity_status"><a class="nav-link" href="DPR_abstract.html"></a><span class="sr-only"></span></a></button>
         <button class="image-button-Agro_advice"><a class="nav-link" href="Agroadvice.html"><span class="sr-only">)</span></a></button>
         <button class="image-button-DPR_menu"><a class="nav-link" href="DPRs.html"><span class="sr-only"></span></a></button>
+        <button class="image-button-Galary"><a class="nav-link" href="Galary.html"><span class="sr-only"></span></a></button>
         <button class="image-button-Downloads"><a class="nav-link" href="Downloads.html"></a><span class="sr-only"></span></a></button>
+        
     </div>
     <div class="section section-left">
-        <h6 style="text-align: center;">REWARD Program Status</h6>
+        <h6 style="text-align: center; color:#28a745">REWARD Program Status</h6>
         <div class="card card-1">
             <h6>Total MWS (Area Ha)</h6>
             <h4>3352 <br/> (25,39,684.36)</h4>
@@ -335,7 +357,7 @@
     </div>
 
     <div class="section section-right">
-        <h6 style="text-align: center;">Karnataka Overview</h6>
+        <h6 style="text-align: center; color:#28a745">Karnataka Overview</h6>
         <div class="card card-1">
             <h6>KARNATAKA Area (Ha)</h6>
             <h4>1,91,85,095</h4>
@@ -344,7 +366,7 @@
             <h6>LRI Completed / Pending</h6>
             <h4> 47,68,483.32 / 1,44,16,612 </h4>
         </div>
-        <h6 style="text-align: center;">Projects</h6>
+        <h6 style="text-align: center; color:#28a745">Projects</h6>
         <div class="card card-3">
             <h6>Projects Completed</h6>
             <h4>Sujala 1,Sujala 2,Sujala 3, WDPD, PMKSY</h4>
