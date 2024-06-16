@@ -8,75 +8,96 @@
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom CSS -->
     <style>
-      .navbar-custom {
-        background-color: #343a40;
-    }
-    .navbar-custom .navbar-brand,
-    .navbar-custom .nav-link {
-        color: #fff;
-    }
-    .navbar-custom .nav-link:hover {
-        color: #f8f9fa;
-    }
-    .search-bar {
-        width: 200px;
-    }
-    .carousel-caption {
-        background-color: rgba(0, 0, 0, 0.5);
-        padding: 10px;
-        border-radius: 10px;
-    }
-    body {
-        font-family: Arial, sans-serif;
-        line-height: 1.6;
-        margin: 0;
-        padding: 0;
-        background-color: #f9f9f9;
-        color: #333;
-    }
-    .container {
-        width: 100%;
-        margin: auto;
-        overflow: hidden;
-        padding: 20px;
-        background: #fff;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        display: flex; /* Use flexbox for horizontal layout */
-        justify-content: space-around; /* Adjust as needed */
-    }
+        .navbar-custom {
+            background-color: #343a40;
+        }
+        .navbar-custom .navbar-brand,
+        .navbar-custom .nav-link {
+            color: #fff;
+        }
+        .navbar-custom .nav-link:hover {
+            color: #f8f9fa;
+        }
+        .search-bar {
+            width: 200px;
+        }
+        .carousel-caption {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 10px;
+            border-radius: 10px;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        .container {
+            width: 100%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            display: flex; /* Use flexbox for horizontal layout */
+            justify-content: space-around; /* Adjust as needed */
+        }
         .section {
             flex: 1;
             padding: 20px;
             box-sizing: border-box;
         }
-
         .section-left,
         .section-right {
             background-color: #f0f0f0;
             margin-right: 10px;
             width: calc(33.33% - 20px); /* Adjust width for three sections and margins */
         }
-
         .section-middle {
             background-color: #e0e0e0;
             flex-grow: 2;
             margin: 0 10px;
             width: calc(66.66% - 20px); /* Adjust width for middle section and margins */
         }
-
         .card {
             border: 1px solid #ccc;
-            padding: 10px;
-            margin-bottom: 10px;
+            padding: 20px;
+            margin-bottom: 5px;
             background-color: #fff;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            background-color: #a9b0b6;
+            text-align: center; /* Center content horizontally */
         }
-
+        .card h6 {
+            margin-bottom: 10px;
+        }
+        .card-1 {
+            border-left: 5px solid #007bff;
+        }
+        .card-2 {
+            border-left: 5px solid #28a745;
+        }
+        .card-3 {
+            border-left: 5px solid #ffc107;
+        }
+        .card-4 {
+            border-left: 5px solid #dc3545;
+        }
+        .card-5 {
+            border-left: 5px solid #17a2b8;
+        }
+        .card-6 {
+            border-left: 5px solid #6c757d;
+        }
+        .card-7 {
+            border-left: 5px solid #fd7e14;
+        }
         .image-container {
             text-align: center;
             margin-bottom: 20px;
         }
-
         .image-container img {
             max-width: 100%;
             height: auto;
@@ -87,7 +108,7 @@
 
 <!-- Navbar -->
 <nav class="navbar navbar-expand-lg navbar-custom">
-    <a class="navbar-brand" href="index.html"> REWARD Program </a>
+    <a class="navbar-brand" href="index.html">REWARD Program</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
             aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -113,34 +134,33 @@
 <!-- Container for Sections -->
 <div class="container">
     <div class="section section-left">
-        <div class="card">
-            <h2>Card Left 1</h2>
-            <p>Content of card left 1.</p>
+        <h6 style="text-align: center;">REWARD Program Status</h6>
+        <div class="card card-1">
+            <h6>Total MWS (Area Ha)</h6>
+            
+            <h4>3352 <br/> (25,39,684.36)</h4>
         </div>
-        <div class="card">
-            <h2>Card Left 2</h2>
-            <p>Content of card left 2.</p>
+        <div class="card card-2">
+            <h6>Field Studies MWS (Area Ha)</h6>
+            
+            <h4>2304 <br/> (17,12,819.214)</h4>
         </div>
-        <div class="card">
-            <h2>Card Left 3</h2>
-            <p>Content of card left 3.</p>
+
+        <div class="card card-3">
+            <h6>Lab Analysis MWS (Area Ha)</h6>
+            
+            <h4>1564 <br/> (12,06,062.56)</h4>
         </div>
-        <div class="card">
-          <h2>Card Left 3</h2>
-          <p>Content of card left 3.</p>
-      </div>
-      <div class="card">
-        <h2>Card Left 3</h2>
-        <p>Content of card left 3.</p>
-    </div>
-    <div class="card">
-      <h2>Card Left 3</h2>
-      <p>Content of card left 3.</p>
-  </div>
-  <div class="card">
-    <h2>Card Left 3</h2>
-    <p>Content of card left 3.</p>
-</div>
+        <div class="card card-4">
+            <h6>Atlas Ready MWS (Area Ha)</h6>
+            
+            <h4>628 <br/>(4,75,396)</h4>
+        </div>
+        <div class="card card-5">
+            <h6>LRI Cards Generated</h6>
+            
+            <h4>1,31,869</h4>
+        </div>
     </div>
 
     <div class="section section-middle">
@@ -151,13 +171,37 @@
     </div>
 
     <div class="section section-right">
-        <div class="card">
-            <h2>Card Right 1</h2>
-            <p>Content of card right 1.</p>
+        <h6 style="text-align: center;">Karnataka Overview</h6>
+        <div class="card card-1">
+            <h6>Total LRI completed</h6>
+            
+            <h4>32543543</h4>
         </div>
-        <div class="card">
-            <h2>Card Right 2</h2>
-            <p>Content of card right 2.</p>
+        <div class="card card-2">
+            <h6>LRI to be Completed</h6>
+            
+            <h4>3242343232</h4>
+        </div>
+        <h6 style="text-align: center;">Projects</h6>
+        <div class="card card-3">
+            <h6>Sujala 3</h6>
+            
+            <h4>staus : completed <br> Area : 4545646</h4>
+        </div>
+        <div class="card card-4">
+            <h6>WDPD</h6>
+            
+            <h4>staus : completed <br> Area : 4545646</h4>
+        </div>
+        <div class="card card-5">
+            <h6>CEPMIZ</h6>
+            
+            <h5>staus : Inprogress <br> Area : 4545646</h5>
+        </div>
+        <div class="card card-6">
+            <h6>REWARD</h6>
+            
+            <h5>staus : Inprogress <br> Area : 25</h5>
         </div>
     </div>
 </div>
