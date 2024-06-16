@@ -46,19 +46,26 @@
             box-sizing: border-box;
             background-color: #f0f0f0;
         }
+        .section-left-left{
+            flex: 0.5;
+            padding: 0px;
+            box-sizing: border-box;
+            background-color: white;
+            
+        }
         .section-left,
         .section-right {
-            flex: 1;
+            flex: 0.8;
             margin: 0 10px;
         }
         .section-middle {
-            flex: 2;
+            flex: 1.5;
             margin: 0 10px;
-            background-color: #f0f0f0;
+            background-color: white;
         }
         .card {
             border: 1px solid #ccc;
-            padding: 20px;
+            padding: 12px;
             margin-bottom: 20px;
             background-color: #fff;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -95,10 +102,42 @@
             align-content: center;
         }
         .carousel-item img {
-            max-width: 90%;
+            max-width: 70%;
             height: auto;
-            object-fit: cover; /* Ensure the image covers the carousel item */
+            object-fit: contain; /* Ensure the image covers the carousel item */
         }
+
+        
+        .image-button {
+            background-image: url('New/Downloads_image.jpeg'); /* Replace 'path_to_your_image.jpg' with your image path */
+            background-size:cover; /* Cover the entire button with the background image */
+            background-position: center; /* Center the background image */
+            width: 200px; /* Set width of the button */
+            height: 50px; /* Set height of the button */
+            border: none; /* Remove default border */
+            outline: none; /* Remove default outline */
+            cursor: pointer; /* Change cursor to pointer on hover */
+            /* Add any additional styling here, such as text color and font */
+            color: black;
+            font-size: 16px;
+            font-weight: bold;
+            text-align: center;
+            line-height: 50px; /* Center text vertically */
+            text-decoration: none; /* Remove underline from text */
+            margin: 10px;
+          }
+
+            /* Style for the container div */
+  .image-container {
+    display: flex; /* Use flexbox for easy alignment */
+    justify-content:stretch; /* Space items evenly, pushing them to the sides */
+    align-items: center; /* Center items vertically */
+  }
+
+  /* Style for each image */
+  .image-container img {
+    height: 120px; /* Set height of the images */
+  }
     </style>
 </head>
 <body>
@@ -127,13 +166,14 @@
         </ul>
     </div>
 </nav>
-
+<div class="image-container">
+    <img src="New/REWARD.png" style="width:fit-content;" alt="Image 1">
+    <img src="New/Image.jpg" alt="Image 2">
+  </div>
 <!-- Flexbox Container for Sections -->
 <div class="content-wrapper">
-    <div class="section section-left">
-        <div class="card card-1">
-            <a class="nav-link" href="Galary.html">Gallery<span class="sr-only">(current)</span></a>
-        </div>
+    <div class="section section-left-left">
+        <button class="image-button"><a class="nav-link" href="Galary.html"><span class="sr-only">(current)</span></a></button>
     </div>
     <div class="section section-left">
         <h6 style="text-align: center;">REWARD Program Status</h6>
@@ -200,12 +240,12 @@
     <div class="section section-right">
         <h6 style="text-align: center;">Karnataka Overview</h6>
         <div class="card card-1">
-            <h6>Total LRI completed</h6>
+            <h6>KARNATAKA Area (Ha)</h6>
             <h4>32543543</h4>
         </div>
         <div class="card card-2">
-            <h6>LRI to be Completed</h6>
-            <h4>3242343232</h4>
+            <h6>LRI Completed / Pending</h6>
+            <h4>4768483.32 / </h4>
         </div>
         <h6 style="text-align: center;">Projects</h6>
         <div class="card card-3">
