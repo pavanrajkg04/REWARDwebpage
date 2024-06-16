@@ -34,41 +34,35 @@
             background-color: #f9f9f9;
             color: #333;
         }
-        .container {
-            width: 100%;
-            margin: auto;
-            overflow: hidden;
+        .content-wrapper {
+            display: flex;
+            justify-content: space-around;
             padding: 20px;
             background: #fff;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            display: flex; /* Use flexbox for horizontal layout */
-            justify-content: space-around; /* Adjust as needed */
         }
         .section {
-            flex: 1;
             padding: 20px;
             box-sizing: border-box;
+            background-color: #f0f0f0;
         }
         .section-left,
         .section-right {
-            background-color: #f0f0f0;
-            margin-right: 10px;
-            width: calc(33.33% - 20px); /* Adjust width for three sections and margins */
+            flex: 1;
+            margin: 0 10px;
         }
         .section-middle {
-            background-color: #e0e0e0;
-            flex-grow: 2;
+            flex: 2;
             margin: 0 10px;
-            width: calc(66.66% - 20px); /* Adjust width for middle section and margins */
         }
         .card {
             border: 1px solid #ccc;
             padding: 20px;
-            margin-bottom: 5px;
+            margin-bottom: 20px;
             background-color: #fff;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-            background-color: #a9b0b6;
-            text-align: center; /* Center content horizontally */
+            text-align: center;
+            width: 100%; /* Adjust card width to fill section */
         }
         .card h6 {
             margin-bottom: 10px;
@@ -131,34 +125,28 @@
     </div>
 </nav>
 
-<!-- Container for Sections -->
-<div class="container">
+<!-- Flexbox Container for Sections -->
+<div class="content-wrapper">
     <div class="section section-left">
         <h6 style="text-align: center;">REWARD Program Status</h6>
         <div class="card card-1">
             <h6>Total MWS (Area Ha)</h6>
-            
             <h4>3352 <br/> (25,39,684.36)</h4>
         </div>
         <div class="card card-2">
             <h6>Field Studies MWS (Area Ha)</h6>
-            
             <h4>2304 <br/> (17,12,819.214)</h4>
         </div>
-
         <div class="card card-3">
             <h6>Lab Analysis MWS (Area Ha)</h6>
-            
             <h4>1564 <br/> (12,06,062.56)</h4>
         </div>
         <div class="card card-4">
             <h6>Atlas Ready MWS (Area Ha)</h6>
-            
             <h4>628 <br/>(4,75,396)</h4>
         </div>
         <div class="card card-5">
             <h6>LRI Cards Generated</h6>
-            
             <h4>1,31,869</h4>
         </div>
     </div>
@@ -167,40 +155,33 @@
         <div class="image-container">
             <img src="https://via.placeholder.com/800x400" alt="Placeholder Image">
         </div>
-        <!-- Optionally add video or additional content in the middle section -->
     </div>
 
     <div class="section section-right">
         <h6 style="text-align: center;">Karnataka Overview</h6>
         <div class="card card-1">
             <h6>Total LRI completed</h6>
-            
             <h4>32543543</h4>
         </div>
         <div class="card card-2">
             <h6>LRI to be Completed</h6>
-            
             <h4>3242343232</h4>
         </div>
         <h6 style="text-align: center;">Projects</h6>
         <div class="card card-3">
             <h6>Sujala 3</h6>
-            
             <h4>staus : completed <br> Area : 4545646</h4>
         </div>
         <div class="card card-4">
             <h6>WDPD</h6>
-            
             <h4>staus : completed <br> Area : 4545646</h4>
         </div>
         <div class="card card-5">
-            <h6>CEPMIZ</h6>
-            
+            <h6>CEPMIZ</h5>
             <h5>staus : Inprogress <br> Area : 4545646</h5>
         </div>
         <div class="card card-6">
-            <h6>REWARD</h6>
-            
+            <h6>REWARD</h5>
             <h5>staus : Inprogress <br> Area : 25</h5>
         </div>
     </div>
