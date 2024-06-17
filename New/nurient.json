@@ -1,0 +1,6187 @@
+{
+"Boron":[
+ {
+  "District": "Bagalkot",
+  "Description": "Low (< 0.5 ppm)",
+  " Area in ha": 1630.685265,
+  "  Percentage": 0.008497107
+ },
+ {
+  "District": "Bagalkot",
+  "Description": "Medium (0.5 – 1.0 ppm)",
+  " Area in ha": 148.3955828,
+  "  Percentage": 0.000773254
+ },
+ {
+  "District": "Bagalkot",
+  "Description": "High (> 1.0 ppm)",
+  " Area in ha": 25.11785668,
+  "  Percentage": 0.000130883
+ },
+ {
+  "District": "Belagavi",
+  "Description": "Low (< 0.5 ppm)",
+  " Area in ha": 27478.70684,
+  "  Percentage": 0.143184907
+ },
+ {
+  "District": "Belagavi",
+  "Description": "Medium (0.5 – 1.0 ppm)",
+  " Area in ha": 4881.433207,
+  "  Percentage": 0.02543597
+ },
+ {
+  "District": "Belagavi",
+  "Description": "High (> 1.0 ppm)",
+  " Area in ha": 4258.027585,
+  "  Percentage": 0.022187554
+ },
+ {
+  "District": "Bengaluru (Rural)",
+  "Description": "Low (< 0.5 ppm)",
+  " Area in ha": 2182.592027,
+  "  Percentage": 0.01137296
+ },
+ {
+  "District": "Bengaluru (Rural)",
+  "Description": "Medium (0.5 – 1.0 ppm)",
+  " Area in ha": 1932.994168,
+  "  Percentage": 0.010072366
+ },
+ {
+  "District": "Bengaluru (Rural)",
+  "Description": "High (> 1.0 ppm)",
+  " Area in ha": 248.406809,
+  "  Percentage": 0.001294388
+ },
+ {
+  "District": "Bengaluru (Urban)",
+  "Description": "Low (< 0.5 ppm)",
+  " Area in ha": 10.1578174,
+  "  Percentage": 5.29299E-05
+ },
+ {
+  "District": "Bidar",
+  "Description": "Low (< 0.5 ppm)",
+  " Area in ha": 1137.110501,
+  "  Percentage": 0.005925208
+ },
+ {
+  "District": "Bidar",
+  "Description": "Medium (0.5 – 1.0 ppm)",
+  " Area in ha": 1536.304225,
+  "  Percentage": 0.00800531
+ },
+ {
+  "District": "Bidar",
+  "Description": "High (> 1.0 ppm)",
+  " Area in ha": 317.1563129,
+  "  Percentage": 0.001652625
+ },
+ {
+  "District": "Chamarajanagara",
+  "Description": "Low (< 0.5 ppm)",
+  " Area in ha": 25550.84139,
+  "  Percentage": 0.133139265
+ },
+ {
+  "District": "Chamarajanagara",
+  "Description": "Medium (0.5 – 1.0 ppm)",
+  " Area in ha": 37978.9781,
+  "  Percentage": 0.197899285
+ },
+ {
+  "District": "Chamarajanagara",
+  "Description": "High (> 1.0 ppm)",
+  " Area in ha": 6651.254002,
+  "  Percentage": 0.034658079
+ },
+ {
+  "District": "Chikkaballapura",
+  "Description": "Low (< 0.5 ppm)",
+  " Area in ha": 11472.84675,
+  "  Percentage": 0.059782234
+ },
+ {
+  "District": "Chikkaballapura",
+  "Description": "Medium (0.5 – 1.0 ppm)",
+  " Area in ha": 6752.011769,
+  "  Percentage": 0.035183103
+ },
+ {
+  "District": "Chikkaballapura",
+  "Description": "High (> 1.0 ppm)",
+  " Area in ha": 1374.436707,
+  "  Percentage": 0.007161858
+ },
+ {
+  "District": "Chikkamagaluru",
+  "Description": "Low (< 0.5 ppm)",
+  " Area in ha": 24446.25503,
+  "  Percentage": 0.127383533
+ },
+ {
+  "District": "Chikkamagaluru",
+  "Description": "Medium (0.5 – 1.0 ppm)",
+  " Area in ha": 50067.90165,
+  "  Percentage": 0.260891747
+ },
+ {
+  "District": "Chikkamagaluru",
+  "Description": "High (> 1.0 ppm)",
+  " Area in ha": 272.3114852,
+  "  Percentage": 0.001418949
+ },
+ {
+  "District": "Chitradurga",
+  "Description": "Low (< 0.5 ppm)",
+  " Area in ha": 13676.85411,
+  "  Percentage": 0.071266785
+ },
+ {
+  "District": "Chitradurga",
+  "Description": "Medium (0.5 – 1.0 ppm)",
+  " Area in ha": 4247.333377,
+  "  Percentage": 0.022131829
+ },
+ {
+  "District": "Chitradurga",
+  "Description": "High (> 1.0 ppm)",
+  " Area in ha": 337.2303678,
+  "  Percentage": 0.001757226
+ },
+ {
+  "District": "Dakshina Kannada",
+  "Description": "Low (< 0.5 ppm)",
+  " Area in ha": 2131.177963,
+  "  Percentage": 0.011105054
+ },
+ {
+  "District": "Dakshina Kannada",
+  "Description": "Medium (0.5 – 1.0 ppm)",
+  " Area in ha": 3972.584436,
+  "  Percentage": 0.020700178
+ },
+ {
+  "District": "Dakshina Kannada",
+  "Description": "High (> 1.0 ppm)",
+  " Area in ha": 5.455906997,
+  "  Percentage": 2.84294E-05
+ },
+ {
+  "District": "Davanagere",
+  "Description": "Low (< 0.5 ppm)",
+  " Area in ha": 27712.61708,
+  "  Percentage": 0.144403757
+ },
+ {
+  "District": "Davanagere",
+  "Description": "Medium (0.5 – 1.0 ppm)",
+  " Area in ha": 34514.19098,
+  "  Percentage": 0.179845116
+ },
+ {
+  "District": "Davanagere",
+  "Description": "High (> 1.0 ppm)",
+  " Area in ha": 241.1996894,
+  "  Percentage": 0.001256833
+ },
+ {
+  "District": "Dharwad",
+  "Description": "Low (< 0.5 ppm)",
+  " Area in ha": 8308.587073,
+  "  Percentage": 0.043294041
+ },
+ {
+  "District": "Dharwad",
+  "Description": "Medium (0.5 – 1.0 ppm)",
+  " Area in ha": 1933.492815,
+  "  Percentage": 0.010074964
+ },
+ {
+  "District": "Dharwad",
+  "Description": "High (> 1.0 ppm)",
+  " Area in ha": 7756.288288,
+  "  Percentage": 0.040416146
+ },
+ {
+  "District": "Gadag",
+  "Description": "Low (< 0.5 ppm)",
+  " Area in ha": 88682.23098,
+  "  Percentage": 0.462101694
+ },
+ {
+  "District": "Gadag",
+  "Description": "Medium (0.5 – 1.0 ppm)",
+  " Area in ha": 37153.58477,
+  "  Percentage": 0.19359836
+ },
+ {
+  "District": "Gadag",
+  "Description": "High (> 1.0 ppm)",
+  " Area in ha": 4305.753775,
+  "  Percentage": 0.022436243
+ },
+ {
+  "District": "Hassan",
+  "Description": "Low (< 0.5 ppm)",
+  " Area in ha": 7672.989759,
+  "  Percentage": 0.039982097
+ },
+ {
+  "District": "Hassan",
+  "Description": "Medium (0.5 – 1.0 ppm)",
+  " Area in ha": 11486.47851,
+  "  Percentage": 0.059853266
+ },
+ {
+  "District": "Haveri",
+  "Description": "Low (< 0.5 ppm)",
+  " Area in ha": 19997.16752,
+  "  Percentage": 0.104200412
+ },
+ {
+  "District": "Haveri",
+  "Description": "Medium (0.5 – 1.0 ppm)",
+  " Area in ha": 1624.477626,
+  "  Percentage": 0.008464761
+ },
+ {
+  "District": "Haveri",
+  "Description": "High (> 1.0 ppm)",
+  " Area in ha": 3479.8928,
+  "  Percentage": 0.018132881
+ },
+ {
+  "District": "Kalburgi",
+  "Description": "Low (< 0.5 ppm)",
+  " Area in ha": 149794.5918,
+  "  Percentage": 0.780543451
+ },
+ {
+  "District": "Kalburgi",
+  "Description": "Medium (0.5 – 1.0 ppm)",
+  " Area in ha": 21578.74602,
+  "  Percentage": 0.112441635
+ },
+ {
+  "District": "Kalburgi",
+  "Description": "High (> 1.0 ppm)",
+  " Area in ha": 1204.241486,
+  "  Percentage": 0.006275012
+ },
+ {
+  "District": "Kodagu",
+  "Description": "Low (< 0.5 ppm)",
+  " Area in ha": 2264.049268,
+  "  Percentage": 0.011797414
+ },
+ {
+  "District": "Kodagu",
+  "Description": "Medium (0.5 – 1.0 ppm)",
+  " Area in ha": 1227.511204,
+  "  Percentage": 0.006396265
+ },
+ {
+  "District": "Kodagu",
+  "Description": "High (> 1.0 ppm)",
+  " Area in ha": 11.58875972,
+  "  Percentage": 6.03862E-05
+ },
+ {
+  "District": "Kolara",
+  "Description": "Low (< 0.5 ppm)",
+  " Area in ha": 16471.45087,
+  "  Percentage": 0.085828754
+ },
+ {
+  "District": "Kolara",
+  "Description": "Medium (0.5 – 1.0 ppm)",
+  " Area in ha": 12031.76489,
+  "  Percentage": 0.062694622
+ },
+ {
+  "District": "Kolara",
+  "Description": "High (> 1.0 ppm)",
+  " Area in ha": 11.68882042,
+  "  Percentage": 6.09076E-05
+ },
+ {
+  "District": "Koppal",
+  "Description": "Low (< 0.5 ppm)",
+  " Area in ha": 70043.98554,
+  "  Percentage": 0.364982297
+ },
+ {
+  "District": "Koppal",
+  "Description": "Medium (0.5 – 1.0 ppm)",
+  " Area in ha": 49777.35901,
+  "  Percentage": 0.259377799
+ },
+ {
+  "District": "Koppal",
+  "Description": "High (> 1.0 ppm)",
+  " Area in ha": 6428.821087,
+  "  Percentage": 0.033499034
+ },
+ {
+  "District": "Mandya",
+  "Description": "Low (< 0.5 ppm)",
+  " Area in ha": 5059.715613,
+  "  Percentage": 0.026364956
+ },
+ {
+  "District": "Mandya",
+  "Description": "Medium (0.5 – 1.0 ppm)",
+  " Area in ha": 7996.617609,
+  "  Percentage": 0.041668444
+ },
+ {
+  "District": "Mandya",
+  "Description": "High (> 1.0 ppm)",
+  " Area in ha": 164.932206,
+  "  Percentage": 0.000859422
+ },
+ {
+  "District": "Mysuru",
+  "Description": "Low (< 0.5 ppm)",
+  " Area in ha": 4851.963077,
+  "  Percentage": 0.025282408
+ },
+ {
+  "District": "Mysuru",
+  "Description": "Medium (0.5 – 1.0 ppm)",
+  " Area in ha": 5249.232494,
+  "  Percentage": 0.027352483
+ },
+ {
+  "District": "Mysuru",
+  "Description": "High (> 1.0 ppm)",
+  " Area in ha": 37.37262202,
+  "  Percentage": 0.00019474
+ },
+ {
+  "District": "Raichur",
+  "Description": "Low (< 0.5 ppm)",
+  " Area in ha": 120144.2023,
+  "  Percentage": 0.62604243
+ },
+ {
+  "District": "Raichur",
+  "Description": "Medium (0.5 – 1.0 ppm)",
+  " Area in ha": 16773.07473,
+  "  Percentage": 0.087400443
+ },
+ {
+  "District": "Raichur",
+  "Description": "High (> 1.0 ppm)",
+  " Area in ha": 1070.307954,
+  "  Percentage": 0.005577116
+ },
+ {
+  "District": "Ramanagara",
+  "Description": "Low (< 0.5 ppm)",
+  " Area in ha": 1703.560153,
+  "  Percentage": 0.008876841
+ },
+ {
+  "District": "Ramanagara",
+  "Description": "Medium (0.5 – 1.0 ppm)",
+  " Area in ha": 6006.359822,
+  "  Percentage": 0.031297691
+ },
+ {
+  "District": "Ramanagara",
+  "Description": "High (> 1.0 ppm)",
+  " Area in ha": 14.26575808,
+  "  Percentage": 7.43354E-05
+ },
+ {
+  "District": "Shivamogga",
+  "Description": "Low (< 0.5 ppm)",
+  " Area in ha": 11308.61017,
+  "  Percentage": 0.058926437
+ },
+ {
+  "District": "Shivamogga",
+  "Description": "Medium (0.5 – 1.0 ppm)",
+  " Area in ha": 9040.026114,
+  "  Percentage": 0.047105393
+ },
+ {
+  "District": "Shivamogga",
+  "Description": "High (> 1.0 ppm)",
+  " Area in ha": 372.9259863,
+  "  Percentage": 0.001943227
+ },
+ {
+  "District": "Tumakuru",
+  "Description": "Low (< 0.5 ppm)",
+  " Area in ha": 53775.14982,
+  "  Percentage": 0.280209322
+ },
+ {
+  "District": "Tumakuru",
+  "Description": "Medium (0.5 – 1.0 ppm)",
+  " Area in ha": 55040.69792,
+  "  Percentage": 0.286803788
+ },
+ {
+  "District": "Tumakuru",
+  "Description": "High (> 1.0 ppm)",
+  " Area in ha": 5793.406931,
+  "  Percentage": 0.030188045
+ },
+ {
+  "District": "Udupi",
+  "Description": "Low (< 0.5 ppm)",
+  " Area in ha": 3260.530404,
+  "  Percentage": 0.016989837
+ },
+ {
+  "District": "Udupi",
+  "Description": "Medium (0.5 – 1.0 ppm)",
+  " Area in ha": 3853.667754,
+  "  Percentage": 0.020080532
+ },
+ {
+  "District": "Udupi",
+  "Description": "High (> 1.0 ppm)",
+  " Area in ha": 8.389868029,
+  "  Percentage": 4.37176E-05
+ },
+ {
+  "District": "Uttara Kannada",
+  "Description": "Low (< 0.5 ppm)",
+  " Area in ha": 3429.748729,
+  "  Percentage": 0.017871593
+ },
+ {
+  "District": "Uttara Kannada",
+  "Description": "Medium (0.5 – 1.0 ppm)",
+  " Area in ha": 31.09869786,
+  "  Percentage": 0.000162048
+ },
+ {
+  "District": "Uttara Kannada",
+  "Description": "High (> 1.0 ppm)",
+  " Area in ha": 56.60324223,
+  "  Percentage": 0.000294946
+ },
+ {
+  "District": "Vijayanagara",
+  "Description": "Low (< 0.5 ppm)",
+  " Area in ha": 25279.95456,
+  "  Percentage": 0.131727739
+ },
+ {
+  "District": "Vijayanagara",
+  "Description": "Medium (0.5 – 1.0 ppm)",
+  " Area in ha": 17822.97309,
+  "  Percentage": 0.09287121
+ },
+ {
+  "District": "Vijayanagara",
+  "Description": "High (> 1.0 ppm)",
+  " Area in ha": 2874.252509,
+  "  Percentage": 0.014977036
+ },
+ {
+  "District": "Vijayapura",
+  "Description": "Low (< 0.5 ppm)",
+  " Area in ha": 70411.55879,
+  "  Percentage": 0.366897632
+ },
+ {
+  "District": "Vijayapura",
+  "Description": "Medium (0.5 – 1.0 ppm)",
+  " Area in ha": 16991.54872,
+  "  Percentage": 0.088538858
+ },
+ {
+  "District": "Vijayapura",
+  "Description": "High (> 1.0 ppm)",
+  " Area in ha": 180.2329105,
+  "  Percentage": 0.00093915
+ },
+ {
+  "District": "Yadgir",
+  "Description": "Low (< 0.5 ppm)",
+  " Area in ha": 83364.66565,
+  "  Percentage": 0.434393145
+ },
+ {
+  "District": "Yadgir",
+  "Description": "Medium (0.5 – 1.0 ppm)",
+  " Area in ha": 49865.59034,
+  "  Percentage": 0.259837551
+ },
+ {
+  "District": "Yadgir",
+  "Description": "High (> 1.0 ppm)",
+  " Area in ha": 5785.44685,
+  "  Percentage": 0.030146567
+ }
+],
+"Copper":[
+ {
+  "District": "Bagalkot",
+  "Description": "Deficient (< 0.2 ppm)",
+  " Area in ha": 45.06543,
+  "  Percentage": 0.000235
+ },
+ {
+  "District": "Bagalkot",
+  "Description": "Sufficient (> 0.2 ppm)",
+  " Area in ha": 15004.68,
+  "  Percentage": 0.078172
+ },
+ {
+  "District": "Belagavi",
+  "Description": "Sufficient (> 0.2 ppm)",
+  " Area in ha": 37012.05,
+  "  Percentage": 0.192828
+ },
+ {
+  "District": "Bengaluru (Rural)",
+  "Description": "Sufficient (> 0.2 ppm)",
+  " Area in ha": 4363.98,
+  "  Percentage": 0.022736
+ },
+ {
+  "District": "Bengaluru (Urban)",
+  "Description": "Sufficient (> 0.2 ppm)",
+  " Area in ha": 10.15782,
+  "  Percentage": 5.29005
+ },
+ {
+  "District": "Bidar",
+  "Description": "Deficient (< 0.2 ppm)",
+  " Area in ha": 1980.141,
+  "  Percentage": 0.010316
+ },
+ {
+  "District": "Bidar",
+  "Description": "Sufficient (> 0.2 ppm)",
+  " Area in ha": 162165,
+  "  Percentage": 0.844857
+ },
+ {
+  "District": "Chamarajanagara",
+  "Description": "Deficient (< 0.2 ppm)",
+  " Area in ha": 2728.784,
+  "  Percentage": 0.014217
+ },
+ {
+  "District": "Chamarajanagara",
+  "Description": "Sufficient (> 0.2 ppm)",
+  " Area in ha": 73037.21,
+  "  Percentage": 0.380514
+ },
+ {
+  "District": "Chikkaballapura",
+  "Description": "Deficient (< 0.2 ppm)",
+  " Area in ha": 753.2019,
+  "  Percentage": 0.003924
+ },
+ {
+  "District": "Chikkaballapura",
+  "Description": "Sufficient (> 0.2 ppm)",
+  " Area in ha": 18846.58,
+  "  Percentage": 0.098188
+ },
+ {
+  "District": "Chikkamagaluru",
+  "Description": "Deficient (< 0.2 ppm)",
+  " Area in ha": 8.282088,
+  "  Percentage": 4.3105
+ },
+ {
+  "District": "Chikkamagaluru",
+  "Description": "Sufficient (> 0.2 ppm)",
+  " Area in ha": 74427.39,
+  "  Percentage": 0.387756
+ },
+ {
+  "District": "Chitradurga",
+  "Description": "Deficient (< 0.2 ppm)",
+  " Area in ha": 3.243181,
+  "  Percentage": 1.69E-05
+ },
+ {
+  "District": "Chitradurga",
+  "Description": "Sufficient (> 0.2 ppm)",
+  " Area in ha": 18325.73,
+  "  Percentage": 0.095474
+ },
+ {
+  "District": "Dakshina Kannada",
+  "Description": "Sufficient (> 0.2 ppm)",
+  " Area in ha": 6527.217,
+  "  Percentage": 0.034006
+ },
+ {
+  "District": "Davanagere",
+  "Description": "Deficient (< 0.2 ppm)",
+  " Area in ha": 1980.425,
+  "  Percentage": 0.010318
+ },
+ {
+  "District": "Davanagere",
+  "Description": "Sufficient (> 0.2 ppm)",
+  " Area in ha": 60283.72,
+  "  Percentage": 0.31407
+ },
+ {
+  "District": "Dharwad",
+  "Description": "Sufficient (> 0.2 ppm)",
+  " Area in ha": 18513.38,
+  "  Percentage": 0.096452
+ },
+ {
+  "District": "Gadag",
+  "Description": "Deficient (< 0.2 ppm)",
+  " Area in ha": 57.16466,
+  "  Percentage": 0.000298
+ },
+ {
+  "District": "Gadag",
+  "Description": "Sufficient (> 0.2 ppm)",
+  " Area in ha": 157030,
+  "  Percentage": 0.818104
+ },
+ {
+  "District": "Hassan",
+  "Description": "Sufficient (> 0.2 ppm)",
+  " Area in ha": 19159.47,
+  "  Percentage": 0.099818
+ },
+ {
+  "District": "Haveri",
+  "Description": "Deficient (< 0.2 ppm)",
+  " Area in ha": 32.39995,
+  "  Percentage": 0.000169
+ },
+ {
+  "District": "Haveri",
+  "Description": "Sufficient (> 0.2 ppm)",
+  " Area in ha": 25480.91,
+  "  Percentage": 0.132752
+ },
+ {
+  "District": "Kalburgi",
+  "Description": "Deficient (< 0.2 ppm)",
+  " Area in ha": 2419.204,
+  "  Percentage": 0.012604
+ },
+ {
+  "District": "Kalburgi",
+  "Description": "Sufficient (> 0.2 ppm)",
+  " Area in ha": 169562.1,
+  "  Percentage": 0.883395
+ },
+ {
+  "District": "Kodagu",
+  "Description": "Sufficient (> 0.2 ppm)",
+  " Area in ha": 3503.149,
+  "  Percentage": 0.018251
+ },
+ {
+  "District": "Kolara",
+  "Description": "Deficient (< 0.2 ppm)",
+  " Area in ha": 32.09574,
+  "  Percentage": 0.000167
+ },
+ {
+  "District": "Kolara",
+  "Description": "Sufficient (> 0.2 ppm)",
+  " Area in ha": 28482.81,
+  "  Percentage": 0.148391
+ },
+ {
+  "District": "Koppal",
+  "Description": "Deficient (< 0.2 ppm)",
+  " Area in ha": 12065.05,
+  "  Percentage": 0.062857
+ },
+ {
+  "District": "Koppal",
+  "Description": "Sufficient (> 0.2 ppm)",
+  " Area in ha": 130753.5,
+  "  Percentage": 0.681208
+ },
+ {
+  "District": "Mandya",
+  "Description": "Sufficient (> 0.2 ppm)",
+  " Area in ha": 13221.35,
+  "  Percentage": 0.068881
+ },
+ {
+  "District": "Mysuru",
+  "Description": "Deficient (< 0.2 ppm)",
+  " Area in ha": 515.1296,
+  "  Percentage": 0.002684
+ },
+ {
+  "District": "Mysuru",
+  "Description": "Sufficient (> 0.2 ppm)",
+  " Area in ha": 11034.63,
+  "  Percentage": 0.057489
+ },
+ {
+  "District": "Raichur",
+  "Description": "Deficient (< 0.2 ppm)",
+  " Area in ha": 4513.718,
+  "  Percentage": 0.023516
+ },
+ {
+  "District": "Raichur",
+  "Description": "Sufficient (> 0.2 ppm)",
+  " Area in ha": 133514.5,
+  "  Percentage": 0.695592
+ },
+ {
+  "District": "Ramanagara",
+  "Description": "Sufficient (> 0.2 ppm)",
+  " Area in ha": 7724.186,
+  "  Percentage": 0.040242
+ },
+ {
+  "District": "Shivamogga",
+  "Description": "Deficient (< 0.2 ppm)",
+  " Area in ha": 1.123864,
+  "  Percentage": 5.86E-06
+ },
+ {
+  "District": "Shivamogga",
+  "Description": "Sufficient (> 0.2 ppm)",
+  " Area in ha": 20694.34,
+  "  Percentage": 0.107815
+ },
+ {
+  "District": "Tumakuru",
+  "Description": "Deficient (< 0.2 ppm)",
+  " Area in ha": 6884.525,
+  "  Percentage": 0.035867
+ },
+ {
+  "District": "Tumakuru",
+  "Description": "Sufficient (> 0.2 ppm)",
+  " Area in ha": 133645.6,
+  "  Percentage": 0.696275
+ },
+ {
+  "District": "Udupi",
+  "Description": "Deficient (< 0.2 ppm)",
+  " Area in ha": 5.364913,
+  "  Percentage": 2.8E-05
+ },
+ {
+  "District": "Udupi",
+  "Description": "Sufficient (> 0.2 ppm)",
+  " Area in ha": 7117.223,
+  "  Percentage": 0.03708
+ },
+ {
+  "District": "Uttara Kannada",
+  "Description": "Sufficient (> 0.2 ppm)",
+  " Area in ha": 3517.443,
+  "  Percentage": 0.018325
+ },
+ {
+  "District": "Vijayanagara",
+  "Description": "Deficient (< 0.2 ppm)",
+  " Area in ha": 714.6585,
+  "  Percentage": 0.003723
+ },
+ {
+  "District": "Vijayanagara",
+  "Description": "Sufficient (> 0.2 ppm)",
+  " Area in ha": 45282.11,
+  "  Percentage": 0.235913
+ },
+ {
+  "District": "Vijayapura",
+  "Description": "Deficient (< 0.2 ppm)",
+  " Area in ha": 2.332216,
+  "  Percentage": 1.22005
+ },
+ {
+  "District": "Vijayapura",
+  "Description": "Sufficient (> 0.2 ppm)",
+  " Area in ha": 188349.6,
+  "  Percentage": 0.981275
+ },
+ {
+  "District": "Yadgir",
+  "Description": "Deficient (< 0.2 ppm)",
+  " Area in ha": 392.4104,
+  "  Percentage": 0.002044
+ },
+ {
+  "District": "Yadgir",
+  "Description": "Sufficient (> 0.2 ppm)",
+  " Area in ha": 139427.5,
+  "  Percentage": 0.726397
+ }
+],
+"EC":[
+ {
+  "District": "Bagalkot",
+  "Description": "Non saline (<2 dsm )",
+  " Area in ha": 14991.67142,
+  "  Percentage": 0.078111161
+ },
+ {
+  "District": "Bagalkot",
+  "Description": "Low (2 – 4 dsm )",
+  " Area in ha": 30.66610609,
+  "  Percentage": 0.00015978
+ },
+ {
+  "District": "Belagavi",
+  "Description": "Non saline (<2 dsm )",
+  " Area in ha": 36965.49634,
+  "  Percentage": 0.192601463
+ },
+ {
+  "District": "Bengaluru (Rural)",
+  "Description": "Non saline (<2 dsm )",
+  " Area in ha": 4364.007692,
+  "  Percentage": 0.022737805
+ },
+ {
+  "District": "Bengaluru (Urban)",
+  "Description": "Non saline (<2 dsm )",
+  " Area in ha": 10.1578174,
+  "  Percentage": 5.2925305
+ },
+ {
+  "District": "Bidar",
+  "Description": "Non saline (<2 dsm )",
+  " Area in ha": 163358.3596,
+  "  Percentage": 0.851146668
+ },
+ {
+  "District": "Bidar",
+  "Description": "Extremely high (> 16 dsm )",
+  " Area in ha": 364.6666334,
+  "  Percentage": 0.001900024
+ },
+ {
+  "District": "Chamarajanagara",
+  "Description": "Non saline (<2 dsm )",
+  " Area in ha": 75756.53348,
+  "  Percentage": 0.394714548
+ },
+ {
+  "District": "Chamarajanagara",
+  "Description": "Low (2 – 4 dsm )",
+  " Area in ha": 9.461156339,
+  "  Percentage": 4.9295505
+ },
+ {
+  "District": "Chikkaballapura",
+  "Description": "Non saline (<2 dsm )",
+  " Area in ha": 19590.98132,
+  "  Percentage": 0.102074963
+ },
+ {
+  "District": "Chikkaballapura",
+  "Description": "Low (2 – 4 dsm )",
+  " Area in ha": 8.803586433,
+  "  Percentage": 4.5869405
+ },
+ {
+  "District": "Chikkamagaluru",
+  "Description": "Non saline (<2 dsm )",
+  " Area in ha": 74296.28393,
+  "  Percentage": 0.387106204
+ },
+ {
+  "District": "Chitradurga",
+  "Description": "Non saline (<2 dsm )",
+  " Area in ha": 18328.97583,
+  "  Percentage": 0.095499531
+ },
+ {
+  "District": "Dakshina Kannada",
+  "Description": "Non saline (<2 dsm )",
+  " Area in ha": 5985.853307,
+  "  Percentage": 0.031188114
+ },
+ {
+  "District": "Davanagere",
+  "Description": "Non saline (<2 dsm )",
+  " Area in ha": 61585.46552,
+  "  Percentage": 0.32087898
+ },
+ {
+  "District": "Dharwad",
+  "Description": "Non saline (<2 dsm )",
+  " Area in ha": 18507.86861,
+  "  Percentage": 0.096431617
+ },
+ {
+  "District": "Gadag",
+  "Description": "Non saline (<2 dsm )",
+  " Area in ha": 74607.02785,
+  "  Percentage": 0.388725274
+ },
+ {
+  "District": "Gadag",
+  "Description": "Low (2 – 4 dsm )",
+  " Area in ha": 4621.430729,
+  "  Percentage": 0.024079058
+ },
+ {
+  "District": "Gadag",
+  "Description": "Medium (4 – 8 dsm )",
+  " Area in ha": 730.1888596,
+  "  Percentage": 0.003804506
+ },
+ {
+  "District": "Hassan",
+  "Description": "Non saline (<2 dsm )",
+  " Area in ha": 19159.50977,
+  "  Percentage": 0.099826865
+ },
+ {
+  "District": "Haveri",
+  "Description": "Non saline (<2 dsm )",
+  " Area in ha": 25513.30875,
+  "  Percentage": 0.132932087
+ },
+ {
+  "District": "Kalburgi",
+  "Description": "Non saline (<2 dsm )",
+  " Area in ha": 169152.9429,
+  "  Percentage": 0.881338207
+ },
+ {
+  "District": "Kalburgi",
+  "Description": "Low (2 – 4 dsm )",
+  " Area in ha": 3435.531839,
+  "  Percentage": 0.017900164
+ },
+ {
+  "District": "Kalburgi",
+  "Description": "Medium (4 – 8 dsm )",
+  " Area in ha": 9.660652312,
+  "  Percentage": 5.0334905
+ },
+ {
+  "District": "Kodagu",
+  "Description": "Non saline (<2 dsm )",
+  " Area in ha": 3503.149234,
+  "  Percentage": 0.018252471
+ },
+ {
+  "District": "Kolara",
+  "Description": "Non saline (<2 dsm )",
+  " Area in ha": 28514.90456,
+  "  Percentage": 0.148571313
+ },
+ {
+  "District": "Koppal",
+  "Description": "Non saline (<2 dsm )",
+  " Area in ha": 141158.72,
+  "  Percentage": 0.735479804
+ },
+ {
+  "District": "Koppal",
+  "Description": "Low (2 – 4 dsm )",
+  " Area in ha": 1160.688187,
+  "  Percentage": 0.006047538
+ },
+ {
+  "District": "Koppal",
+  "Description": "Medium (4 – 8 dsm )",
+  " Area in ha": 41.88679549,
+  "  Percentage": 0.000218243
+ },
+ {
+  "District": "Koppal",
+  "Description": "High (8 – 12 dsm )",
+  " Area in ha": 11.87337436,
+  "  Percentage": 6.18639E-05
+ },
+ {
+  "District": "Koppal",
+  "Description": "Very high (12 – 16 dsm )",
+  " Area in ha": 5.127889621,
+  "  Percentage": 2.6717905
+ },
+ {
+  "District": "Koppal",
+  "Description": "Extremely high (> 16 dsm )",
+  " Area in ha": 0.723692116,
+  "  Percentage": 3.7706606
+ },
+ {
+  "District": "Mandya",
+  "Description": "Non saline (<2 dsm )",
+  " Area in ha": 13221.35046,
+  "  Percentage": 0.068887251
+ },
+ {
+  "District": "Mysuru",
+  "Description": "Non saline (<2 dsm )",
+  " Area in ha": 11549.76031,
+  "  Percentage": 0.060177759
+ },
+ {
+  "District": "Raichur",
+  "Description": "Non saline (<2 dsm )",
+  " Area in ha": 137911.3585,
+  "  Percentage": 0.718560064
+ },
+ {
+  "District": "Raichur",
+  "Description": "Low (2 – 4 dsm )",
+  " Area in ha": 125.9722137,
+  "  Percentage": 0.000656353
+ },
+ {
+  "District": "Raichur",
+  "Description": "Medium (4 – 8 dsm )",
+  " Area in ha": 12.37347588,
+  "  Percentage": 6.4469605
+ },
+ {
+  "District": "Ramanagara",
+  "Description": "Non saline (<2 dsm )",
+  " Area in ha": 7724.185733,
+  "  Percentage": 0.040245354
+ },
+ {
+  "District": "Shivamogga",
+  "Description": "Non saline (<2 dsm )",
+  " Area in ha": 20696.31587,
+  "  Percentage": 0.107834091
+ },
+ {
+  "District": "Tumakuru",
+  "Description": "Non saline (<2 dsm )",
+  " Area in ha": 140527.1508,
+  "  Percentage": 0.732189136
+ },
+ {
+  "District": "Tumakuru",
+  "Description": "Medium (4 – 8 dsm )",
+  " Area in ha": 2.88395601,
+  "  Percentage": 1.5026305
+ },
+ {
+  "District": "Udupi",
+  "Description": "Non saline (<2 dsm )",
+  " Area in ha": 6778.345633,
+  "  Percentage": 0.035317239
+ },
+ {
+  "District": "Uttara Kannada",
+  "Description": "Non saline (<2 dsm )",
+  " Area in ha": 3517.442777,
+  "  Percentage": 0.018326945
+ },
+ {
+  "District": "Vijayanagara",
+  "Description": "Non saline (<2 dsm )",
+  " Area in ha": 45846.17671,
+  "  Percentage": 0.238872505
+ },
+ {
+  "District": "Vijayanagara",
+  "Description": "Low (2 – 4 dsm )",
+  " Area in ha": 110.5731073,
+  "  Percentage": 0.000576119
+ },
+ {
+  "District": "Vijayanagara",
+  "Description": "Medium (4 – 8 dsm )",
+  " Area in ha": 30.79881907,
+  "  Percentage": 0.000160471
+ },
+ {
+  "District": "Vijayapura",
+  "Description": "Non saline (<2 dsm )",
+  " Area in ha": 45868.92638,
+  "  Percentage": 0.238991038
+ },
+ {
+  "District": "Vijayapura",
+  "Description": "Low (2 – 4 dsm )",
+  " Area in ha": 1812.426502,
+  "  Percentage": 0.009443293
+ },
+ {
+  "District": "Vijayapura",
+  "Description": "Medium (4 – 8 dsm )",
+  " Area in ha": 109.4430114,
+  "  Percentage": 0.000570231
+ },
+ {
+  "District": "Yadgir",
+  "Description": "Non saline (<2 dsm )",
+  " Area in ha": 139246.5614,
+  "  Percentage": 0.725516876
+ },
+ {
+  "District": "Yadgir",
+  "Description": "Low (2 – 4 dsm )",
+  " Area in ha": 382.8181319,
+  "  Percentage": 0.001994599
+ },
+ {
+  "District": "Yadgir",
+  "Description": "Medium (4 – 8 dsm )",
+  " Area in ha": 278.4165333,
+  "  Percentage": 0.001450635
+ },
+ {
+  "District": "Yadgir",
+  "Description": "High (8 – 12 dsm )",
+  " Area in ha": 33.83295873,
+  "  Percentage": 0.00017628
+ },
+ {
+  "District": "Yadgir",
+  "Description": "Very high (12 – 16 dsm )",
+  " Area in ha": 7.482451874,
+  "  Percentage": 3.8985805
+ },
+ {
+  "District": "Yadgir",
+  "Description": "Extremely high (> 16 dsm )",
+  " Area in ha": 3.024873679,
+  "  Percentage": 1.5760505
+ }
+],
+"Iron":[
+ {
+  "District": "Bagalkot",
+  " Area in ha": 656182.6,
+  "  Percentage": 3.418788581
+ },
+ {
+  "District": "Bagalkot",
+  "Description": "Deficient",
+  " Area in ha": 9279.728,
+  "  Percentage": 0.048348477
+ },
+ {
+  "District": "Bagalkot",
+  "Description": "Sufficient",
+  " Area in ha": 5795.427,
+  "  Percentage": 0.030194856
+ },
+ {
+  "District": "Ballari",
+  " Area in ha": 422616.7,
+  "  Percentage": 2.201882488
+ },
+ {
+  "District": "Belagavi",
+  " Area in ha": 1339772,
+  "  Percentage": 6.980372131
+ },
+ {
+  "District": "Belagavi",
+  "Description": "Deficient",
+  " Area in ha": 15402.5,
+  "  Percentage": 0.080248825
+ },
+ {
+  "District": "Belagavi",
+  "Description": "Sufficient",
+  " Area in ha": 21606.24,
+  "  Percentage": 0.112571029
+ },
+ {
+  "District": "Bengaluru (Rural)",
+  " Area in ha": 230053.1,
+  "  Percentage": 1.198603674
+ },
+ {
+  "District": "Bengaluru (Rural)",
+  "Description": "Deficient",
+  " Area in ha": 325.3888,
+  "  Percentage": 0.001695314
+ },
+ {
+  "District": "Bengaluru (Rural)",
+  "Description": "Sufficient",
+  " Area in ha": 4038.619,
+  "  Percentage": 0.021041679
+ },
+ {
+  "District": "Bengaluru (Urban)",
+  " Area in ha": 219546.6,
+  "  Percentage": 1.143863386
+ },
+ {
+  "District": "Bengaluru (Urban)",
+  "Description": "Sufficient",
+  " Area in ha": 10.15782,
+  "  Percentage": 5.29234
+ },
+ {
+  "District": "Bidar",
+  " Area in ha": 545835.4,
+  "  Percentage": 2.84386679
+ },
+ {
+  "District": "Bidar",
+  "Description": "Deficient",
+  " Area in ha": 105665.6,
+  "  Percentage": 0.55053026
+ },
+ {
+  "District": "Bidar",
+  "Description": "Sufficient",
+  " Area in ha": 58500.03,
+  "  Percentage": 0.304792012
+ },
+ {
+  "District": "Chamarajanagara",
+  " Area in ha": 564001.5,
+  "  Percentage": 2.938513902
+ },
+ {
+  "District": "Chamarajanagara",
+  "Description": "Deficient",
+  " Area in ha": 41658.95,
+  "  Percentage": 0.217048044
+ },
+ {
+  "District": "Chamarajanagara",
+  "Description": "Sufficient",
+  " Area in ha": 33586.29,
+  "  Percentage": 0.174988506
+ },
+ {
+  "District": "Chikkaballapura",
+  " Area in ha": 425105.9,
+  "  Percentage": 2.214851807
+ },
+ {
+  "District": "Chikkaballapura",
+  "Description": "Deficient",
+  " Area in ha": 5646.792,
+  "  Percentage": 0.029420452
+ },
+ {
+  "District": "Chikkaballapura",
+  "Description": "Sufficient",
+  " Area in ha": 13963.87,
+  "  Percentage": 0.07275342
+ },
+ {
+  "District": "Chikkamagaluru",
+  " Area in ha": 721682.1,
+  "  Percentage": 3.760048825
+ },
+ {
+  "District": "Chikkamagaluru",
+  "Description": "Deficient",
+  " Area in ha": 2481.005,
+  "  Percentage": 0.012926329
+ },
+ {
+  "District": "Chikkamagaluru",
+  "Description": "Sufficient",
+  " Area in ha": 71923.04,
+  "  Percentage": 0.374727478
+ },
+ {
+  "District": "Chitradurga",
+  " Area in ha": 843475.7,
+  "  Percentage": 4.394607357
+ },
+ {
+  "District": "Chitradurga",
+  "Description": "Deficient",
+  " Area in ha": 6642.956,
+  "  Percentage": 0.034610583
+ },
+ {
+  "District": "Chitradurga",
+  "Description": "Sufficient",
+  " Area in ha": 11686.02,
+  "  Percentage": 0.060885537
+ },
+ {
+  "District": "Dakshina Kannada",
+  " Area in ha": 484521.3,
+  "  Percentage": 2.524412994
+ },
+ {
+  "District": "Dakshina Kannada",
+  "Description": "Sufficient",
+  " Area in ha": 6145.86,
+  "  Percentage": 0.032020653
+ },
+ {
+  "District": "Davanagere",
+  " Area in ha": 448975.9,
+  "  Percentage": 2.339217279
+ },
+ {
+  "District": "Davanagere",
+  "Description": "Deficient",
+  " Area in ha": 5972.686,
+  "  Percentage": 0.031118399
+ },
+ {
+  "District": "Davanagere",
+  "Description": "Sufficient",
+  " Area in ha": 55973.78,
+  "  Percentage": 0.291629989
+ },
+ {
+  "District": "Dharwad",
+  " Area in ha": 425532.3,
+  "  Percentage": 2.217073334
+ },
+ {
+  "District": "Dharwad",
+  "Description": "Deficient",
+  " Area in ha": 1222.212,
+  "  Percentage": 0.006367868
+ },
+ {
+  "District": "Dharwad",
+  "Description": "Sufficient",
+  " Area in ha": 17291.16,
+  "  Percentage": 0.090089002
+ },
+ {
+  "District": "Gadag",
+  " Area in ha": 466503.5,
+  "  Percentage": 2.430538026
+ },
+ {
+  "District": "Gadag",
+  "Description": "Deficient",
+  " Area in ha": 119531.3,
+  "  Percentage": 0.622771928
+ },
+ {
+  "District": "Gadag",
+  "Description": "Sufficient",
+  " Area in ha": 37559.28,
+  "  Percentage": 0.195688289
+ },
+ {
+  "District": "Hassan",
+  " Area in ha": 681835,
+  "  Percentage": 3.552440592
+ },
+ {
+  "District": "Hassan",
+  "Description": "Deficient",
+  " Area in ha": 184.9192,
+  "  Percentage": 0.000963451
+ },
+ {
+  "District": "Hassan",
+  "Description": "Sufficient",
+  " Area in ha": 18823.55,
+  "  Percentage": 0.098072891
+ },
+ {
+  "District": "Haveri",
+  " Area in ha": 481775.4,
+  "  Percentage": 2.510106426
+ },
+ {
+  "District": "Haveri",
+  "Description": "Deficient",
+  " Area in ha": 7963.132,
+  "  Percentage": 0.041488852
+ },
+ {
+  "District": "Haveri",
+  "Description": "Sufficient",
+  " Area in ha": 17550.18,
+  "  Percentage": 0.091438484
+ },
+ {
+  "District": "Kalburgi",
+  " Area in ha": 1098059,
+  "  Percentage": 5.721014538
+ },
+ {
+  "District": "Kalburgi",
+  "Description": "Deficient",
+  " Area in ha": 75748.31,
+  "  Percentage": 0.394657623
+ },
+ {
+  "District": "Kalburgi",
+  "Description": "Sufficient",
+  " Area in ha": 96862.18,
+  "  Percentage": 0.504663364
+ },
+ {
+  "District": "Kodagu",
+  " Area in ha": 411344.7,
+  "  Percentage": 2.143154278
+ },
+ {
+  "District": "Kodagu",
+  "Description": "Sufficient",
+  " Area in ha": 3503.149,
+  "  Percentage": 0.01825182
+ },
+ {
+  "District": "Kolara",
+  " Area in ha": 398993.3,
+  "  Percentage": 2.078802275
+ },
+ {
+  "District": "Kolara",
+  "Description": "Deficient",
+  " Area in ha": 1225.3,
+  "  Percentage": 0.006383959
+ },
+ {
+  "District": "Kolara",
+  "Description": "Sufficient",
+  " Area in ha": 27289.6,
+  "  Percentage": 0.142182048
+ },
+ {
+  "District": "Koppal",
+  " Area in ha": 558205.2,
+  "  Percentage": 2.908314683
+ },
+ {
+  "District": "Koppal",
+  "Description": "Deficient",
+  " Area in ha": 66249.8,
+  "  Percentage": 0.345169234
+ },
+ {
+  "District": "Koppal",
+  "Description": "Sufficient",
+  " Area in ha": 76540.82,
+  "  Percentage": 0.39878665
+ },
+ {
+  "District": "Mandya",
+  " Area in ha": 495529.7,
+  "  Percentage": 2.581768195
+ },
+ {
+  "District": "Mandya",
+  "Description": "Deficient",
+  " Area in ha": 1109.107,
+  "  Percentage": 0.005778578
+ },
+ {
+  "District": "Mandya",
+  "Description": "Sufficient",
+  " Area in ha": 12112.24,
+  "  Percentage": 0.063106214
+ },
+ {
+  "District": "Mysuru",
+  " Area in ha": 631079,
+  "  Percentage": 3.287995726
+ },
+ {
+  "District": "Mysuru",
+  "Description": "Deficient",
+  " Area in ha": 3243.152,
+  "  Percentage": 0.016897204
+ },
+ {
+  "District": "Mysuru",
+  "Description": "Sufficient",
+  " Area in ha": 8236.914,
+  "  Percentage": 0.042915291
+ },
+ {
+  "District": "Raichur",
+  " Area in ha": 847523.6,
+  "  Percentage": 4.415697667
+ },
+ {
+  "District": "Raichur",
+  "Description": "Deficient",
+  " Area in ha": 60153.73,
+  "  Percentage": 0.313408008
+ },
+ {
+  "District": "Raichur",
+  "Description": "Sufficient",
+  " Area in ha": 77337.98,
+  "  Percentage": 0.402939986
+ },
+ {
+  "District": "Ramanagara",
+  " Area in ha": 352805.2,
+  "  Percentage": 1.838156441
+ },
+ {
+  "District": "Ramanagara",
+  "Description": "Deficient",
+  " Area in ha": 1693.006,
+  "  Percentage": 0.008820759
+ },
+ {
+  "District": "Ramanagara",
+  "Description": "Sufficient",
+  " Area in ha": 6031.18,
+  "  Percentage": 0.031423158
+ },
+ {
+  "District": "Shivamogga",
+  " Area in ha": 847354.4,
+  "  Percentage": 4.414815904
+ },
+ {
+  "District": "Shivamogga",
+  "Description": "Sufficient",
+  " Area in ha": 20731.73,
+  "  Percentage": 0.108014739
+ },
+ {
+  "District": "Tumakuru",
+  " Area in ha": 1060326,
+  "  Percentage": 5.524422514
+ },
+ {
+  "District": "Tumakuru",
+  "Description": "Deficient",
+  " Area in ha": 26739.26,
+  "  Percentage": 0.139314665
+ },
+ {
+  "District": "Tumakuru",
+  "Description": "Sufficient",
+  " Area in ha": 113790.9,
+  "  Percentage": 0.592863912
+ },
+ {
+  "District": "Udupi",
+  " Area in ha": 357072,
+  "  Percentage": 1.860387099
+ },
+ {
+  "District": "Udupi",
+  "Description": "Deficient",
+  " Area in ha": 1.131358,
+  "  Percentage": 5.89451E-06
+ },
+ {
+  "District": "Udupi",
+  "Description": "Sufficient",
+  " Area in ha": 7121.457,
+  "  Percentage": 0.037103627
+ },
+ {
+  "District": "Uttara Kannada",
+  " Area in ha": 1029705,
+  "  Percentage": 5.364883291
+ },
+ {
+  "District": "Uttara Kannada",
+  "Description": "Sufficient",
+  " Area in ha": 3517.443,
+  "  Percentage": 0.018326291
+ },
+ {
+  "District": "Vijayanagara",
+  " Area in ha": 566793.3,
+  "  Percentage": 2.953059982
+ },
+ {
+  "District": "Vijayanagara",
+  "Description": "Deficient",
+  " Area in ha": 14785.16,
+  "  Percentage": 0.077032438
+ },
+ {
+  "District": "Vijayanagara",
+  "Description": "Sufficient",
+  " Area in ha": 31216.8,
+  "  Percentage": 0.162643206
+ },
+ {
+  "District": "Vijayapura",
+  " Area in ha": 1051007,
+  "  Percentage": 5.475871871
+ },
+ {
+  "District": "Vijayapura",
+  "Description": "Deficient",
+  " Area in ha": 130318.1,
+  "  Percentage": 0.678972687
+ },
+ {
+  "District": "Vijayapura",
+  "Description": "Sufficient",
+  " Area in ha": 58090.43,
+  "  Percentage": 0.302657951
+ },
+ {
+  "District": "Yadgir",
+  " Area in ha": 527929.5,
+  "  Percentage": 2.750574602
+ },
+ {
+  "District": "Yadgir",
+  "Description": "Deficient",
+  " Area in ha": 29462.25,
+  "  Percentage": 0.153501796
+ },
+ {
+  "District": "Yadgir",
+  "Description": "Sufficient",
+  " Area in ha": 110494.4,
+  "  Percentage": 0.575688783
+ }
+],
+"K2O":[
+ {
+  "District": "Bagalkot",
+  "Description": "Low (<Low (<145 kg\/ha)",
+  " Area in ha": 131.9752255,
+  "  Percentage": 0.000687594
+ },
+ {
+  "District": "Bagalkot",
+  "Description": "Medium (145 – 337 kg\/ha)",
+  " Area in ha": 4842.457088,
+  "  Percentage": 0.025229329
+ },
+ {
+  "District": "Bagalkot",
+  "Description": "High (> 337 kg\/ha)",
+  " Area in ha": 4566.58717,
+  "  Percentage": 0.02379204
+ },
+ {
+  "District": "Belagavi",
+  "Description": "Low (<145 kg\/ha)",
+  " Area in ha": 677.8925104,
+  "  Percentage": 0.003531838
+ },
+ {
+  "District": "Belagavi",
+  "Description": "Medium (145 – 337 kg\/ha)",
+  " Area in ha": 13173.45881,
+  "  Percentage": 0.068634068
+ },
+ {
+  "District": "Belagavi",
+  "Description": "High (> 337 kg\/ha)",
+  " Area in ha": 20628.77399,
+  "  Percentage": 0.107476457
+ },
+ {
+  "District": "Bengaluru (Rural)",
+  "Description": "Low (<145 kg\/ha)",
+  " Area in ha": 891.7895811,
+  "  Percentage": 0.004646247
+ },
+ {
+  "District": "Bengaluru (Rural)",
+  "Description": "Medium (145 – 337 kg\/ha)",
+  " Area in ha": 3251.14926,
+  "  Percentage": 0.016938573
+ },
+ {
+  "District": "Bengaluru (Rural)",
+  "Description": "High (> 337 kg\/ha)",
+  " Area in ha": 221.0541655,
+  "  Percentage": 0.001151698
+ },
+ {
+  "District": "Bengaluru (Urban)",
+  "Description": "Medium (145 – 337 kg\/ha)",
+  " Area in ha": 10.1578174,
+  "  Percentage": 5.2922505
+ },
+ {
+  "District": "Bidar",
+  "Description": "Low (<145 kg\/ha)",
+  " Area in ha": 10417.58391,
+  "  Percentage": 0.054275887
+ },
+ {
+  "District": "Bidar",
+  "Description": "Medium (145 – 337 kg\/ha)",
+  " Area in ha": 75813.64093,
+  "  Percentage": 0.394991069
+ },
+ {
+  "District": "Bidar",
+  "Description": "High (> 337 kg\/ha)",
+  " Area in ha": 72292.147,
+  "  Percentage": 0.376643993
+ },
+ {
+  "District": "Chamarajanagara",
+  "Description": "Low (<145 kg\/ha)",
+  " Area in ha": 3490.162146,
+  "  Percentage": 0.018183837
+ },
+ {
+  "District": "Chamarajanagara",
+  "Description": "Medium (145 – 337 kg\/ha)",
+  " Area in ha": 40319.65146,
+  "  Percentage": 0.210066448
+ },
+ {
+  "District": "Chamarajanagara",
+  "Description": "High (> 337 kg\/ha)",
+  " Area in ha": 27267.4238,
+  "  Percentage": 0.142063997
+ },
+ {
+  "District": "Chikkaballapura",
+  "Description": "Low (<145 kg\/ha)",
+  " Area in ha": 4665.974907,
+  "  Percentage": 0.024309852
+ },
+ {
+  "District": "Chikkaballapura",
+  "Description": "Medium (145 – 337 kg\/ha)",
+  " Area in ha": 5926.571649,
+  "  Percentage": 0.030877595
+ },
+ {
+  "District": "Chikkaballapura",
+  "Description": "High (> 337 kg\/ha)",
+  " Area in ha": 1703.302035,
+  "  Percentage": 0.008874249
+ },
+ {
+  "District": "Kalburgi",
+  "Description": "Low (<145 kg\/ha)",
+  " Area in ha": 4360.576495,
+  "  Percentage": 0.022718719
+ },
+ {
+  "District": "Kalburgi",
+  "Description": "Medium (145 – 337 kg\/ha)",
+  " Area in ha": 57627.3245,
+  "  Percentage": 0.300239881
+ },
+ {
+  "District": "Kalburgi",
+  "Description": "High (> 337 kg\/ha)",
+  " Area in ha": 102940.6001,
+  "  Percentage": 0.536323242
+ },
+ {
+  "District": "Kodagu",
+  "Description": "Low (<145 kg\/ha)",
+  " Area in ha": 1.272291356,
+  "  Percentage": 6.62867E-06
+ },
+ {
+  "District": "Kodagu",
+  "Description": "Medium (145 – 337 kg\/ha)",
+  " Area in ha": 2313.056821,
+  "  Percentage": 0.012051087
+ },
+ {
+  "District": "Kodagu",
+  "Description": "High (> 337 kg\/ha)",
+  " Area in ha": 1188.820121,
+  "  Percentage": 0.006193784
+ },
+ {
+  "District": "Kolara",
+  "Description": "Low (<145 kg\/ha)",
+  " Area in ha": 4070.04653,
+  "  Percentage": 0.02120505
+ },
+ {
+  "District": "Kolara",
+  "Description": "Medium (145 – 337 kg\/ha)",
+  " Area in ha": 8775.832278,
+  "  Percentage": 0.045722318
+ },
+ {
+  "District": "Kolara",
+  "Description": "High (> 337 kg\/ha)",
+  " Area in ha": 4284.872574,
+  "  Percentage": 0.022324299
+ },
+ {
+  "District": "Koppal",
+  "Description": "Low (<145 kg\/ha)",
+  " Area in ha": 8286.99511,
+  "  Percentage": 0.043175463
+ },
+ {
+  "District": "Koppal",
+  "Description": "Medium (145 – 337 kg\/ha)",
+  " Area in ha": 61665.89785,
+  "  Percentage": 0.321280955
+ },
+ {
+  "District": "Koppal",
+  "Description": "High (> 337 kg\/ha)",
+  " Area in ha": 58975.9894,
+  "  Percentage": 0.307266461
+ },
+ {
+  "District": "Mandya",
+  "Description": "Low (<145 kg\/ha)",
+  " Area in ha": 1629.996609,
+  "  Percentage": 0.008492325
+ },
+ {
+  "District": "Mandya",
+  "Description": "Medium (145 – 337 kg\/ha)",
+  " Area in ha": 11082.3881,
+  "  Percentage": 0.057739534
+ },
+ {
+  "District": "Mandya",
+  "Description": "High (> 337 kg\/ha)",
+  " Area in ha": 508.9655269,
+  "  Percentage": 0.002651724
+ },
+ {
+  "District": "Mysuru",
+  "Description": "Low (<145 kg\/ha)",
+  " Area in ha": 67.87627324,
+  "  Percentage": 0.000353637
+ },
+ {
+  "District": "Mysuru",
+  "Description": "Medium (145 – 337 kg\/ha)",
+  " Area in ha": 6143.027187,
+  "  Percentage": 0.032005334
+ },
+ {
+  "District": "Mysuru",
+  "Description": "High (> 337 kg\/ha)",
+  " Area in ha": 4977.568177,
+  "  Percentage": 0.025933262
+ },
+ {
+  "District": "Raichur",
+  "Description": "Low (<145 kg\/ha)",
+  " Area in ha": 2300.096124,
+  "  Percentage": 0.011983561
+ },
+ {
+  "District": "Raichur",
+  "Description": "Medium (145 – 337 kg\/ha)",
+  " Area in ha": 79007.39493,
+  "  Percentage": 0.411630612
+ },
+ {
+  "District": "Raichur",
+  "Description": "High (> 337 kg\/ha)",
+  " Area in ha": 44826.04839,
+  "  Percentage": 0.233544895
+ },
+ {
+  "District": "Ramanagara",
+  "Description": "Low (<145 kg\/ha)",
+  " Area in ha": 2418.478053,
+  "  Percentage": 0.012600334
+ },
+ {
+  "District": "Ramanagara",
+  "Description": "Medium (145 – 337 kg\/ha)",
+  " Area in ha": 5291.048066,
+  "  Percentage": 0.0275665
+ },
+ {
+  "District": "Ramanagara",
+  "Description": "High (> 337 kg\/ha)",
+  " Area in ha": 14.65961224,
+  "  Percentage": 7.6377E-05
+ },
+ {
+  "District": "Shivamogga",
+  "Description": "Low (<145 kg\/ha)",
+  " Area in ha": 1442.129758,
+  "  Percentage": 0.007513534
+ },
+ {
+  "District": "Shivamogga",
+  "Description": "Medium (145 – 337 kg\/ha)",
+  " Area in ha": 12994.07896,
+  "  Percentage": 0.067699494
+ },
+ {
+  "District": "Shivamogga",
+  "Description": "High (> 337 kg\/ha)",
+  " Area in ha": 1887.419933,
+  "  Percentage": 0.009833508
+ },
+ {
+  "District": "Tumakuru",
+  "Description": "Low (<145 kg\/ha)",
+  " Area in ha": 18206.58738,
+  "  Percentage": 0.094856801
+ },
+ {
+  "District": "Tumakuru",
+  "Description": "Medium (145 – 337 kg\/ha)",
+  " Area in ha": 97406.66183,
+  "  Percentage": 0.507491278
+ },
+ {
+  "District": "Tumakuru",
+  "Description": "High (> 337 kg\/ha)",
+  " Area in ha": 15474.055,
+  "  Percentage": 0.080620235
+ },
+ {
+  "District": "Udupi",
+  "Description": "Low (<145 kg\/ha)",
+  " Area in ha": 5985.964018,
+  "  Percentage": 0.03118703
+ },
+ {
+  "District": "Udupi",
+  "Description": "Medium (145 – 337 kg\/ha)",
+  " Area in ha": 1136.624013,
+  "  Percentage": 0.005921841
+ },
+ {
+  "District": "Uttara Kannada",
+  "Description": "Low (<145 kg\/ha)",
+  " Area in ha": 9.51670209,
+  "  Percentage": 4.95823E-05
+ },
+ {
+  "District": "Uttara Kannada",
+  "Description": "Medium (145 – 337 kg\/ha)",
+  " Area in ha": 1777.802576,
+  "  Percentage": 0.009262398
+ },
+ {
+  "District": "Uttara Kannada",
+  "Description": "High (> 337 kg\/ha)",
+  " Area in ha": 1503.458855,
+  "  Percentage": 0.00783306
+ },
+ {
+  "District": "Vijayanagara",
+  "Description": "Low (<145 kg\/ha)",
+  " Area in ha": 1770.34479,
+  "  Percentage": 0.009223543
+ },
+ {
+  "District": "Vijayanagara",
+  "Description": "Medium (145 – 337 kg\/ha)",
+  " Area in ha": 27336.17827,
+  "  Percentage": 0.14242221
+ },
+ {
+  "District": "Vijayanagara",
+  "Description": "High (> 337 kg\/ha)",
+  " Area in ha": 3755.710443,
+  "  Percentage": 0.01956735
+ },
+ {
+  "District": "Yadgir",
+  "Description": "Low (<145 kg\/ha)",
+  " Area in ha": 10702.12184,
+  "  Percentage": 0.055758337
+ },
+ {
+  "District": "Yadgir",
+  "Description": "Medium (145 – 337 kg\/ha)",
+  " Area in ha": 83452.60961,
+  "  Percentage": 0.434790298
+ },
+ {
+  "District": "Yadgir",
+  "Description": "High (> 337 kg\/ha)",
+  " Area in ha": 32097.48062,
+  "  Percentage": 0.167228721
+ }
+],
+"Mn":[
+ {
+  "District": "Bagalkot",
+  "Description": "Deficient (< 1.0 ppm)",
+  " Area in ha": 258.5143765,
+  "  Percentage": 0.001346789
+ },
+ {
+  "District": "Bagalkot",
+  "Description": "Sufficient (> 1.0 ppm)",
+  " Area in ha": 14796.96857,
+  "  Percentage": 0.077088137
+ },
+ {
+  "District": "Belagavi",
+  "Description": "Sufficient (> 1.0 ppm)",
+  " Area in ha": 37012.05149,
+  "  Percentage": 0.19282261
+ },
+ {
+  "District": "Bengaluru (Rural)",
+  "Description": "Deficient (< 1.0 ppm)",
+  " Area in ha": 12.10628923,
+  "  Percentage": 6.30704E-05
+ },
+ {
+  "District": "Bengaluru (Rural)",
+  "Description": "Sufficient (> 1.0 ppm)",
+  " Area in ha": 4351.886717,
+  "  Percentage": 0.022672133
+ },
+ {
+  "District": "Bengaluru (Urban)",
+  "Description": "Sufficient (> 1.0 ppm)",
+  " Area in ha": 10.1578174,
+  "  Percentage": 5.2919405
+ },
+ {
+  "District": "Bidar",
+  "Description": "Deficient (< 1.0 ppm)",
+  " Area in ha": 2501.288414,
+  "  Percentage": 0.013031025
+ },
+ {
+  "District": "Bidar",
+  "Description": "Sufficient (> 1.0 ppm)",
+  " Area in ha": 162110.8431,
+  "  Percentage": 0.844552913
+ },
+ {
+  "District": "Chamarajanagara",
+  "Description": "Deficient (< 1.0 ppm)",
+  " Area in ha": 619.2033709,
+  "  Percentage": 0.003225879
+ },
+ {
+  "District": "Chamarajanagara",
+  "Description": "Sufficient (> 1.0 ppm)",
+  " Area in ha": 75061.34331,
+  "  Percentage": 0.391048957
+ },
+ {
+  "District": "Chikkaballapura",
+  "Description": "Deficient (< 1.0 ppm)",
+  " Area in ha": 1270.200276,
+  "  Percentage": 0.006617394
+ },
+ {
+  "District": "Chikkaballapura",
+  "Description": "Sufficient (> 1.0 ppm)",
+  " Area in ha": 18329.33833,
+  "  Percentage": 0.095490812
+ },
+ {
+  "District": "Chikkamagaluru",
+  "Description": "Sufficient (> 1.0 ppm)",
+  " Area in ha": 74800.28648,
+  "  Percentage": 0.389688923
+ },
+ {
+  "District": "Chitradurga",
+  "Description": "Deficient (< 1.0 ppm)",
+  " Area in ha": 57.28912559,
+  "  Percentage": 0.000298461
+ },
+ {
+  "District": "Chitradurga",
+  "Description": "Sufficient (> 1.0 ppm)",
+  " Area in ha": 18271.68671,
+  "  Percentage": 0.095190463
+ },
+ {
+  "District": "Dakshina Kannada",
+  "Description": "Sufficient (> 1.0 ppm)",
+  " Area in ha": 6109.218307,
+  "  Percentage": 0.031827347
+ },
+ {
+  "District": "Davanagere",
+  "Description": "Deficient (< 1.0 ppm)",
+  " Area in ha": 1862.578617,
+  "  Percentage": 0.009703522
+ },
+ {
+  "District": "Davanagere",
+  "Description": "Sufficient (> 1.0 ppm)",
+  " Area in ha": 58970.11487,
+  "  Percentage": 0.307218082
+ },
+ {
+  "District": "Dharwad",
+  "Description": "Sufficient (> 1.0 ppm)",
+  " Area in ha": 18513.35835,
+  "  Percentage": 0.096449506
+ },
+ {
+  "District": "Gadag",
+  "Description": "Deficient (< 1.0 ppm)",
+  " Area in ha": 5348.058108,
+  "  Percentage": 0.027861912
+ },
+ {
+  "District": "Gadag",
+  "Description": "Sufficient (> 1.0 ppm)",
+  " Area in ha": 151742.5162,
+  "  Percentage": 0.790536781
+ },
+ {
+  "District": "Hassan",
+  "Description": "Sufficient (> 1.0 ppm)",
+  " Area in ha": 19159.50977,
+  "  Percentage": 0.099815777
+ },
+ {
+  "District": "Haveri",
+  "Description": "Sufficient (> 1.0 ppm)",
+  " Area in ha": 25513.30875,
+  "  Percentage": 0.132917322
+ },
+ {
+  "District": "Kalburgi",
+  "Description": "Deficient (< 1.0 ppm)",
+  " Area in ha": 2584.980314,
+  "  Percentage": 0.013467037
+ },
+ {
+  "District": "Kalburgi",
+  "Description": "Sufficient (> 1.0 ppm)",
+  " Area in ha": 170131.0649,
+  "  Percentage": 0.886336062
+ },
+ {
+  "District": "Kodagu",
+  "Description": "Sufficient (> 1.0 ppm)",
+  " Area in ha": 3503.149233,
+  "  Percentage": 0.018250444
+ },
+ {
+  "District": "Kolara",
+  "Description": "Sufficient (> 1.0 ppm)",
+  " Area in ha": 28514.90461,
+  "  Percentage": 0.148554811
+ },
+ {
+  "District": "Koppal",
+  "Description": "Deficient (< 1.0 ppm)",
+  " Area in ha": 2153.740586,
+  "  Percentage": 0.011220396
+ },
+ {
+  "District": "Koppal",
+  "Description": "Sufficient (> 1.0 ppm)",
+  " Area in ha": 140657.3452,
+  "  Percentage": 0.732786088
+ },
+ {
+  "District": "Mandya",
+  "Description": "Sufficient (> 1.0 ppm)",
+  " Area in ha": 13221.35046,
+  "  Percentage": 0.0688796
+ },
+ {
+  "District": "Mysuru",
+  "Description": "Deficient (< 1.0 ppm)",
+  " Area in ha": 591.820146,
+  "  Percentage": 0.00308322
+ },
+ {
+  "District": "Mysuru",
+  "Description": "Sufficient (> 1.0 ppm)",
+  " Area in ha": 10661.84794,
+  "  Percentage": 0.055545296
+ },
+ {
+  "District": "Raichur",
+  "Description": "Deficient (< 1.0 ppm)",
+  " Area in ha": 4455.160509,
+  "  Percentage": 0.023210161
+ },
+ {
+  "District": "Raichur",
+  "Description": "Sufficient (> 1.0 ppm)",
+  " Area in ha": 132839.4041,
+  "  Percentage": 0.692056765
+ },
+ {
+  "District": "Ramanagara",
+  "Description": "Sufficient (> 1.0 ppm)",
+  " Area in ha": 7724.185733,
+  "  Percentage": 0.040240884
+ },
+ {
+  "District": "Shivamogga",
+  "Description": "Sufficient (> 1.0 ppm)",
+  " Area in ha": 20696.31595,
+  "  Percentage": 0.107822115
+ },
+ {
+  "District": "Tumakuru",
+  "Description": "Deficient (< 1.0 ppm)",
+  " Area in ha": 1343.956135,
+  "  Percentage": 0.007001642
+ },
+ {
+  "District": "Tumakuru",
+  "Description": "Sufficient (> 1.0 ppm)",
+  " Area in ha": 139198.2163,
+  "  Percentage": 0.725184428
+ },
+ {
+  "District": "Udupi",
+  "Description": "Deficient (< 1.0 ppm)",
+  " Area in ha": 40.24642689,
+  "  Percentage": 0.000209673
+ },
+ {
+  "District": "Udupi",
+  "Description": "Sufficient (> 1.0 ppm)",
+  " Area in ha": 7082.341603,
+  "  Percentage": 0.036897052
+ },
+ {
+  "District": "Uttara Kannada",
+  "Description": "Sufficient (> 1.0 ppm)",
+  " Area in ha": 3517.442777,
+  "  Percentage": 0.01832491
+ },
+ {
+  "District": "Vijayanagara",
+  "Description": "Deficient (< 1.0 ppm)",
+  " Area in ha": 751.9853187,
+  "  Percentage": 0.003917637
+ },
+ {
+  "District": "Vijayanagara",
+  "Description": "Sufficient (> 1.0 ppm)",
+  " Area in ha": 45249.85407,
+  "  Percentage": 0.235739296
+ },
+ {
+  "District": "Vijayapura",
+  "Description": "Deficient (< 1.0 ppm)",
+  " Area in ha": 3363.385966,
+  "  Percentage": 0.017522316
+ },
+ {
+  "District": "Vijayapura",
+  "Description": "Sufficient (> 1.0 ppm)",
+  " Area in ha": 184877.1432,
+  "  Percentage": 0.963159075
+ },
+ {
+  "District": "Yadgir",
+  "Description": "Deficient (< 1.0 ppm)",
+  " Area in ha": 1330.764999,
+  "  Percentage": 0.00693292
+ },
+ {
+  "District": "Yadgir",
+  "Description": "Sufficient (> 1.0 ppm)",
+  " Area in ha": 138557.138,
+  "  Percentage": 0.721844586
+ }
+],
+"Nitrogen":[
+ {
+  "District": "Bagalkot",
+  "Description": "Low (<280 kg\/ha)",
+  " Area in ha": 9218.548,
+  "  Percentage": 0.048031
+ },
+ {
+  "District": "Bagalkot",
+  "Description": "Medium (280 – 560 kg\/ha)",
+  " Area in ha": 596.9806,
+  "  Percentage": 0.00311
+ },
+ {
+  "District": "Belagavi",
+  "Description": "Low (<280 kg\/ha)",
+  " Area in ha": 34450.54,
+  "  Percentage": 0.179496
+ },
+ {
+  "District": "Belagavi",
+  "Description": "Medium (280 – 560 kg\/ha)",
+  " Area in ha": 23.57202,
+  "  Percentage": 0.000123
+ },
+ {
+  "District": "Bengaluru (Rural)",
+  "Description": "Low (<280 kg\/ha)",
+  " Area in ha": 3450.612,
+  "  Percentage": 0.017979
+ },
+ {
+  "District": "Bengaluru (Rural)",
+  "Description": "Medium (280 – 560 kg\/ha)",
+  " Area in ha": 734.5833,
+  "  Percentage": 0.003827
+ },
+ {
+  "District": "Bengaluru (Rural)",
+  "Description": "High (> 560 kg\/ha)",
+  " Area in ha": 178.8124,
+  "  Percentage": 0.000932
+ },
+ {
+  "District": "Bengaluru (Urban)",
+  "Description": "Low (<280 kg\/ha)",
+  " Area in ha": 10.15782,
+  "  Percentage": 5.2905
+ },
+ {
+  "District": "Bidar",
+  "Description": "Low (<280 kg\/ha)",
+  " Area in ha": 121766.9,
+  "  Percentage": 0.634435
+ },
+ {
+  "District": "Bidar",
+  "Description": "Medium (280 – 560 kg\/ha)",
+  " Area in ha": 33434.5,
+  "  Percentage": 0.174202
+ },
+ {
+  "District": "Bidar",
+  "Description": "High (> 560 kg\/ha)",
+  " Area in ha": 2399.132,
+  "  Percentage": 0.0125
+ },
+ {
+  "District": "Chamarajanagara",
+  "Description": "Low (<280 kg\/ha)",
+  " Area in ha": 56021.24,
+  "  Percentage": 0.291884
+ },
+ {
+  "District": "Chamarajanagara",
+  "Description": "Medium (280 – 560 kg\/ha)",
+  " Area in ha": 6735.381,
+  "  Percentage": 0.035093
+ },
+ {
+  "District": "Chamarajanagara",
+  "Description": "High (> 560 kg\/ha)",
+  " Area in ha": 94.59878,
+  "  Percentage": 0.000493
+ },
+ {
+  "District": "Chikkaballapura",
+  "Description": "Low (<280 kg\/ha)",
+  " Area in ha": 11933.67,
+  "  Percentage": 0.062177
+ },
+ {
+  "District": "Chikkaballapura",
+  "Description": "Medium (280 – 560 kg\/ha)",
+  " Area in ha": 340.8304,
+  "  Percentage": 0.001776
+ },
+ {
+  "District": "Chikkaballapura",
+  "Description": "High (> 560 kg\/ha)",
+  " Area in ha": 21.8407,
+  "  Percentage": 0.000114
+ },
+ {
+  "District": "Chikkamagaluru",
+  "Description": "Low (<280 kg\/ha)",
+  " Area in ha": 53395.76,
+  "  Percentage": 0.278205
+ },
+ {
+  "District": "Chikkamagaluru",
+  "Description": "Medium (280 – 560 kg\/ha)",
+  " Area in ha": 21423.18,
+  "  Percentage": 0.11162
+ },
+ {
+  "District": "Chitradurga",
+  "Description": "Low (<280 kg\/ha)",
+  " Area in ha": 10230.29,
+  "  Percentage": 0.053302
+ },
+ {
+  "District": "Chitradurga",
+  "Description": "Medium (280 – 560 kg\/ha)",
+  " Area in ha": 2848.788,
+  "  Percentage": 0.014843
+ },
+ {
+  "District": "Chitradurga",
+  "Description": "High (> 560 kg\/ha)",
+  " Area in ha": 82.16267,
+  "  Percentage": 0.000428
+ },
+ {
+  "District": "Dakshina Kannada",
+  "Description": "Low (<280 kg\/ha)",
+  " Area in ha": 1335.58,
+  "  Percentage": 0.006959
+ },
+ {
+  "District": "Dakshina Kannada",
+  "Description": "Medium (280 – 560 kg\/ha)",
+  " Area in ha": 4770.455,
+  "  Percentage": 0.024855
+ },
+ {
+  "District": "Dakshina Kannada",
+  "Description": "High (> 560 kg\/ha)",
+  " Area in ha": 3.1825,
+  "  Percentage": 1.66E-05
+ },
+ {
+  "District": "Davanagere",
+  "Description": "Low (<280 kg\/ha)",
+  " Area in ha": 46758.23,
+  "  Percentage": 0.243622
+ },
+ {
+  "District": "Davanagere",
+  "Description": "Medium (280 – 560 kg\/ha)",
+  " Area in ha": 14826.73,
+  "  Percentage": 0.077251
+ },
+ {
+  "District": "Dharwad",
+  "Description": "Low (<280 kg\/ha)",
+  " Area in ha": 8830.644,
+  "  Percentage": 0.04601
+ },
+ {
+  "District": "Gadag",
+  "Description": "Low (<280 kg\/ha)",
+  " Area in ha": 120811.3,
+  "  Percentage": 0.629456
+ },
+ {
+  "District": "Gadag",
+  "Description": "Medium (280 – 560 kg\/ha)",
+  " Area in ha": 569.2895,
+  "  Percentage": 0.002966
+ },
+ {
+  "District": "Gadag",
+  "Description": "High (> 560 kg\/ha)",
+  " Area in ha": 372.9568,
+  "  Percentage": 0.001943
+ },
+ {
+  "District": "Hassan",
+  "Description": "Low (<280 kg\/ha)",
+  " Area in ha": 13691.18,
+  "  Percentage": 0.071334
+ },
+ {
+  "District": "Hassan",
+  "Description": "Medium (280 – 560 kg\/ha)",
+  " Area in ha": 317.037,
+  "  Percentage": 0.001652
+ },
+ {
+  "District": "Haveri",
+  "Description": "Low (<280 kg\/ha)",
+  " Area in ha": 18293.26,
+  "  Percentage": 0.095312
+ },
+ {
+  "District": "Haveri",
+  "Description": "Medium (280 – 560 kg\/ha)",
+  " Area in ha": 478.5618,
+  "  Percentage": 0.002493
+ },
+ {
+  "District": "Kalburgi",
+  "Description": "Low (<280 kg\/ha)",
+  " Area in ha": 107655.8,
+  "  Percentage": 0.560913
+ },
+ {
+  "District": "Kalburgi",
+  "Description": "Medium (280 – 560 kg\/ha)",
+  " Area in ha": 30345.97,
+  "  Percentage": 0.15811
+ },
+ {
+  "District": "Kalburgi",
+  "Description": "High (> 560 kg\/ha)",
+  " Area in ha": 3586.628,
+  "  Percentage": 0.018687
+ },
+ {
+  "District": "Kodagu",
+  "Description": "Low (<280 kg\/ha)",
+  " Area in ha": 712.6809,
+  "  Percentage": 0.003713
+ },
+ {
+  "District": "Kodagu",
+  "Description": "Medium (280 – 560 kg\/ha)",
+  " Area in ha": 2664.807,
+  "  Percentage": 0.013884
+ },
+ {
+  "District": "Kodagu",
+  "Description": "High (> 560 kg\/ha)",
+  " Area in ha": 125.6614,
+  "  Percentage": 0.000655
+ },
+ {
+  "District": "Kolara",
+  "Description": "Low (<280 kg\/ha)",
+  " Area in ha": 6874.889,
+  "  Percentage": 0.03582
+ },
+ {
+  "District": "Kolara",
+  "Description": "Medium (280 – 560 kg\/ha)",
+  " Area in ha": 5035.933,
+  "  Percentage": 0.026238
+ },
+ {
+  "District": "Kolara",
+  "Description": "High (> 560 kg\/ha)",
+  " Area in ha": 5219.929,
+  "  Percentage": 0.027197
+ },
+ {
+  "District": "Koppal",
+  "Description": "Low (<280 kg\/ha)",
+  " Area in ha": 38292.49,
+  "  Percentage": 0.199513
+ },
+ {
+  "District": "Koppal",
+  "Description": "Medium (280 – 560 kg\/ha)",
+  " Area in ha": 84329.98,
+  "  Percentage": 0.43938
+ },
+ {
+  "District": "Koppal",
+  "Description": "High (> 560 kg\/ha)",
+  " Area in ha": 2899.98,
+  "  Percentage": 0.01511
+ },
+ {
+  "District": "Mandya",
+  "Description": "Low (<280 kg\/ha)",
+  " Area in ha": 7413.157,
+  "  Percentage": 0.038624
+ },
+ {
+  "District": "Mandya",
+  "Description": "Medium (280 – 560 kg\/ha)",
+  " Area in ha": 5282.74,
+  "  Percentage": 0.027524
+ },
+ {
+  "District": "Mandya",
+  "Description": "High (> 560 kg\/ha)",
+  " Area in ha": 531.1374,
+  "  Percentage": 0.002767
+ },
+ {
+  "District": "Mysuru",
+  "Description": "Low (<280 kg\/ha)",
+  " Area in ha": 5723.027,
+  "  Percentage": 0.029818
+ },
+ {
+  "District": "Mysuru",
+  "Description": "Medium (280 – 560 kg\/ha)",
+  " Area in ha": 5325.485,
+  "  Percentage": 0.027747
+ },
+ {
+  "District": "Mysuru",
+  "Description": "High (> 560 kg\/ha)",
+  " Area in ha": 139.9599,
+  "  Percentage": 0.000729
+ },
+ {
+  "District": "Raichur",
+  "Description": "Low (<280 kg\/ha)",
+  " Area in ha": 114831.1,
+  "  Percentage": 0.598298
+ },
+ {
+  "District": "Raichur",
+  "Description": "Medium (280 – 560 kg\/ha)",
+  " Area in ha": 10963.64,
+  "  Percentage": 0.057123
+ },
+ {
+  "District": "Raichur",
+  "Description": "High (> 560 kg\/ha)",
+  " Area in ha": 338.6872,
+  "  Percentage": 0.001765
+ },
+ {
+  "District": "Ramanagara",
+  "Description": "Low (<280 kg\/ha)",
+  " Area in ha": 7516.609,
+  "  Percentage": 0.039163
+ },
+ {
+  "District": "Ramanagara",
+  "Description": "Medium (280 – 560 kg\/ha)",
+  " Area in ha": 207.577,
+  "  Percentage": 0.001082
+ },
+ {
+  "District": "Shivamogga",
+  "Description": "Low (<280 kg\/ha)",
+  " Area in ha": 12204.81,
+  "  Percentage": 0.06359
+ },
+ {
+  "District": "Shivamogga",
+  "Description": "Medium (280 – 560 kg\/ha)",
+  " Area in ha": 4090.715,
+  "  Percentage": 0.021314
+ },
+ {
+  "District": "Tumakuru",
+  "Description": "Low (<280 kg\/ha)",
+  " Area in ha": 97822.58,
+  "  Percentage": 0.509679
+ },
+ {
+  "District": "Tumakuru",
+  "Description": "Medium (280 – 560 kg\/ha)",
+  " Area in ha": 22823.6,
+  "  Percentage": 0.118917
+ },
+ {
+  "District": "Tumakuru",
+  "Description": "High (> 560 kg\/ha)",
+  " Area in ha": 729.2475,
+  "  Percentage": 0.0038
+ },
+ {
+  "District": "Udupi",
+  "Description": "Low (<280 kg\/ha)",
+  " Area in ha": 4954.525,
+  "  Percentage": 0.025814
+ },
+ {
+  "District": "Udupi",
+  "Description": "Medium (280 – 560 kg\/ha)",
+  " Area in ha": 2168.063,
+  "  Percentage": 0.011296
+ },
+ {
+  "District": "Uttara Kannada",
+  "Description": "Low (<280 kg\/ha)",
+  " Area in ha": 3517.443,
+  "  Percentage": 0.018327
+ },
+ {
+  "District": "Vijayanagara",
+  "Description": "Low (<280 kg\/ha)",
+  " Area in ha": 25393.28,
+  "  Percentage": 0.132305
+ },
+ {
+  "District": "Vijayanagara",
+  "Description": "Medium (280 – 560 kg\/ha)",
+  " Area in ha": 7468.949,
+  "  Percentage": 0.038915
+ },
+ {
+  "District": "Vijayapura",
+  "Description": "Low (<280 kg\/ha)",
+  " Area in ha": 159105.5,
+  "  Percentage": 0.828978
+ },
+ {
+  "District": "Vijayapura",
+  "Description": "Medium (280 – 560 kg\/ha)",
+  " Area in ha": 28210.71,
+  "  Percentage": 0.146985
+ },
+ {
+  "District": "Vijayapura",
+  "Description": "High (> 560 kg\/ha)",
+  " Area in ha": 1022.706,
+  "  Percentage": 0.005329
+ },
+ {
+  "District": "Yadgir",
+  "Description": "Low (<280 kg\/ha)",
+  " Area in ha": 34576.93,
+  "  Percentage": 0.180154
+ },
+ {
+  "District": "Yadgir",
+  "Description": "Medium (280 – 560 kg\/ha)",
+  " Area in ha": 71397.37,
+  "  Percentage": 0.371998
+ },
+ {
+  "District": "Yadgir",
+  "Description": "High (> 560 kg\/ha)",
+  " Area in ha": 17914.26,
+  "  Percentage": 0.093338
+ }
+],
+"OC":[
+ {
+  "District": "Bagalkot",
+  "Description": "Low (< 0.5 %)",
+  " Area in ha": 7557.034,
+  "  Percentage": 0.039373
+ },
+ {
+  "District": "Bagalkot",
+  "Description": "Medium (0.5 – 0.75 %)",
+  " Area in ha": 2117.316,
+  "  Percentage": 0.011032
+ },
+ {
+  "District": "Bagalkot",
+  "Description": "High (> 0.75 %)",
+  " Area in ha": 141.1782,
+  "  Percentage": 0.000736
+ },
+ {
+  "District": "Belagavi",
+  "Description": "Low (< 0.5 %)",
+  " Area in ha": 13462.19,
+  "  Percentage": 0.07014
+ },
+ {
+  "District": "Belagavi",
+  "Description": "Medium (0.5 – 0.75 %)",
+  " Area in ha": 14737.9,
+  "  Percentage": 0.076786
+ },
+ {
+  "District": "Belagavi",
+  "Description": "High (> 0.75 %)",
+  " Area in ha": 6274.023,
+  "  Percentage": 0.032689
+ },
+ {
+  "District": "Bengaluru (Rural)",
+  "Description": "Low (< 0.5 %)",
+  " Area in ha": 1478.318,
+  "  Percentage": 0.007702
+ },
+ {
+  "District": "Bengaluru (Rural)",
+  "Description": "Medium (0.5 – 0.75 %)",
+  " Area in ha": 2713.976,
+  "  Percentage": 0.01414
+ },
+ {
+  "District": "Bengaluru (Rural)",
+  "Description": "High (> 0.75 %)",
+  " Area in ha": 171.6986,
+  "  Percentage": 0.000895
+ },
+ {
+  "District": "Bengaluru (Urban)",
+  "Description": "Low (< 0.5 %)",
+  " Area in ha": 10.15782,
+  "  Percentage": 5.290005
+ },
+ {
+  "District": "Bidar",
+  "Description": "Low (< 0.5 %)",
+  " Area in ha": 33266.59,
+  "  Percentage": 0.173323
+ },
+ {
+  "District": "Bidar",
+  "Description": "Medium (0.5 – 0.75 %)",
+  " Area in ha": 39766.35,
+  "  Percentage": 0.207188
+ },
+ {
+  "District": "Bidar",
+  "Description": "High (> 0.75 %)",
+  " Area in ha": 85443.41,
+  "  Percentage": 0.445172
+ },
+ {
+  "District": "Chamarajanagara",
+  "Description": "Low (< 0.5 %)",
+  " Area in ha": 34001.2,
+  "  Percentage": 0.177151
+ },
+ {
+  "District": "Chamarajanagara",
+  "Description": "Medium (0.5 – 0.75 %)",
+  " Area in ha": 32237.4,
+  "  Percentage": 0.167961
+ },
+ {
+  "District": "Chamarajanagara",
+  "Description": "High (> 0.75 %)",
+  " Area in ha": 4838.982,
+  "  Percentage": 0.025212
+ },
+ {
+  "District": "Chikkaballapura",
+  "Description": "Low (< 0.5 %)",
+  " Area in ha": 3002.75,
+  "  Percentage": 0.015645
+ },
+ {
+  "District": "Chikkaballapura",
+  "Description": "Medium (0.5 – 0.75 %)",
+  " Area in ha": 3968.799,
+  "  Percentage": 0.020678
+ },
+ {
+  "District": "Chikkaballapura",
+  "Description": "High (> 0.75 %)",
+  " Area in ha": 5324.3,
+  "  Percentage": 0.02774
+ },
+ {
+  "District": "Chikkamagaluru",
+  "Description": "Low (< 0.5 %)",
+  " Area in ha": 13117.05,
+  "  Percentage": 0.068342
+ },
+ {
+  "District": "Chikkamagaluru",
+  "Description": "Medium (0.5 – 0.75 %)",
+  " Area in ha": 40677.61,
+  "  Percentage": 0.211936
+ },
+ {
+  "District": "Chikkamagaluru",
+  "Description": "High (> 0.75 %)",
+  " Area in ha": 20489.26,
+  "  Percentage": 0.106752
+ },
+ {
+  "District": "Chitradurga",
+  "Description": "Low (< 0.5 %)",
+  " Area in ha": 4198.204,
+  "  Percentage": 0.021873
+ },
+ {
+  "District": "Chitradurga",
+  "Description": "Medium (0.5 – 0.75 %)",
+  " Area in ha": 6988.933,
+  "  Percentage": 0.036413
+ },
+ {
+  "District": "Chitradurga",
+  "Description": "High (> 0.75 %)",
+  " Area in ha": 1974.103,
+  "  Percentage": 0.010285
+ },
+ {
+  "District": "Dakshina Kannada",
+  "Description": "Low (< 0.5 %)",
+  " Area in ha": 88.21003,
+  "  Percentage": 0.00046
+ },
+ {
+  "District": "Dakshina Kannada",
+  "Description": "Medium (0.5 – 0.75 %)",
+  " Area in ha": 491.0752,
+  "  Percentage": 0.002559
+ },
+ {
+  "District": "Dakshina Kannada",
+  "Description": "High (> 0.75 %)",
+  " Area in ha": 5555.889,
+  "  Percentage": 0.028947
+ },
+ {
+  "District": "Davanagere",
+  "Description": "Low (< 0.5 %)",
+  " Area in ha": 15210.24,
+  "  Percentage": 0.079247
+ },
+ {
+  "District": "Davanagere",
+  "Description": "Medium (0.5 – 0.75 %)",
+  " Area in ha": 34521.14,
+  "  Percentage": 0.17986
+ },
+ {
+  "District": "Davanagere",
+  "Description": "High (> 0.75 %)",
+  " Area in ha": 12215.09,
+  "  Percentage": 0.063642
+ },
+ {
+  "District": "Dharwad",
+  "Description": "Low (< 0.5 %)",
+  " Area in ha": 854.6661,
+  "  Percentage": 0.004453
+ },
+ {
+  "District": "Dharwad",
+  "Description": "Medium (0.5 – 0.75 %)",
+  " Area in ha": 2768.949,
+  "  Percentage": 0.014427
+ },
+ {
+  "District": "Dharwad",
+  "Description": "High (> 0.75 %)",
+  " Area in ha": 5207.042,
+  "  Percentage": 0.027129
+ },
+ {
+  "District": "Gadag",
+  "Description": "Low (< 0.5 %)",
+  " Area in ha": 68672.57,
+  "  Percentage": 0.357793
+ },
+ {
+  "District": "Gadag",
+  "Description": "Medium (0.5 – 0.75 %)",
+  " Area in ha": 60536.35,
+  "  Percentage": 0.315403
+ },
+ {
+  "District": "Gadag",
+  "Description": "High (> 0.75 %)",
+  " Area in ha": 5595.669,
+  "  Percentage": 0.029154
+ },
+ {
+  "District": "Hassan",
+  "Description": "Low (< 0.5 %)",
+  " Area in ha": 6890.523,
+  "  Percentage": 0.035901
+ },
+ {
+  "District": "Hassan",
+  "Description": "Medium (0.5 – 0.75 %)",
+  " Area in ha": 6892.122,
+  "  Percentage": 0.035909
+ },
+ {
+  "District": "Hassan",
+  "Description": "High (> 0.75 %)",
+  " Area in ha": 225.5703,
+  "  Percentage": 0.001175
+ },
+ {
+  "District": "Haveri",
+  "Description": "Low (< 0.5 %)",
+  " Area in ha": 9774.432,
+  "  Percentage": 0.050926
+ },
+ {
+  "District": "Haveri",
+  "Description": "Medium (0.5 – 0.75 %)",
+  " Area in ha": 6360.769,
+  "  Percentage": 0.03314
+ },
+ {
+  "District": "Haveri",
+  "Description": "High (> 0.75 %)",
+  " Area in ha": 2636.622,
+  "  Percentage": 0.013737
+ },
+ {
+  "District": "Kalburgi",
+  "Description": "Low (< 0.5 %)",
+  " Area in ha": 46922.43,
+  "  Percentage": 0.244472
+ },
+ {
+  "District": "Kalburgi",
+  "Description": "Medium (0.5 – 0.75 %)",
+  " Area in ha": 36012.42,
+  "  Percentage": 0.18763
+ },
+ {
+  "District": "Kalburgi",
+  "Description": "High (> 0.75 %)",
+  " Area in ha": 81378.86,
+  "  Percentage": 0.423995
+ },
+ {
+  "District": "Kodagu",
+  "Description": "Low (< 0.5 %)",
+  " Area in ha": 504.6445,
+  "  Percentage": 0.002629
+ },
+ {
+  "District": "Kodagu",
+  "Description": "Medium (0.5 – 0.75 %)",
+  " Area in ha": 2849.323,
+  "  Percentage": 0.014845
+ },
+ {
+  "District": "Kodagu",
+  "Description": "High (> 0.75 %)",
+  " Area in ha": 149.1814,
+  "  Percentage": 0.000777
+ },
+ {
+  "District": "Kolara",
+  "Description": "Low (< 0.5 %)",
+  " Area in ha": 7492.642,
+  "  Percentage": 0.039038
+ },
+ {
+  "District": "Kolara",
+  "Description": "Medium (0.5 – 0.75 %)",
+  " Area in ha": 8517.698,
+  "  Percentage": 0.044378
+ },
+ {
+  "District": "Kolara",
+  "Description": "High (> 0.75 %)",
+  " Area in ha": 1120.411,
+  "  Percentage": 0.005837
+ },
+ {
+  "District": "Koppal",
+  "Description": "Low (< 0.5 %)",
+  " Area in ha": 30340.9,
+  "  Percentage": 0.15808
+ },
+ {
+  "District": "Koppal",
+  "Description": "Medium (0.5 – 0.75 %)",
+  " Area in ha": 62280.43,
+  "  Percentage": 0.324489
+ },
+ {
+  "District": "Koppal",
+  "Description": "High (> 0.75 %)",
+  " Area in ha": 36183.36,
+  "  Percentage": 0.18852
+ },
+ {
+  "District": "Mandya",
+  "Description": "Low (< 0.5 %)",
+  " Area in ha": 4286.722,
+  "  Percentage": 0.022334
+ },
+ {
+  "District": "Mandya",
+  "Description": "Medium (0.5 – 0.75 %)",
+  " Area in ha": 7484.667,
+  "  Percentage": 0.038996
+ },
+ {
+  "District": "Mandya",
+  "Description": "High (> 0.75 %)",
+  " Area in ha": 1449.961,
+  "  Percentage": 0.007554
+ },
+ {
+  "District": "Mysuru",
+  "Description": "Low (< 0.5 %)",
+  " Area in ha": 3582.152,
+  "  Percentage": 0.018663
+ },
+ {
+  "District": "Mysuru",
+  "Description": "Medium (0.5 – 0.75 %)",
+  " Area in ha": 7228.426,
+  "  Percentage": 0.037661
+ },
+ {
+  "District": "Mysuru",
+  "Description": "High (> 0.75 %)",
+  " Area in ha": 739.1825,
+  "  Percentage": 0.003851
+ },
+ {
+  "District": "Raichur",
+  "Description": "Low (< 0.5 %)",
+  " Area in ha": 40445.22,
+  "  Percentage": 0.210725
+ },
+ {
+  "District": "Raichur",
+  "Description": "Medium (0.5 – 0.75 %)",
+  " Area in ha": 67155.85,
+  "  Percentage": 0.349891
+ },
+ {
+  "District": "Raichur",
+  "Description": "High (> 0.75 %)",
+  " Area in ha": 18570.15,
+  "  Percentage": 0.096753
+ },
+ {
+  "District": "Ramanagara",
+  "Description": "Low (< 0.5 %)",
+  " Area in ha": 3229.678,
+  "  Percentage": 0.016827
+ },
+ {
+  "District": "Ramanagara",
+  "Description": "Medium (0.5 – 0.75 %)",
+  " Area in ha": 4012.371,
+  "  Percentage": 0.020905
+ },
+ {
+  "District": "Ramanagara",
+  "Description": "High (> 0.75 %)",
+  " Area in ha": 482.1372,
+  "  Percentage": 0.002512
+ },
+ {
+  "District": "Shivamogga",
+  "Description": "Low (< 0.5 %)",
+  " Area in ha": 2752.187,
+  "  Percentage": 0.014339
+ },
+ {
+  "District": "Shivamogga",
+  "Description": "Medium (0.5 – 0.75 %)",
+  " Area in ha": 11097.43,
+  "  Percentage": 0.057819
+ },
+ {
+  "District": "Shivamogga",
+  "Description": "High (> 0.75 %)",
+  " Area in ha": 2237.783,
+  "  Percentage": 0.011659
+ },
+ {
+  "District": "Tumakuru",
+  "Description": "Low (< 0.5 %)",
+  " Area in ha": 67547.74,
+  "  Percentage": 0.351933
+ },
+ {
+  "District": "Tumakuru",
+  "Description": "Medium (0.5 – 0.75 %)",
+  " Area in ha": 55933.49,
+  "  Percentage": 0.291421
+ },
+ {
+  "District": "Tumakuru",
+  "Description": "High (> 0.75 %)",
+  " Area in ha": 7195.958,
+  "  Percentage": 0.037492
+ },
+ {
+  "District": "Udupi",
+  "Description": "Low (< 0.5 %)",
+  " Area in ha": 836.4757,
+  "  Percentage": 0.004358
+ },
+ {
+  "District": "Udupi",
+  "Description": "Medium (0.5 – 0.75 %)",
+  " Area in ha": 2202.744,
+  "  Percentage": 0.011477
+ },
+ {
+  "District": "Udupi",
+  "Description": "High (> 0.75 %)",
+  " Area in ha": 4083.368,
+  "  Percentage": 0.021275
+ },
+ {
+  "District": "Uttara Kannada",
+  "Description": "Low (< 0.5 %)",
+  " Area in ha": 1073.256,
+  "  Percentage": 0.005592
+ },
+ {
+  "District": "Uttara Kannada",
+  "Description": "Medium (0.5 – 0.75 %)",
+  " Area in ha": 1647.419,
+  "  Percentage": 0.008583
+ },
+ {
+  "District": "Uttara Kannada",
+  "Description": "High (> 0.75 %)",
+  " Area in ha": 796.7679,
+  "  Percentage": 0.004151
+ },
+ {
+  "District": "Vijayanagara",
+  "Description": "Low (< 0.5 %)",
+  " Area in ha": 11763.8,
+  "  Percentage": 0.061291
+ },
+ {
+  "District": "Vijayanagara",
+  "Description": "Medium (0.5 – 0.75 %)",
+  " Area in ha": 20266.98,
+  "  Percentage": 0.105594
+ },
+ {
+  "District": "Vijayanagara",
+  "Description": "High (> 0.75 %)",
+  " Area in ha": 830.9476,
+  "  Percentage": 0.004329
+ },
+ {
+  "District": "Yadgir",
+  "Description": "Low (< 0.5 %)",
+  " Area in ha": 25615.54,
+  "  Percentage": 0.13346
+ },
+ {
+  "District": "Yadgir",
+  "Description": "Medium (0.5 – 0.75 %)",
+  " Area in ha": 57483.6,
+  "  Percentage": 0.299497
+ },
+ {
+  "District": "Yadgir",
+  "Description": "High (> 0.75 %)",
+  " Area in ha": 42544.89,
+  "  Percentage": 0.221665
+ }
+],
+"P2O5":[
+ {
+  "District": "Bagalkot",
+  "Description": "Low (< 23 kg\/ha)",
+  " Area in ha": 18.25374,
+  "  Percentage": 9.51E-05
+ },
+ {
+  "District": "Bagalkot",
+  "Description": "Medium (23 – 57 kg\/ha)",
+  " Area in ha": 8466.173,
+  "  Percentage": 0.044109
+ },
+ {
+  "District": "Bagalkot",
+  "Description": "High (> 57 kg\/ha)",
+  " Area in ha": 1331.101,
+  "  Percentage": 0.006935
+ },
+ {
+  "District": "Belagavi",
+  "Description": "Low (< 23 kg\/ha)",
+  " Area in ha": 11624.19,
+  "  Percentage": 0.060563
+ },
+ {
+  "District": "Belagavi",
+  "Description": "Medium (23 – 57 kg\/ha)",
+  " Area in ha": 18625.24,
+  "  Percentage": 0.097039
+ },
+ {
+  "District": "Belagavi",
+  "Description": "High (> 57 kg\/ha)",
+  " Area in ha": 4224.683,
+  "  Percentage": 0.022011
+ },
+ {
+  "District": "Bengaluru (Rural)",
+  "Description": "Low (< 23 kg\/ha)",
+  " Area in ha": 662.8801,
+  "  Percentage": 0.003454
+ },
+ {
+  "District": "Bengaluru (Rural)",
+  "Description": "Medium (23 – 57 kg\/ha)",
+  " Area in ha": 3592.613,
+  "  Percentage": 0.018718
+ },
+ {
+  "District": "Bengaluru (Rural)",
+  "Description": "High (> 57 kg\/ha)",
+  " Area in ha": 108.5141,
+  "  Percentage": 0.000565
+ },
+ {
+  "District": "Bengaluru (Urban)",
+  "Description": "Low (< 23 kg\/ha)",
+  " Area in ha": 6.185374,
+  "  Percentage": 3.22E-05
+ },
+ {
+  "District": "Bengaluru (Urban)",
+  "Description": "Medium (23 – 57 kg\/ha)",
+  " Area in ha": 3.972443,
+  "  Percentage": 2.07E-05
+ },
+ {
+  "District": "Bidar",
+  "Description": "Low (< 23 kg\/ha)",
+  " Area in ha": 31249.79,
+  "  Percentage": 0.162814
+ },
+ {
+  "District": "Bidar",
+  "Description": "Medium (23 – 57 kg\/ha)",
+  " Area in ha": 69787.31,
+  "  Percentage": 0.363597
+ },
+ {
+  "District": "Bidar",
+  "Description": "High (> 57 kg\/ha)",
+  " Area in ha": 58094.12,
+  "  Percentage": 0.302674
+ },
+ {
+  "District": "Chamarajanagara",
+  "Description": "Low (< 23 kg\/ha)",
+  " Area in ha": 9896.402,
+  "  Percentage": 0.051561
+ },
+ {
+  "District": "Chamarajanagara",
+  "Description": "Medium (23 – 57 kg\/ha)",
+  " Area in ha": 46504.05,
+  "  Percentage": 0.242289
+ },
+ {
+  "District": "Chamarajanagara",
+  "Description": "High (> 57 kg\/ha)",
+  " Area in ha": 14676.88,
+  "  Percentage": 0.076468
+ },
+ {
+  "District": "Chikkaballapura",
+  "Description": "Low (< 23 kg\/ha)",
+  " Area in ha": 3250.178,
+  "  Percentage": 0.016934
+ },
+ {
+  "District": "Chikkaballapura",
+  "Description": "Medium (23 – 57 kg\/ha)",
+  " Area in ha": 4625.366,
+  "  Percentage": 0.024098
+ },
+ {
+  "District": "Chikkaballapura",
+  "Description": "High (> 57 kg\/ha)",
+  " Area in ha": 4420.794,
+  "  Percentage": 0.023033
+ },
+ {
+  "District": "Chikkamagaluru",
+  "Description": "Low (< 23 kg\/ha)",
+  " Area in ha": 5593.184,
+  "  Percentage": 0.029141
+ },
+ {
+  "District": "Chikkamagaluru",
+  "Description": "Medium (23 – 57 kg\/ha)",
+  " Area in ha": 55770.55,
+  "  Percentage": 0.290568
+ },
+ {
+  "District": "Chikkamagaluru",
+  "Description": "High (> 57 kg\/ha)",
+  " Area in ha": 13199.74,
+  "  Percentage": 0.068772
+ },
+ {
+  "District": "Chitradurga",
+  "Description": "Low (< 23 kg\/ha)",
+  " Area in ha": 943.0192,
+  "  Percentage": 0.004913
+ },
+ {
+  "District": "Chitradurga",
+  "Description": "Medium (23 – 57 kg\/ha)",
+  " Area in ha": 10959.96,
+  "  Percentage": 0.057102
+ },
+ {
+  "District": "Chitradurga",
+  "Description": "High (> 57 kg\/ha)",
+  " Area in ha": 1260.568,
+  "  Percentage": 0.006568
+ },
+ {
+  "District": "Dakshina Kannada",
+  "Description": "Low (< 23 kg\/ha)",
+  " Area in ha": 4718.732,
+  "  Percentage": 0.024585
+ },
+ {
+  "District": "Dakshina Kannada",
+  "Description": "Medium (23 – 57 kg\/ha)",
+  " Area in ha": 851.244,
+  "  Percentage": 0.004435
+ },
+ {
+  "District": "Dakshina Kannada",
+  "Description": "High (> 57 kg\/ha)",
+  " Area in ha": 368.0908,
+  "  Percentage": 0.001918
+ },
+ {
+  "District": "Davanagere",
+  "Description": "Low (< 23 kg\/ha)",
+  " Area in ha": 7469.748,
+  "  Percentage": 0.038918
+ },
+ {
+  "District": "Davanagere",
+  "Description": "Medium (23 – 57 kg\/ha)",
+  " Area in ha": 48072.02,
+  "  Percentage": 0.250458
+ },
+ {
+  "District": "Davanagere",
+  "Description": "High (> 57 kg\/ha)",
+  " Area in ha": 6433.918,
+  "  Percentage": 0.033521
+ },
+ {
+  "District": "Dharwad",
+  "Description": "Low (< 23 kg\/ha)",
+  " Area in ha": 174.3339,
+  "  Percentage": 0.000908
+ },
+ {
+  "District": "Dharwad",
+  "Description": "Medium (23 – 57 kg\/ha)",
+  " Area in ha": 4391.112,
+  "  Percentage": 0.022878
+ },
+ {
+  "District": "Dharwad",
+  "Description": "High (> 57 kg\/ha)",
+  " Area in ha": 4265.211,
+  "  Percentage": 0.022222
+ },
+ {
+  "District": "Gadag",
+  "Description": "Low (< 23 kg\/ha)",
+  " Area in ha": 52609.69,
+  "  Percentage": 0.2741
+ },
+ {
+  "District": "Gadag",
+  "Description": "Medium (23 – 57 kg\/ha)",
+  " Area in ha": 80630.63,
+  "  Percentage": 0.420091
+ },
+ {
+  "District": "Gadag",
+  "Description": "High (> 57 kg\/ha)",
+  " Area in ha": 1324.396,
+  "  Percentage": 0.0069
+ },
+ {
+  "District": "Hassan",
+  "Description": "Low (< 23 kg\/ha)",
+  " Area in ha": 318.8828,
+  "  Percentage": 0.001661
+ },
+ {
+  "District": "Hassan",
+  "Description": "Medium (23 – 57 kg\/ha)",
+  " Area in ha": 13687.45,
+  "  Percentage": 0.071313
+ },
+ {
+  "District": "Hassan",
+  "Description": "High (> 57 kg\/ha)",
+  " Area in ha": 1.845813,
+  "  Percentage": 9.62E-06
+ },
+ {
+  "District": "Haveri",
+  "Description": "Low (< 23 kg\/ha)",
+  " Area in ha": 649.0028,
+  "  Percentage": 0.003381
+ },
+ {
+  "District": "Haveri",
+  "Description": "Medium (23 – 57 kg\/ha)",
+  " Area in ha": 13317.19,
+  "  Percentage": 0.069383
+ },
+ {
+  "District": "Haveri",
+  "Description": "High (> 57 kg\/ha)",
+  " Area in ha": 4805.63,
+  "  Percentage": 0.025038
+ },
+ {
+  "District": "Kalburgi",
+  "Description": "Low (< 23 kg\/ha)",
+  " Area in ha": 54123.36,
+  "  Percentage": 0.281986
+ },
+ {
+  "District": "Kalburgi",
+  "Description": "Medium (23 – 57 kg\/ha)",
+  " Area in ha": 98732.65,
+  "  Percentage": 0.514404
+ },
+ {
+  "District": "Kalburgi",
+  "Description": "High (> 57 kg\/ha)",
+  " Area in ha": 11751.28,
+  "  Percentage": 0.061225
+ },
+ {
+  "District": "Kodagu",
+  "Description": "Low (< 23 kg\/ha)",
+  " Area in ha": 371.2897,
+  "  Percentage": 0.001934
+ },
+ {
+  "District": "Kodagu",
+  "Description": "Medium (23 – 57 kg\/ha)",
+  " Area in ha": 2769.065,
+  "  Percentage": 0.014427
+ },
+ {
+  "District": "Kodagu",
+  "Description": "High (> 57 kg\/ha)",
+  " Area in ha": 362.7948,
+  "  Percentage": 0.00189
+ },
+ {
+  "District": "Kolara",
+  "Description": "Low (< 23 kg\/ha)",
+  " Area in ha": 8063.389,
+  "  Percentage": 0.042011
+ },
+ {
+  "District": "Kolara",
+  "Description": "Medium (23 – 57 kg\/ha)",
+  " Area in ha": 8975.718,
+  "  Percentage": 0.046764
+ },
+ {
+  "District": "Kolara",
+  "Description": "High (> 57 kg\/ha)",
+  " Area in ha": 91.6444,
+  "  Percentage": 0.000477
+ },
+ {
+  "District": "Koppal",
+  "Description": "Low (< 23 kg\/ha)",
+  " Area in ha": 30959.26,
+  "  Percentage": 0.1613
+ },
+ {
+  "District": "Koppal",
+  "Description": "Medium (23 – 57 kg\/ha)",
+  " Area in ha": 70078.73,
+  "  Percentage": 0.365115
+ },
+ {
+  "District": "Koppal",
+  "Description": "High (> 57 kg\/ha)",
+  " Area in ha": 28291,
+  "  Percentage": 0.147398
+ },
+ {
+  "District": "Mandya",
+  "Description": "Low (< 23 kg\/ha)",
+  " Area in ha": 509.0726,
+  "  Percentage": 0.002652
+ },
+ {
+  "District": "Mandya",
+  "Description": "Medium (23 – 57 kg\/ha)",
+  " Area in ha": 12052.93,
+  "  Percentage": 0.062797
+ },
+ {
+  "District": "Mandya",
+  "Description": "High (> 57 kg\/ha)",
+  " Area in ha": 659.3449,
+  "  Percentage": 0.003435
+ },
+ {
+  "District": "Mysuru",
+  "Description": "Low (< 23 kg\/ha)",
+  " Area in ha": 566.8187,
+  "  Percentage": 0.002953
+ },
+ {
+  "District": "Mysuru",
+  "Description": "Medium (23 – 57 kg\/ha)",
+  " Area in ha": 8595.816,
+  "  Percentage": 0.044785
+ },
+ {
+  "District": "Mysuru",
+  "Description": "High (> 57 kg\/ha)",
+  " Area in ha": 2025.837,
+  "  Percentage": 0.010555
+ },
+ {
+  "District": "Raichur",
+  "Description": "Low (< 23 kg\/ha)",
+  " Area in ha": 5087.631,
+  "  Percentage": 0.026507
+ },
+ {
+  "District": "Raichur",
+  "Description": "Medium (23 – 57 kg\/ha)",
+  " Area in ha": 97477.92,
+  "  Percentage": 0.507867
+ },
+ {
+  "District": "Raichur",
+  "Description": "High (> 57 kg\/ha)",
+  " Area in ha": 23577.3,
+  "  Percentage": 0.122839
+ },
+ {
+  "District": "Ramanagara",
+  "Description": "Low (< 23 kg\/ha)",
+  " Area in ha": 1697.54,
+  "  Percentage": 0.008844
+ },
+ {
+  "District": "Ramanagara",
+  "Description": "Medium (23 – 57 kg\/ha)",
+  " Area in ha": 6016.402,
+  "  Percentage": 0.031346
+ },
+ {
+  "District": "Ramanagara",
+  "Description": "High (> 57 kg\/ha)",
+  " Area in ha": 10.24337,
+  "  Percentage": 5.34E-05
+ },
+ {
+  "District": "Shivamogga",
+  "Description": "Low (< 23 kg\/ha)",
+  " Area in ha": 5467.147,
+  "  Percentage": 0.028484
+ },
+ {
+  "District": "Shivamogga",
+  "Description": "Medium (23 – 57 kg\/ha)",
+  " Area in ha": 10069.93,
+  "  Percentage": 0.052465
+ },
+ {
+  "District": "Shivamogga",
+  "Description": "High (> 57 kg\/ha)",
+  " Area in ha": 758.4442,
+  "  Percentage": 0.003952
+ },
+ {
+  "District": "Tumakuru",
+  "Description": "Low (< 23 kg\/ha)",
+  " Area in ha": 24766.08,
+  "  Percentage": 0.129033
+ },
+ {
+  "District": "Tumakuru",
+  "Description": "Medium (23 – 57 kg\/ha)",
+  " Area in ha": 84712.67,
+  "  Percentage": 0.441359
+ },
+ {
+  "District": "Tumakuru",
+  "Description": "High (> 57 kg\/ha)",
+  " Area in ha": 21608.53,
+  "  Percentage": 0.112582
+ },
+ {
+  "District": "Udupi",
+  "Description": "Low (< 23 kg\/ha)",
+  " Area in ha": 2565.158,
+  "  Percentage": 0.013365
+ },
+ {
+  "District": "Udupi",
+  "Description": "Medium (23 – 57 kg\/ha)",
+  " Area in ha": 4129.299,
+  "  Percentage": 0.021514
+ },
+ {
+  "District": "Udupi",
+  "Description": "High (> 57 kg\/ha)",
+  " Area in ha": 518.1823,
+  "  Percentage": 0.0027
+ },
+ {
+  "District": "Uttara Kannada",
+  "Description": "Low (< 23 kg\/ha)",
+  " Area in ha": 999.9376,
+  "  Percentage": 0.00521
+ },
+ {
+  "District": "Uttara Kannada",
+  "Description": "Medium (23 – 57 kg\/ha)",
+  " Area in ha": 1566.948,
+  "  Percentage": 0.008164
+ },
+ {
+  "District": "Uttara Kannada",
+  "Description": "High (> 57 kg\/ha)",
+  " Area in ha": 950.5575,
+  "  Percentage": 0.004952
+ },
+ {
+  "District": "Vijayanagara",
+  "Description": "Low (< 23 kg\/ha)",
+  " Area in ha": 2853.83,
+  "  Percentage": 0.014869
+ },
+ {
+  "District": "Vijayanagara",
+  "Description": "Medium (23 – 57 kg\/ha)",
+  " Area in ha": 28133.97,
+  "  Percentage": 0.14658
+ },
+ {
+  "District": "Vijayanagara",
+  "Description": "High (> 57 kg\/ha)",
+  " Area in ha": 1874.431,
+  "  Percentage": 0.009766
+ },
+ {
+  "District": "Vijayapura",
+  "Description": "Low (< 23 kg\/ha)",
+  " Area in ha": 55148.64,
+  "  Percentage": 0.287328
+ },
+ {
+  "District": "Vijayapura",
+  "Description": "Medium (23 – 57 kg\/ha)",
+  " Area in ha": 129140.1,
+  "  Percentage": 0.672829
+ },
+ {
+  "District": "Vijayapura",
+  "Description": "High (> 57 kg\/ha)",
+  " Area in ha": 3223.001,
+  "  Percentage": 0.016792
+ },
+ {
+  "District": "Yadgir",
+  "Description": "Low (< 23 kg\/ha)",
+  " Area in ha": 33391.28,
+  "  Percentage": 0.173971
+ },
+ {
+  "District": "Yadgir",
+  "Description": "Medium (23 – 57 kg\/ha)",
+  " Area in ha": 75520.01,
+  "  Percentage": 0.393464
+ },
+ {
+  "District": "Yadgir",
+  "Description": "High (> 57 kg\/ha)",
+  " Area in ha": 17318.26,
+  "  Percentage": 0.090229
+ }
+],
+"PH":[
+ {
+  "District": "Bagalkot",
+  "Description": "Very strongly acid (pH 4.5 – 5.0) ",
+  " Area in ha": 38.94095,
+  "  Percentage": 0.000203
+ },
+ {
+  "District": "Bagalkot",
+  "Description": "Strongly acid (pH 5.0 – 5.5)",
+  " Area in ha": 316.1025,
+  "  Percentage": 0.001647
+ },
+ {
+  "District": "Bagalkot",
+  "Description": "Moderately acid (pH 5.5 – 6.0)",
+  " Area in ha": 201.3844,
+  "  Percentage": 0.001049
+ },
+ {
+  "District": "Bagalkot",
+  "Description": "Slightly acid (pH 6.0 – 6.5)                                      ",
+  " Area in ha": 552.1911,
+  "  Percentage": 0.002877
+ },
+ {
+  "District": "Bagalkot",
+  "Description": "Neutral   (pH 6.5 – 7.3)              ",
+  " Area in ha": 2335.673,
+  "  Percentage": 0.012169
+ },
+ {
+  "District": "Bagalkot",
+  "Description": "Slightly alkaline (pH 7.3 – 7.8)       ",
+  " Area in ha": 4461.738,
+  "  Percentage": 0.023245
+ },
+ {
+  "District": "Bagalkot",
+  "Description": "Moderately alkaline (pH 7.8 – 8.4)                         ",
+  " Area in ha": 6232.449,
+  "  Percentage": 0.03247
+ },
+ {
+  "District": "Bagalkot",
+  "Description": "Strongly alkaline (pH 8.4 – 9.0)",
+  " Area in ha": 861.3304,
+  "  Percentage": 0.004487
+ },
+ {
+  "District": "Bagalkot",
+  "Description": "Very strongly alkaline (pH > 9.0)",
+  " Area in ha": 73.81822,
+  "  Percentage": 0.000385
+ },
+ {
+  "District": "Belagavi",
+  "Description": "Extremely acid (pH 3.5 – 4.5) ",
+  " Area in ha": 1.472955,
+  "  Percentage": 7.670006
+ },
+ {
+  "District": "Belagavi",
+  "Description": "Very strongly acid (pH 4.5 – 5.0) ",
+  " Area in ha": 1657.152,
+  "  Percentage": 0.008634
+ },
+ {
+  "District": "Belagavi",
+  "Description": "Strongly acid (pH 5.0 – 5.5)",
+  " Area in ha": 1539.102,
+  "  Percentage": 0.008019
+ },
+ {
+  "District": "Belagavi",
+  "Description": "Moderately acid (pH 5.5 – 6.0)",
+  " Area in ha": 2190.836,
+  "  Percentage": 0.011414
+ },
+ {
+  "District": "Belagavi",
+  "Description": "Slightly acid (pH 6.0 – 6.5)                                      ",
+  " Area in ha": 1343.473,
+  "  Percentage": 0.006999
+ },
+ {
+  "District": "Belagavi",
+  "Description": "Neutral   (pH 6.5 – 7.3)              ",
+  " Area in ha": 3009.036,
+  "  Percentage": 0.015677
+ },
+ {
+  "District": "Belagavi",
+  "Description": "Slightly alkaline (pH 7.3 – 7.8)       ",
+  " Area in ha": 4025.174,
+  "  Percentage": 0.020971
+ },
+ {
+  "District": "Belagavi",
+  "Description": "Moderately alkaline (pH 7.8 – 8.4)                         ",
+  " Area in ha": 13503.41,
+  "  Percentage": 0.070351
+ },
+ {
+  "District": "Belagavi",
+  "Description": "Strongly alkaline (pH 8.4 – 9.0)",
+  " Area in ha": 9058.634,
+  "  Percentage": 0.047194
+ },
+ {
+  "District": "Belagavi",
+  "Description": "Very strongly alkaline (pH > 9.0)",
+  " Area in ha": 680.4413,
+  "  Percentage": 0.003545
+ },
+ {
+  "District": "Bengaluru (Rural)",
+  "Description": "Very strongly acid (pH 4.5 – 5.0) ",
+  " Area in ha": 35.70716,
+  "  Percentage": 0.000186
+ },
+ {
+  "District": "Bengaluru (Rural)",
+  "Description": "Strongly acid (pH 5.0 – 5.5)",
+  " Area in ha": 399.7233,
+  "  Percentage": 0.002083
+ },
+ {
+  "District": "Bengaluru (Rural)",
+  "Description": "Moderately acid (pH 5.5 – 6.0)",
+  " Area in ha": 1740.45,
+  "  Percentage": 0.009068
+ },
+ {
+  "District": "Bengaluru (Rural)",
+  "Description": "Slightly acid (pH 6.0 – 6.5)                                      ",
+  " Area in ha": 1623.841,
+  "  Percentage": 0.00846
+ },
+ {
+  "District": "Bengaluru (Rural)",
+  "Description": "Neutral   (pH 6.5 – 7.3)              ",
+  " Area in ha": 524.9129,
+  "  Percentage": 0.002735
+ },
+ {
+  "District": "Bengaluru (Rural)",
+  "Description": "Slightly alkaline (pH 7.3 – 7.8)       ",
+  " Area in ha": 37.47235,
+  "  Percentage": 0.000195
+ },
+ {
+  "District": "Bengaluru (Rural)",
+  "Description": "Moderately alkaline (pH 7.8 – 8.4)                         ",
+  " Area in ha": 1.900824,
+  "  Percentage": 9.90006
+ },
+ {
+  "District": "Bengaluru (Urban)",
+  "Description": "Moderately acid (pH 5.5 – 6.0)",
+  " Area in ha": 4.295361,
+  "  Percentage": 2.240005
+ },
+ {
+  "District": "Bengaluru (Urban)",
+  "Description": "Slightly acid (pH 6.0 – 6.5)                                      ",
+  " Area in ha": 5.862456,
+  "  Percentage": 3.050005
+ },
+ {
+  "District": "Bidar",
+  "Description": "Extremely acid (pH 3.5 – 4.5) ",
+  " Area in ha": 20.23128,
+  "  Percentage": 0.000105
+ },
+ {
+  "District": "Bidar",
+  "Description": "Very strongly acid (pH 4.5 – 5.0) ",
+  " Area in ha": 126.9033,
+  "  Percentage": 0.000661
+ },
+ {
+  "District": "Bidar",
+  "Description": "Strongly acid (pH 5.0 – 5.5)",
+  " Area in ha": 1031.996,
+  "  Percentage": 0.005377
+ },
+ {
+  "District": "Bidar",
+  "Description": "Moderately acid (pH 5.5 – 6.0)",
+  " Area in ha": 3903.506,
+  "  Percentage": 0.020337
+ },
+ {
+  "District": "Bidar",
+  "Description": "Slightly acid (pH 6.0 – 6.5)                                      ",
+  " Area in ha": 7893.56,
+  "  Percentage": 0.041124
+ },
+ {
+  "District": "Bidar",
+  "Description": "Neutral   (pH 6.5 – 7.3)              ",
+  " Area in ha": 60735.92,
+  "  Percentage": 0.316426
+ },
+ {
+  "District": "Bidar",
+  "Description": "Slightly alkaline (pH 7.3 – 7.8)       ",
+  " Area in ha": 47403.87,
+  "  Percentage": 0.246968
+ },
+ {
+  "District": "Bidar",
+  "Description": "Moderately alkaline (pH 7.8 – 8.4)                         ",
+  " Area in ha": 40813.35,
+  "  Percentage": 0.212632
+ },
+ {
+  "District": "Bidar",
+  "Description": "Strongly alkaline (pH 8.4 – 9.0)",
+  " Area in ha": 2298.438,
+  "  Percentage": 0.011975
+ },
+ {
+  "District": "Bidar",
+  "Description": "Very strongly alkaline (pH > 9.0)",
+  " Area in ha": 3.275597,
+  "  Percentage": 1.710005
+ },
+ {
+  "District": "Chamarajanagara",
+  "Description": "Extremely acid (pH 3.5 – 4.5) ",
+  " Area in ha": 1.492052,
+  "  Percentage": 7.770006
+ },
+ {
+  "District": "Chamarajanagara",
+  "Description": "Very strongly acid (pH 4.5 – 5.0) ",
+  " Area in ha": 90.24586,
+  "  Percentage": 0.00047
+ },
+ {
+  "District": "Chamarajanagara",
+  "Description": "Strongly acid (pH 5.0 – 5.5)",
+  " Area in ha": 798.0725,
+  "  Percentage": 0.004158
+ },
+ {
+  "District": "Chamarajanagara",
+  "Description": "Moderately acid (pH 5.5 – 6.0)",
+  " Area in ha": 2302.242,
+  "  Percentage": 0.011994
+ },
+ {
+  "District": "Chamarajanagara",
+  "Description": "Slightly acid (pH 6.0 – 6.5)                                      ",
+  " Area in ha": 5076.182,
+  "  Percentage": 0.026446
+ },
+ {
+  "District": "Chamarajanagara",
+  "Description": "Neutral   (pH 6.5 – 7.3)              ",
+  " Area in ha": 19722.47,
+  "  Percentage": 0.102751
+ },
+ {
+  "District": "Chamarajanagara",
+  "Description": "Slightly alkaline (pH 7.3 – 7.8)       ",
+  " Area in ha": 20389.67,
+  "  Percentage": 0.106227
+ },
+ {
+  "District": "Chamarajanagara",
+  "Description": "Moderately alkaline (pH 7.8 – 8.4)                         ",
+  " Area in ha": 22802.18,
+  "  Percentage": 0.118796
+ },
+ {
+  "District": "Chamarajanagara",
+  "Description": "Strongly alkaline (pH 8.4 – 9.0)",
+  " Area in ha": 4437,
+  "  Percentage": 0.023116
+ },
+ {
+  "District": "Chamarajanagara",
+  "Description": "Very strongly alkaline (pH > 9.0)",
+  " Area in ha": 146.3049,
+  "  Percentage": 0.000762
+ },
+ {
+  "District": "Chikkaballapura",
+  "Description": "Very strongly acid (pH 4.5 – 5.0) ",
+  " Area in ha": 519.8483,
+  "  Percentage": 0.002708
+ },
+ {
+  "District": "Chikkaballapura",
+  "Description": "Strongly acid (pH 5.0 – 5.5)",
+  " Area in ha": 1020.731,
+  "  Percentage": 0.005318
+ },
+ {
+  "District": "Chikkaballapura",
+  "Description": "Moderately acid (pH 5.5 – 6.0)",
+  " Area in ha": 1751.663,
+  "  Percentage": 0.009126
+ },
+ {
+  "District": "Chikkaballapura",
+  "Description": "Slightly acid (pH 6.0 – 6.5)                                      ",
+  " Area in ha": 2520.537,
+  "  Percentage": 0.013132
+ },
+ {
+  "District": "Chikkaballapura",
+  "Description": "Neutral   (pH 6.5 – 7.3)              ",
+  " Area in ha": 5639.217,
+  "  Percentage": 0.02938
+ },
+ {
+  "District": "Chikkaballapura",
+  "Description": "Slightly alkaline (pH 7.3 – 7.8)       ",
+  " Area in ha": 2867.72,
+  "  Percentage": 0.01494
+ },
+ {
+  "District": "Chikkaballapura",
+  "Description": "Moderately alkaline (pH 7.8 – 8.4)                         ",
+  " Area in ha": 2933.832,
+  "  Percentage": 0.015285
+ },
+ {
+  "District": "Chikkaballapura",
+  "Description": "Strongly alkaline (pH 8.4 – 9.0)",
+  " Area in ha": 2017.38,
+  "  Percentage": 0.01051
+ },
+ {
+  "District": "Chikkaballapura",
+  "Description": "Very strongly alkaline (pH > 9.0)",
+  " Area in ha": 152.0932,
+  "  Percentage": 0.000792
+ },
+ {
+  "District": "Chikkamagaluru",
+  "Description": "Extremely acid (pH 3.5 – 4.5) ",
+  " Area in ha": 64.15905,
+  "  Percentage": 0.000334
+ },
+ {
+  "District": "Chikkamagaluru",
+  "Description": "Very strongly acid (pH 4.5 – 5.0) ",
+  " Area in ha": 561.5387,
+  "  Percentage": 0.002926
+ },
+ {
+  "District": "Chikkamagaluru",
+  "Description": "Strongly acid (pH 5.0 – 5.5)",
+  " Area in ha": 3283.52,
+  "  Percentage": 0.017107
+ },
+ {
+  "District": "Chikkamagaluru",
+  "Description": "Moderately acid (pH 5.5 – 6.0)",
+  " Area in ha": 8294.615,
+  "  Percentage": 0.043214
+ },
+ {
+  "District": "Chikkamagaluru",
+  "Description": "Slightly acid (pH 6.0 – 6.5)                                      ",
+  " Area in ha": 8706.808,
+  "  Percentage": 0.045361
+ },
+ {
+  "District": "Chikkamagaluru",
+  "Description": "Neutral   (pH 6.5 – 7.3)              ",
+  " Area in ha": 17959.25,
+  "  Percentage": 0.093565
+ },
+ {
+  "District": "Chikkamagaluru",
+  "Description": "Slightly alkaline (pH 7.3 – 7.8)       ",
+  " Area in ha": 14951.55,
+  "  Percentage": 0.077895
+ },
+ {
+  "District": "Chikkamagaluru",
+  "Description": "Moderately alkaline (pH 7.8 – 8.4)                         ",
+  " Area in ha": 14256.02,
+  "  Percentage": 0.074272
+ },
+ {
+  "District": "Chikkamagaluru",
+  "Description": "Strongly alkaline (pH 8.4 – 9.0)",
+  " Area in ha": 5866.27,
+  "  Percentage": 0.030562
+ },
+ {
+  "District": "Chikkamagaluru",
+  "Description": "Very strongly alkaline (pH > 9.0)",
+  " Area in ha": 101.4958,
+  "  Percentage": 0.000529
+ },
+ {
+  "District": "Chitradurga",
+  "Description": "Strongly acid (pH 5.0 – 5.5)",
+  " Area in ha": 571.8686,
+  "  Percentage": 0.002979
+ },
+ {
+  "District": "Chitradurga",
+  "Description": "Moderately acid (pH 5.5 – 6.0)",
+  " Area in ha": 1266.092,
+  "  Percentage": 0.006596
+ },
+ {
+  "District": "Chitradurga",
+  "Description": "Slightly acid (pH 6.0 – 6.5)                                      ",
+  " Area in ha": 1782.615,
+  "  Percentage": 0.009287
+ },
+ {
+  "District": "Chitradurga",
+  "Description": "Neutral   (pH 6.5 – 7.3)              ",
+  " Area in ha": 3733.326,
+  "  Percentage": 0.01945
+ },
+ {
+  "District": "Chitradurga",
+  "Description": "Slightly alkaline (pH 7.3 – 7.8)       ",
+  " Area in ha": 3130.919,
+  "  Percentage": 0.016312
+ },
+ {
+  "District": "Chitradurga",
+  "Description": "Moderately alkaline (pH 7.8 – 8.4)                         ",
+  " Area in ha": 5785.469,
+  "  Percentage": 0.030141
+ },
+ {
+  "District": "Chitradurga",
+  "Description": "Strongly alkaline (pH 8.4 – 9.0)",
+  " Area in ha": 2033.98,
+  "  Percentage": 0.010597
+ },
+ {
+  "District": "Chitradurga",
+  "Description": "Very strongly alkaline (pH > 9.0)",
+  " Area in ha": 14.23099,
+  "  Percentage": 7.410005
+ },
+ {
+  "District": "Dakshina Kannada",
+  "Description": "Very strongly acid (pH 4.5 – 5.0) ",
+  " Area in ha": 84.52567,
+  "  Percentage": 0.00044
+ },
+ {
+  "District": "Dakshina Kannada",
+  "Description": "Strongly acid (pH 5.0 – 5.5)",
+  " Area in ha": 1402.473,
+  "  Percentage": 0.007307
+ },
+ {
+  "District": "Dakshina Kannada",
+  "Description": "Moderately acid (pH 5.5 – 6.0)",
+  " Area in ha": 3569.85,
+  "  Percentage": 0.018598
+ },
+ {
+  "District": "Dakshina Kannada",
+  "Description": "Slightly acid (pH 6.0 – 6.5)                                      ",
+  " Area in ha": 907.8377,
+  "  Percentage": 0.00473
+ },
+ {
+  "District": "Dakshina Kannada",
+  "Description": "Neutral   (pH 6.5 – 7.3)              ",
+  " Area in ha": 220.1696,
+  "  Percentage": 0.001147
+ },
+ {
+  "District": "Dakshina Kannada",
+  "Description": "Slightly alkaline (pH 7.3 – 7.8)       ",
+  " Area in ha": 171.21,
+  "  Percentage": 0.000892
+ },
+ {
+  "District": "Davanagere",
+  "Description": "Extremely acid (pH 3.5 – 4.5) ",
+  " Area in ha": 4.493678,
+  "  Percentage": 2.340005
+ },
+ {
+  "District": "Davanagere",
+  "Description": "Very strongly acid (pH 4.5 – 5.0) ",
+  " Area in ha": 417.4854,
+  "  Percentage": 0.002175
+ },
+ {
+  "District": "Davanagere",
+  "Description": "Strongly acid (pH 5.0 – 5.5)",
+  " Area in ha": 7500.425,
+  "  Percentage": 0.039076
+ },
+ {
+  "District": "Davanagere",
+  "Description": "Moderately acid (pH 5.5 – 6.0)",
+  " Area in ha": 7053.197,
+  "  Percentage": 0.036746
+ },
+ {
+  "District": "Davanagere",
+  "Description": "Slightly acid (pH 6.0 – 6.5)                                      ",
+  " Area in ha": 10466.66,
+  "  Percentage": 0.05453
+ },
+ {
+  "District": "Davanagere",
+  "Description": "Neutral   (pH 6.5 – 7.3)              ",
+  " Area in ha": 17387.33,
+  "  Percentage": 0.090586
+ },
+ {
+  "District": "Davanagere",
+  "Description": "Slightly alkaline (pH 7.3 – 7.8)       ",
+  " Area in ha": 9414.958,
+  "  Percentage": 0.049051
+ },
+ {
+  "District": "Davanagere",
+  "Description": "Moderately alkaline (pH 7.8 – 8.4)                         ",
+  " Area in ha": 7166.26,
+  "  Percentage": 0.037335
+ },
+ {
+  "District": "Davanagere",
+  "Description": "Strongly alkaline (pH 8.4 – 9.0)",
+  " Area in ha": 1932.135,
+  "  Percentage": 0.010066
+ },
+ {
+  "District": "Davanagere",
+  "Description": "Very strongly alkaline (pH > 9.0)",
+  " Area in ha": 6.405231,
+  "  Percentage": 3.340005
+ },
+ {
+  "District": "Dharwad",
+  "Description": "Strongly acid (pH 5.0 – 5.5)",
+  " Area in ha": 98.48284,
+  "  Percentage": 0.000513
+ },
+ {
+  "District": "Dharwad",
+  "Description": "Moderately acid (pH 5.5 – 6.0)",
+  " Area in ha": 372.2858,
+  "  Percentage": 0.00194
+ },
+ {
+  "District": "Dharwad",
+  "Description": "Slightly acid (pH 6.0 – 6.5)                                      ",
+  " Area in ha": 1761.96,
+  "  Percentage": 0.00918
+ },
+ {
+  "District": "Dharwad",
+  "Description": "Neutral   (pH 6.5 – 7.3)              ",
+  " Area in ha": 4822.32,
+  "  Percentage": 0.025124
+ },
+ {
+  "District": "Dharwad",
+  "Description": "Slightly alkaline (pH 7.3 – 7.8)       ",
+  " Area in ha": 2785.12,
+  "  Percentage": 0.01451
+ },
+ {
+  "District": "Dharwad",
+  "Description": "Moderately alkaline (pH 7.8 – 8.4)                         ",
+  " Area in ha": 8169.983,
+  "  Percentage": 0.042564
+ },
+ {
+  "District": "Dharwad",
+  "Description": "Strongly alkaline (pH 8.4 – 9.0)",
+  " Area in ha": 503.2249,
+  "  Percentage": 0.002622
+ },
+ {
+  "District": "Gadag",
+  "Description": "Strongly acid (pH 5.0 – 5.5)",
+  " Area in ha": 104.726,
+  "  Percentage": 0.000546
+ },
+ {
+  "District": "Gadag",
+  "Description": "Moderately acid (pH 5.5 – 6.0)",
+  " Area in ha": 105.2578,
+  "  Percentage": 0.000548
+ },
+ {
+  "District": "Gadag",
+  "Description": "Slightly acid (pH 6.0 – 6.5)                                      ",
+  " Area in ha": 503.5996,
+  "  Percentage": 0.002624
+ },
+ {
+  "District": "Gadag",
+  "Description": "Neutral   (pH 6.5 – 7.3)              ",
+  " Area in ha": 3678.753,
+  "  Percentage": 0.019166
+ },
+ {
+  "District": "Gadag",
+  "Description": "Slightly alkaline (pH 7.3 – 7.8)       ",
+  " Area in ha": 9374.973,
+  "  Percentage": 0.048842
+ },
+ {
+  "District": "Gadag",
+  "Description": "Moderately alkaline (pH 7.8 – 8.4)                         ",
+  " Area in ha": 53847.32,
+  "  Percentage": 0.280537
+ },
+ {
+  "District": "Gadag",
+  "Description": "Strongly alkaline (pH 8.4 – 9.0)",
+  " Area in ha": 76341.71,
+  "  Percentage": 0.39773
+ },
+ {
+  "District": "Gadag",
+  "Description": "Very strongly alkaline (pH > 9.0)",
+  " Area in ha": 12738.94,
+  "  Percentage": 0.066368
+ },
+ {
+  "District": "Hassan",
+  "Description": "Extremely acid (pH 3.5 – 4.5) ",
+  " Area in ha": 36.09762,
+  "  Percentage": 0.000188
+ },
+ {
+  "District": "Hassan",
+  "Description": "Very strongly acid (pH 4.5 – 5.0) ",
+  " Area in ha": 369.8611,
+  "  Percentage": 0.001927
+ },
+ {
+  "District": "Hassan",
+  "Description": "Strongly acid (pH 5.0 – 5.5)",
+  " Area in ha": 987.1017,
+  "  Percentage": 0.005143
+ },
+ {
+  "District": "Hassan",
+  "Description": "Moderately acid (pH 5.5 – 6.0)",
+  " Area in ha": 3008.536,
+  "  Percentage": 0.015674
+ },
+ {
+  "District": "Hassan",
+  "Description": "Slightly acid (pH 6.0 – 6.5)                                      ",
+  " Area in ha": 3455.022,
+  "  Percentage": 0.018
+ },
+ {
+  "District": "Hassan",
+  "Description": "Neutral   (pH 6.5 – 7.3)              ",
+  " Area in ha": 6508.392,
+  "  Percentage": 0.033908
+ },
+ {
+  "District": "Hassan",
+  "Description": "Slightly alkaline (pH 7.3 – 7.8)       ",
+  " Area in ha": 3827.592,
+  "  Percentage": 0.019941
+ },
+ {
+  "District": "Hassan",
+  "Description": "Moderately alkaline (pH 7.8 – 8.4)                         ",
+  " Area in ha": 770.534,
+  "  Percentage": 0.004014
+ },
+ {
+  "District": "Hassan",
+  "Description": "Strongly alkaline (pH 8.4 – 9.0)",
+  " Area in ha": 196.3738,
+  "  Percentage": 0.001023
+ },
+ {
+  "District": "Haveri",
+  "Description": "Very strongly acid (pH 4.5 – 5.0) ",
+  " Area in ha": 71.89345,
+  "  Percentage": 0.000375
+ },
+ {
+  "District": "Haveri",
+  "Description": "Strongly acid (pH 5.0 – 5.5)",
+  " Area in ha": 1558.932,
+  "  Percentage": 0.008122
+ },
+ {
+  "District": "Haveri",
+  "Description": "Moderately acid (pH 5.5 – 6.0)",
+  " Area in ha": 1451.247,
+  "  Percentage": 0.007561
+ },
+ {
+  "District": "Haveri",
+  "Description": "Slightly acid (pH 6.0 – 6.5)                                      ",
+  " Area in ha": 4487.589,
+  "  Percentage": 0.02338
+ },
+ {
+  "District": "Haveri",
+  "Description": "Neutral   (pH 6.5 – 7.3)              ",
+  " Area in ha": 7909.428,
+  "  Percentage": 0.041207
+ },
+ {
+  "District": "Haveri",
+  "Description": "Slightly alkaline (pH 7.3 – 7.8)       ",
+  " Area in ha": 2741.007,
+  "  Percentage": 0.01428
+ },
+ {
+  "District": "Haveri",
+  "Description": "Moderately alkaline (pH 7.8 – 8.4)                         ",
+  " Area in ha": 5214.422,
+  "  Percentage": 0.027166
+ },
+ {
+  "District": "Haveri",
+  "Description": "Strongly alkaline (pH 8.4 – 9.0)",
+  " Area in ha": 2081.785,
+  "  Percentage": 0.010846
+ },
+ {
+  "District": "Kalburgi",
+  "Description": "Extremely acid (pH 3.5 – 4.5) ",
+  " Area in ha": 33.9695,
+  "  Percentage": 0.000177
+ },
+ {
+  "District": "Kalburgi",
+  "Description": "Very strongly acid (pH 4.5 – 5.0) ",
+  " Area in ha": 9.666977,
+  "  Percentage": 5.040005
+ },
+ {
+  "District": "Kalburgi",
+  "Description": "Strongly acid (pH 5.0 – 5.5)",
+  " Area in ha": 54.25162,
+  "  Percentage": 0.000283
+ },
+ {
+  "District": "Kalburgi",
+  "Description": "Moderately acid (pH 5.5 – 6.0)",
+  " Area in ha": 649.0319,
+  "  Percentage": 0.003381
+ },
+ {
+  "District": "Kalburgi",
+  "Description": "Slightly acid (pH 6.0 – 6.5)                                      ",
+  " Area in ha": 3224.023,
+  "  Percentage": 0.016797
+ },
+ {
+  "District": "Kalburgi",
+  "Description": "Neutral   (pH 6.5 – 7.3)              ",
+  " Area in ha": 24990.27,
+  "  Percentage": 0.130196
+ },
+ {
+  "District": "Kalburgi",
+  "Description": "Slightly alkaline (pH 7.3 – 7.8)       ",
+  " Area in ha": 40152.39,
+  "  Percentage": 0.209188
+ },
+ {
+  "District": "Kalburgi",
+  "Description": "Moderately alkaline (pH 7.8 – 8.4)                         ",
+  " Area in ha": 83939.76,
+  "  Percentage": 0.437315
+ },
+ {
+  "District": "Kalburgi",
+  "Description": "Strongly alkaline (pH 8.4 – 9.0)",
+  " Area in ha": 17273.46,
+  "  Percentage": 0.089992
+ },
+ {
+  "District": "Kalburgi",
+  "Description": "Very strongly alkaline (pH > 9.0)",
+  " Area in ha": 1261.024,
+  "  Percentage": 0.00657
+ },
+ {
+  "District": "Kodagu",
+  "Description": "Extremely acid (pH 3.5 – 4.5) ",
+  " Area in ha": 6.342399,
+  "  Percentage": 3.30005
+ },
+ {
+  "District": "Kodagu",
+  "Description": "Very strongly acid (pH 4.5 – 5.0) ",
+  " Area in ha": 141.3391,
+  "  Percentage": 0.000736
+ },
+ {
+  "District": "Kodagu",
+  "Description": "Strongly acid (pH 5.0 – 5.5)",
+  " Area in ha": 489.4257,
+  "  Percentage": 0.00255
+ },
+ {
+  "District": "Kodagu",
+  "Description": "Moderately acid (pH 5.5 – 6.0)",
+  " Area in ha": 1935.941,
+  "  Percentage": 0.010086
+ },
+ {
+  "District": "Kodagu",
+  "Description": "Slightly acid (pH 6.0 – 6.5)                                      ",
+  " Area in ha": 896.0158,
+  "  Percentage": 0.004668
+ },
+ {
+  "District": "Kodagu",
+  "Description": "Neutral   (pH 6.5 – 7.3)              ",
+  " Area in ha": 34.08501,
+  "  Percentage": 0.000178
+ },
+ {
+  "District": "Kolara",
+  "Description": "Very strongly acid (pH 4.5 – 5.0) ",
+  " Area in ha": 23.71368,
+  "  Percentage": 0.000124
+ },
+ {
+  "District": "Kolara",
+  "Description": "Strongly acid (pH 5.0 – 5.5)",
+  " Area in ha": 1117.702,
+  "  Percentage": 0.005823
+ },
+ {
+  "District": "Kolara",
+  "Description": "Moderately acid (pH 5.5 – 6.0)",
+  " Area in ha": 3733.191,
+  "  Percentage": 0.019449
+ },
+ {
+  "District": "Kolara",
+  "Description": "Slightly acid (pH 6.0 – 6.5)                                      ",
+  " Area in ha": 6334.029,
+  "  Percentage": 0.032999
+ },
+ {
+  "District": "Kolara",
+  "Description": "Neutral   (pH 6.5 – 7.3)              ",
+  " Area in ha": 13866.2,
+  "  Percentage": 0.072241
+ },
+ {
+  "District": "Kolara",
+  "Description": "Slightly alkaline (pH 7.3 – 7.8)       ",
+  " Area in ha": 2979.53,
+  "  Percentage": 0.015523
+ },
+ {
+  "District": "Kolara",
+  "Description": "Moderately alkaline (pH 7.8 – 8.4)                         ",
+  " Area in ha": 450.7531,
+  "  Percentage": 0.002348
+ },
+ {
+  "District": "Kolara",
+  "Description": "Strongly alkaline (pH 8.4 – 9.0)",
+  " Area in ha": 8.546732,
+  "  Percentage": 4.45E-05
+ },
+ {
+  "District": "Kolara",
+  "Description": "Very strongly alkaline (pH > 9.0)",
+  " Area in ha": 1.240875,
+  "  Percentage": 6.46E-06
+ },
+ {
+  "District": "Koppal",
+  "Description": "Extremely acid (pH 3.5 – 4.5) ",
+  " Area in ha": 59.16869,
+  "  Percentage": 0.000308
+ },
+ {
+  "District": "Koppal",
+  "Description": "Very strongly acid (pH 4.5 – 5.0) ",
+  " Area in ha": 172.5265,
+  "  Percentage": 0.000899
+ },
+ {
+  "District": "Koppal",
+  "Description": "Strongly acid (pH 5.0 – 5.5)",
+  " Area in ha": 1167.07,
+  "  Percentage": 0.00608
+ },
+ {
+  "District": "Koppal",
+  "Description": "Moderately acid (pH 5.5 – 6.0)",
+  " Area in ha": 4077.175,
+  "  Percentage": 0.021242
+ },
+ {
+  "District": "Koppal",
+  "Description": "Slightly acid (pH 6.0 – 6.5)                                      ",
+  " Area in ha": 7797.05,
+  "  Percentage": 0.040622
+ },
+ {
+  "District": "Koppal",
+  "Description": "Neutral   (pH 6.5 – 7.3)              ",
+  " Area in ha": 23505.16,
+  "  Percentage": 0.122459
+ },
+ {
+  "District": "Koppal",
+  "Description": "Slightly alkaline (pH 7.3 – 7.8)       ",
+  " Area in ha": 20186.27,
+  "  Percentage": 0.105168
+ },
+ {
+  "District": "Koppal",
+  "Description": "Moderately alkaline (pH 7.8 – 8.4)                         ",
+  " Area in ha": 25940.48,
+  "  Percentage": 0.135146
+ },
+ {
+  "District": "Koppal",
+  "Description": "Strongly alkaline (pH 8.4 – 9.0)",
+  " Area in ha": 31853.03,
+  "  Percentage": 0.16595
+ },
+ {
+  "District": "Koppal",
+  "Description": "Very strongly alkaline (pH > 9.0)",
+  " Area in ha": 16869.69,
+  "  Percentage": 0.087889
+ },
+ {
+  "District": "Mandya",
+  "Description": "Very strongly acid (pH 4.5 – 5.0) ",
+  " Area in ha": 17.60563,
+  "  Percentage": 9.170005
+ },
+ {
+  "District": "Mandya",
+  "Description": "Strongly acid (pH 5.0 – 5.5)",
+  " Area in ha": 70.82715,
+  "  Percentage": 0.000369
+ },
+ {
+  "District": "Mandya",
+  "Description": "Moderately acid (pH 5.5 – 6.0)",
+  " Area in ha": 334.5137,
+  "  Percentage": 0.001743
+ },
+ {
+  "District": "Mandya",
+  "Description": "Slightly acid (pH 6.0 – 6.5)                                      ",
+  " Area in ha": 802.8686,
+  "  Percentage": 0.004183
+ },
+ {
+  "District": "Mandya",
+  "Description": "Neutral   (pH 6.5 – 7.3)              ",
+  " Area in ha": 4662.16,
+  "  Percentage": 0.024289
+ },
+ {
+  "District": "Mandya",
+  "Description": "Slightly alkaline (pH 7.3 – 7.8)       ",
+  " Area in ha": 4348.066,
+  "  Percentage": 0.022653
+ },
+ {
+  "District": "Mandya",
+  "Description": "Moderately alkaline (pH 7.8 – 8.4)                         ",
+  " Area in ha": 2797.769,
+  "  Percentage": 0.014576
+ },
+ {
+  "District": "Mandya",
+  "Description": "Strongly alkaline (pH 8.4 – 9.0)",
+  " Area in ha": 187.54,
+  "  Percentage": 0.000977
+ },
+ {
+  "District": "Mysuru",
+  "Description": "Strongly acid (pH 5.0 – 5.5)",
+  " Area in ha": 6.084995,
+  "  Percentage": 3.170005
+ },
+ {
+  "District": "Mysuru",
+  "Description": "Moderately acid (pH 5.5 – 6.0)",
+  " Area in ha": 304.7899,
+  "  Percentage": 0.001588
+ },
+ {
+  "District": "Mysuru",
+  "Description": "Slightly acid (pH 6.0 – 6.5)                                      ",
+  " Area in ha": 1743.041,
+  "  Percentage": 0.009081
+ },
+ {
+  "District": "Mysuru",
+  "Description": "Neutral   (pH 6.5 – 7.3)              ",
+  " Area in ha": 3909.17,
+  "  Percentage": 0.020366
+ },
+ {
+  "District": "Mysuru",
+  "Description": "Slightly alkaline (pH 7.3 – 7.8)       ",
+  " Area in ha": 3312.697,
+  "  Percentage": 0.017259
+ },
+ {
+  "District": "Mysuru",
+  "Description": "Moderately alkaline (pH 7.8 – 8.4)                         ",
+  " Area in ha": 1817.421,
+  "  Percentage": 0.009469
+ },
+ {
+  "District": "Mysuru",
+  "Description": "Strongly alkaline (pH 8.4 – 9.0)",
+  " Area in ha": 92.11016,
+  "  Percentage": 0.00048
+ },
+ {
+  "District": "Mysuru",
+  "Description": "Very strongly alkaline (pH > 9.0)",
+  " Area in ha": 3.157538,
+  "  Percentage": 1.65E-05
+ },
+ {
+  "District": "Raichur",
+  "Description": "Extremely acid (pH 3.5 – 4.5) ",
+  " Area in ha": 2.748645,
+  "  Percentage": 1.430005
+ },
+ {
+  "District": "Raichur",
+  "Description": "Very strongly acid (pH 4.5 – 5.0) ",
+  " Area in ha": 9.095236,
+  "  Percentage": 4.740005
+ },
+ {
+  "District": "Raichur",
+  "Description": "Strongly acid (pH 5.0 – 5.5)",
+  " Area in ha": 20.55701,
+  "  Percentage": 0.000107
+ },
+ {
+  "District": "Raichur",
+  "Description": "Moderately acid (pH 5.5 – 6.0)",
+  " Area in ha": 113.789,
+  "  Percentage": 0.000593
+ },
+ {
+  "District": "Raichur",
+  "Description": "Slightly acid (pH 6.0 – 6.5)                                      ",
+  " Area in ha": 2382.35,
+  "  Percentage": 0.012412
+ },
+ {
+  "District": "Raichur",
+  "Description": "Neutral   (pH 6.5 – 7.3)              ",
+  " Area in ha": 24859.89,
+  "  Percentage": 0.129517
+ },
+ {
+  "District": "Raichur",
+  "Description": "Slightly alkaline (pH 7.3 – 7.8)       ",
+  " Area in ha": 29337.24,
+  "  Percentage": 0.152843
+ },
+ {
+  "District": "Raichur",
+  "Description": "Moderately alkaline (pH 7.8 – 8.4)                         ",
+  " Area in ha": 58315.37,
+  "  Percentage": 0.303815
+ },
+ {
+  "District": "Raichur",
+  "Description": "Strongly alkaline (pH 8.4 – 9.0)",
+  " Area in ha": 21245.14,
+  "  Percentage": 0.110684
+ },
+ {
+  "District": "Raichur",
+  "Description": "Very strongly alkaline (pH > 9.0)",
+  " Area in ha": 1764.641,
+  "  Percentage": 0.009194
+ },
+ {
+  "District": "Ramanagara",
+  "Description": "Very strongly acid (pH 4.5 – 5.0) ",
+  " Area in ha": 1.711408,
+  "  Percentage": 8.920006
+ },
+ {
+  "District": "Ramanagara",
+  "Description": "Strongly acid (pH 5.0 – 5.5)",
+  " Area in ha": 127.1899,
+  "  Percentage": 0.000663
+ },
+ {
+  "District": "Ramanagara",
+  "Description": "Moderately acid (pH 5.5 – 6.0)",
+  " Area in ha": 537.2068,
+  "  Percentage": 0.002799
+ },
+ {
+  "District": "Ramanagara",
+  "Description": "Slightly acid (pH 6.0 – 6.5)                                      ",
+  " Area in ha": 1433.528,
+  "  Percentage": 0.007468
+ },
+ {
+  "District": "Ramanagara",
+  "Description": "Neutral   (pH 6.5 – 7.3)              ",
+  " Area in ha": 3251.528,
+  "  Percentage": 0.01694
+ },
+ {
+  "District": "Ramanagara",
+  "Description": "Slightly alkaline (pH 7.3 – 7.8)       ",
+  " Area in ha": 1554.178,
+  "  Percentage": 0.008097
+ },
+ {
+  "District": "Ramanagara",
+  "Description": "Moderately alkaline (pH 7.8 – 8.4)                         ",
+  " Area in ha": 811.5143,
+  "  Percentage": 0.004228
+ },
+ {
+  "District": "Ramanagara",
+  "Description": "Strongly alkaline (pH 8.4 – 9.0)",
+  " Area in ha": 7.329394,
+  "  Percentage": 3.820005
+ },
+ {
+  "District": "Shivamogga",
+  "Description": "Extremely acid (pH 3.5 – 4.5) ",
+  " Area in ha": 21.92121,
+  "  Percentage": 0.000114
+ },
+ {
+  "District": "Shivamogga",
+  "Description": "Very strongly acid (pH 4.5 – 5.0) ",
+  " Area in ha": 302.1012,
+  "  Percentage": 0.001574
+ },
+ {
+  "District": "Shivamogga",
+  "Description": "Strongly acid (pH 5.0 – 5.5)",
+  " Area in ha": 3422.057,
+  "  Percentage": 0.017828
+ },
+ {
+  "District": "Shivamogga",
+  "Description": "Moderately acid (pH 5.5 – 6.0)",
+  " Area in ha": 7707.255,
+  "  Percentage": 0.040154
+ },
+ {
+  "District": "Shivamogga",
+  "Description": "Slightly acid (pH 6.0 – 6.5)                                      ",
+  " Area in ha": 5501.554,
+  "  Percentage": 0.028662
+ },
+ {
+  "District": "Shivamogga",
+  "Description": "Neutral   (pH 6.5 – 7.3)              ",
+  " Area in ha": 3486.565,
+  "  Percentage": 0.018165
+ },
+ {
+  "District": "Shivamogga",
+  "Description": "Slightly alkaline (pH 7.3 – 7.8)       ",
+  " Area in ha": 368.756,
+  "  Percentage": 0.001921
+ },
+ {
+  "District": "Tumakuru",
+  "Description": "Extremely acid (pH 3.5 – 4.5) ",
+  " Area in ha": 452.6592,
+  "  Percentage": 0.002358
+ },
+ {
+  "District": "Tumakuru",
+  "Description": "Very strongly acid (pH 4.5 – 5.0) ",
+  " Area in ha": 4270.455,
+  "  Percentage": 0.022248
+ },
+ {
+  "District": "Tumakuru",
+  "Description": "Strongly acid (pH 5.0 – 5.5)",
+  " Area in ha": 19538.37,
+  "  Percentage": 0.101792
+ },
+ {
+  "District": "Tumakuru",
+  "Description": "Moderately acid (pH 5.5 – 6.0)",
+  " Area in ha": 21476.7,
+  "  Percentage": 0.111891
+ },
+ {
+  "District": "Tumakuru",
+  "Description": "Slightly acid (pH 6.0 – 6.5)                                      ",
+  " Area in ha": 24661.72,
+  "  Percentage": 0.128484
+ },
+ {
+  "District": "Tumakuru",
+  "Description": "Neutral   (pH 6.5 – 7.3)              ",
+  " Area in ha": 38156.28,
+  "  Percentage": 0.198789
+ },
+ {
+  "District": "Tumakuru",
+  "Description": "Slightly alkaline (pH 7.3 – 7.8)       ",
+  " Area in ha": 16978.16,
+  "  Percentage": 0.088454
+ },
+ {
+  "District": "Tumakuru",
+  "Description": "Moderately alkaline (pH 7.8 – 8.4)                         ",
+  " Area in ha": 11169.42,
+  "  Percentage": 0.058191
+ },
+ {
+  "District": "Tumakuru",
+  "Description": "Strongly alkaline (pH 8.4 – 9.0)",
+  " Area in ha": 3673.59,
+  "  Percentage": 0.019139
+ },
+ {
+  "District": "Tumakuru",
+  "Description": "Very strongly alkaline (pH > 9.0)",
+  " Area in ha": 152.8257,
+  "  Percentage": 0.000796
+ },
+ {
+  "District": "Udupi",
+  "Description": "Extremely acid (pH 3.5 – 4.5) ",
+  " Area in ha": 27.2284,
+  "  Percentage": 0.000142
+ },
+ {
+  "District": "Udupi",
+  "Description": "Very strongly acid (pH 4.5 – 5.0) ",
+  " Area in ha": 455.6127,
+  "  Percentage": 0.002374
+ },
+ {
+  "District": "Udupi",
+  "Description": "Strongly acid (pH 5.0 – 5.5)",
+  " Area in ha": 4788.67,
+  "  Percentage": 0.024948
+ },
+ {
+  "District": "Udupi",
+  "Description": "Moderately acid (pH 5.5 – 6.0)",
+  " Area in ha": 1793.771,
+  "  Percentage": 0.009345
+ },
+ {
+  "District": "Udupi",
+  "Description": "Slightly acid (pH 6.0 – 6.5)                                      ",
+  " Area in ha": 46.97725,
+  "  Percentage": 0.000245
+ },
+ {
+  "District": "Udupi",
+  "Description": "Neutral   (pH 6.5 – 7.3)              ",
+  " Area in ha": 7.90436,
+  "  Percentage": 4.120005
+ },
+ {
+  "District": "Udupi",
+  "Description": "Slightly alkaline (pH 7.3 – 7.8)       ",
+  " Area in ha": 2.424101,
+  "  Percentage": 1.260005
+ },
+ {
+  "District": "Uttara Kannada",
+  "Description": "Extremely acid (pH 3.5 – 4.5) ",
+  " Area in ha": 0.187482,
+  "  Percentage": 9.770007
+ },
+ {
+  "District": "Uttara Kannada",
+  "Description": "Very strongly acid (pH 4.5 – 5.0) ",
+  " Area in ha": 589.5444,
+  "  Percentage": 0.003071
+ },
+ {
+  "District": "Uttara Kannada",
+  "Description": "Strongly acid (pH 5.0 – 5.5)",
+  " Area in ha": 1393.603,
+  "  Percentage": 0.00726
+ },
+ {
+  "District": "Uttara Kannada",
+  "Description": "Moderately acid (pH 5.5 – 6.0)",
+  " Area in ha": 1353.433,
+  "  Percentage": 0.007051
+ },
+ {
+  "District": "Uttara Kannada",
+  "Description": "Slightly acid (pH 6.0 – 6.5)                                      ",
+  " Area in ha": 52.78835,
+  "  Percentage": 0.000275
+ },
+ {
+  "District": "Uttara Kannada",
+  "Description": "Neutral   (pH 6.5 – 7.3)              ",
+  " Area in ha": 127.0394,
+  "  Percentage": 0.000662
+ },
+ {
+  "District": "Vijayanagara",
+  "Description": "Extremely acid (pH 3.5 – 4.5) ",
+  " Area in ha": 37.72872,
+  "  Percentage": 0.000197
+ },
+ {
+  "District": "Vijayanagara",
+  "Description": "Very strongly acid (pH 4.5 – 5.0) ",
+  " Area in ha": 348.6769,
+  "  Percentage": 0.001817
+ },
+ {
+  "District": "Vijayanagara",
+  "Description": "Strongly acid (pH 5.0 – 5.5)",
+  " Area in ha": 2009.911,
+  "  Percentage": 0.010471
+ },
+ {
+  "District": "Vijayanagara",
+  "Description": "Moderately acid (pH 5.5 – 6.0)",
+  " Area in ha": 2015.34,
+  "  Percentage": 0.0105
+ },
+ {
+  "District": "Vijayanagara",
+  "Description": "Slightly acid (pH 6.0 – 6.5)                                      ",
+  " Area in ha": 3205.658,
+  "  Percentage": 0.016701
+ },
+ {
+  "District": "Vijayanagara",
+  "Description": "Neutral   (pH 6.5 – 7.3)              ",
+  " Area in ha": 11114.19,
+  "  Percentage": 0.057903
+ },
+ {
+  "District": "Vijayanagara",
+  "Description": "Slightly alkaline (pH 7.3 – 7.8)       ",
+  " Area in ha": 9404.156,
+  "  Percentage": 0.048994
+ },
+ {
+  "District": "Vijayanagara",
+  "Description": "Moderately alkaline (pH 7.8 – 8.4)                         ",
+  " Area in ha": 11382.84,
+  "  Percentage": 0.059303
+ },
+ {
+  "District": "Vijayanagara",
+  "Description": "Strongly alkaline (pH 8.4 – 9.0)",
+  " Area in ha": 4943.634,
+  "  Percentage": 0.025756
+ },
+ {
+  "District": "Vijayanagara",
+  "Description": "Very strongly alkaline (pH > 9.0)",
+  " Area in ha": 1612.122,
+  "  Percentage": 0.008399
+ },
+ {
+  "District": "Vijayapura",
+  "Description": "Extremely acid (pH 3.5 – 4.5) ",
+  " Area in ha": 13.13412,
+  "  Percentage": 6.840005
+ },
+ {
+  "District": "Vijayapura",
+  "Description": "Very strongly acid (pH 4.5 – 5.0) ",
+  " Area in ha": 10.02883,
+  "  Percentage": 5.220005
+ },
+ {
+  "District": "Vijayapura",
+  "Description": "Strongly acid (pH 5.0 – 5.5)",
+  " Area in ha": 26.73142,
+  "  Percentage": 0.000139
+ },
+ {
+  "District": "Vijayapura",
+  "Description": "Moderately acid (pH 5.5 – 6.0)",
+  " Area in ha": 16.58501,
+  "  Percentage": 8.640005
+ },
+ {
+  "District": "Vijayapura",
+  "Description": "Slightly acid (pH 6.0 – 6.5)                                      ",
+  " Area in ha": 49.28899,
+  "  Percentage": 0.000257
+ },
+ {
+  "District": "Vijayapura",
+  "Description": "Neutral   (pH 6.5 – 7.3)              ",
+  " Area in ha": 691.1183,
+  "  Percentage": 0.003601
+ },
+ {
+  "District": "Vijayapura",
+  "Description": "Slightly alkaline (pH 7.3 – 7.8)       ",
+  " Area in ha": 3778.242,
+  "  Percentage": 0.019684
+ },
+ {
+  "District": "Vijayapura",
+  "Description": "Moderately alkaline (pH 7.8 – 8.4)                         ",
+  " Area in ha": 100793,
+  "  Percentage": 0.525118
+ },
+ {
+  "District": "Vijayapura",
+  "Description": "Strongly alkaline (pH 8.4 – 9.0)",
+  " Area in ha": 81400.48,
+  "  Percentage": 0.424085
+ },
+ {
+  "District": "Vijayapura",
+  "Description": "Very strongly alkaline (pH > 9.0)",
+  " Area in ha": 1561.701,
+  "  Percentage": 0.008136
+ },
+ {
+  "District": "Yadgir",
+  "Description": "Extremely acid (pH 3.5 – 4.5) ",
+  " Area in ha": 51.10026,
+  "  Percentage": 0.000266
+ },
+ {
+  "District": "Yadgir",
+  "Description": "Very strongly acid (pH 4.5 – 5.0) ",
+  " Area in ha": 98.28433,
+  "  Percentage": 0.000512
+ },
+ {
+  "District": "Yadgir",
+  "Description": "Strongly acid (pH 5.0 – 5.5)",
+  " Area in ha": 482.9835,
+  "  Percentage": 0.002516
+ },
+ {
+  "District": "Yadgir",
+  "Description": "Moderately acid (pH 5.5 – 6.0)",
+  " Area in ha": 834.2367,
+  "  Percentage": 0.004346
+ },
+ {
+  "District": "Yadgir",
+  "Description": "Slightly acid (pH 6.0 – 6.5)                                      ",
+  " Area in ha": 5558.783,
+  "  Percentage": 0.02896
+ },
+ {
+  "District": "Yadgir",
+  "Description": "Neutral   (pH 6.5 – 7.3)              ",
+  " Area in ha": 38092.58,
+  "  Percentage": 0.198457
+ },
+ {
+  "District": "Yadgir",
+  "Description": "Slightly alkaline (pH 7.3 – 7.8)       ",
+  " Area in ha": 35831.78,
+  "  Percentage": 0.186679
+ },
+ {
+  "District": "Yadgir",
+  "Description": "Moderately alkaline (pH 7.8 – 8.4)                         ",
+  " Area in ha": 44206.49,
+  "  Percentage": 0.23031
+ },
+ {
+  "District": "Yadgir",
+  "Description": "Strongly alkaline (pH 8.4 – 9.0)",
+  " Area in ha": 12920.13,
+  "  Percentage": 0.067312
+ },
+ {
+  "District": "Yadgir",
+  "Description": "Very strongly alkaline (pH > 9.0)",
+  " Area in ha": 1715.761,
+  "  Percentage": 0.008939
+ }
+],
+"Sulphur":[
+ {
+  "District": "Bagalkot",
+  "Description": "Low (<10 ppm)",
+  " Area in ha": 3329.673,
+  "  Percentage": 0.017348
+ },
+ {
+  "District": "Bagalkot",
+  "Description": "Medium (10 – 20 ppm)",
+  " Area in ha": 10563.04,
+  "  Percentage": 0.055034
+ },
+ {
+  "District": "Bagalkot",
+  "Description": "High (> 20 ppm)",
+  " Area in ha": 1157.036,
+  "  Percentage": 0.006028
+ },
+ {
+  "District": "Belagavi",
+  "Description": "Low (<10 ppm)",
+  " Area in ha": 2879.178,
+  "  Percentage": 0.015001
+ },
+ {
+  "District": "Belagavi",
+  "Description": "Medium (10 – 20 ppm)",
+  " Area in ha": 22127.61,
+  "  Percentage": 0.115287
+ },
+ {
+  "District": "Belagavi",
+  "Description": "High (> 20 ppm)",
+  " Area in ha": 12372.79,
+  "  Percentage": 0.064463
+ },
+ {
+  "District": "Bengaluru (Rural)",
+  "Description": "Low (<10 ppm)",
+  " Area in ha": 1154.464,
+  "  Percentage": 0.006015
+ },
+ {
+  "District": "Bengaluru (Rural)",
+  "Description": "Medium (10 – 20 ppm)",
+  " Area in ha": 2979.493,
+  "  Percentage": 0.015523
+ },
+ {
+  "District": "Bengaluru (Rural)",
+  "Description": "High (> 20 ppm)",
+  " Area in ha": 230.0507,
+  "  Percentage": 0.001199
+ },
+ {
+  "District": "Bengaluru (Urban)",
+  "Description": "Medium (10 – 20 ppm)",
+  " Area in ha": 10.15782,
+  "  Percentage": 5.290005
+ },
+ {
+  "District": "Bidar",
+  "Description": "Low (<10 ppm)",
+  " Area in ha": 112526.1,
+  "  Percentage": 0.58627
+ },
+ {
+  "District": "Bidar",
+  "Description": "Medium (10 – 20 ppm)",
+  " Area in ha": 32144.66,
+  "  Percentage": 0.167476
+ },
+ {
+  "District": "Bidar",
+  "Description": "High (> 20 ppm)",
+  " Area in ha": 19027.35,
+  "  Percentage": 0.099134
+ },
+ {
+  "District": "Chamarajanagara",
+  "Description": "Low (<10 ppm)",
+  " Area in ha": 22366.65,
+  "  Percentage": 0.116532
+ },
+ {
+  "District": "Chamarajanagara",
+  "Description": "Medium (10 – 20 ppm)",
+  " Area in ha": 41482.77,
+  "  Percentage": 0.216129
+ },
+ {
+  "District": "Chamarajanagara",
+  "Description": "High (> 20 ppm)",
+  " Area in ha": 11916.57,
+  "  Percentage": 0.062086
+ },
+ {
+  "District": "Chikkaballapura",
+  "Description": "Low (<10 ppm)",
+  " Area in ha": 2841.933,
+  "  Percentage": 0.014807
+ },
+ {
+  "District": "Chikkaballapura",
+  "Description": "Medium (10 – 20 ppm)",
+  " Area in ha": 4733.899,
+  "  Percentage": 0.024664
+ },
+ {
+  "District": "Chikkaballapura",
+  "Description": "High (> 20 ppm)",
+  " Area in ha": 11543.61,
+  "  Percentage": 0.060143
+ },
+ {
+  "District": "Chikkamagaluru",
+  "Description": "Low (<10 ppm)",
+  " Area in ha": 6083.369,
+  "  Percentage": 0.031695
+ },
+ {
+  "District": "Chikkamagaluru",
+  "Description": "Medium (10 – 20 ppm)",
+  " Area in ha": 19774.49,
+  "  Percentage": 0.103027
+ },
+ {
+  "District": "Chikkamagaluru",
+  "Description": "High (> 20 ppm)",
+  " Area in ha": 48941.22,
+  "  Percentage": 0.254988
+ },
+ {
+  "District": "Chitradurga",
+  "Description": "Low (<10 ppm)",
+  " Area in ha": 3314.868,
+  "  Percentage": 0.017271
+ },
+ {
+  "District": "Chitradurga",
+  "Description": "Medium (10 – 20 ppm)",
+  " Area in ha": 12503.26,
+  "  Percentage": 0.065143
+ },
+ {
+  "District": "Chitradurga",
+  "Description": "High (> 20 ppm)",
+  " Area in ha": 2510.85,
+  "  Percentage": 0.013082
+ },
+ {
+  "District": "Dakshina Kannada",
+  "Description": "Low (<10 ppm)",
+  " Area in ha": 877.4,
+  "  Percentage": 0.004571
+ },
+ {
+  "District": "Dakshina Kannada",
+  "Description": "Medium (10 – 20 ppm)",
+  " Area in ha": 2955.066,
+  "  Percentage": 0.015396
+ },
+ {
+  "District": "Dakshina Kannada",
+  "Description": "High (> 20 ppm)",
+  " Area in ha": 2105.601,
+  "  Percentage": 0.01097
+ },
+ {
+  "District": "Davanagere",
+  "Description": "Low (<10 ppm)",
+  " Area in ha": 5614.684,
+  "  Percentage": 0.029253
+ },
+ {
+  "District": "Davanagere",
+  "Description": "Medium (10 – 20 ppm)",
+  " Area in ha": 21403.57,
+  "  Percentage": 0.111514
+ },
+ {
+  "District": "Davanagere",
+  "Description": "High (> 20 ppm)",
+  " Area in ha": 34929.32,
+  "  Percentage": 0.181985
+ },
+ {
+  "District": "Dharwad",
+  "Description": "Low (<10 ppm)",
+  " Area in ha": 91.67113,
+  "  Percentage": 0.000478
+ },
+ {
+  "District": "Dharwad",
+  "Description": "Medium (10 – 20 ppm)",
+  " Area in ha": 7858.734,
+  "  Percentage": 0.040945
+ },
+ {
+  "District": "Dharwad",
+  "Description": "High (> 20 ppm)",
+  " Area in ha": 10562.97,
+  "  Percentage": 0.055034
+ },
+ {
+  "District": "Gadag",
+  "Description": "Low (<10 ppm)",
+  " Area in ha": 22867.29,
+  "  Percentage": 0.119141
+ },
+ {
+  "District": "Gadag",
+  "Description": "Medium (10 – 20 ppm)",
+  " Area in ha": 110833.7,
+  "  Percentage": 0.577453
+ },
+ {
+  "District": "Gadag",
+  "Description": "High (> 20 ppm)",
+  " Area in ha": 23386.2,
+  "  Percentage": 0.121844
+ },
+ {
+  "District": "Hassan",
+  "Description": "Low (<10 ppm)",
+  " Area in ha": 3197.85,
+  "  Percentage": 0.016661
+ },
+ {
+  "District": "Hassan",
+  "Description": "Medium (10 – 20 ppm)",
+  " Area in ha": 15901.68,
+  "  Percentage": 0.082849
+ },
+ {
+  "District": "Hassan",
+  "Description": "High (> 20 ppm)",
+  " Area in ha": 59.98182,
+  "  Percentage": 0.000313
+ },
+ {
+  "District": "Haveri",
+  "Description": "Low (<10 ppm)",
+  " Area in ha": 3401.916,
+  "  Percentage": 0.017724
+ },
+ {
+  "District": "Haveri",
+  "Description": "Medium (10 – 20 ppm)",
+  " Area in ha": 14500.9,
+  "  Percentage": 0.075551
+ },
+ {
+  "District": "Haveri",
+  "Description": "High (> 20 ppm)",
+  " Area in ha": 7610.493,
+  "  Percentage": 0.039651
+ },
+ {
+  "District": "Kalburgi",
+  "Description": "Low (<10 ppm)",
+  " Area in ha": 118811.4,
+  "  Percentage": 0.619018
+ },
+ {
+  "District": "Kalburgi",
+  "Description": "Medium (10 – 20 ppm)",
+  " Area in ha": 39666.44,
+  "  Percentage": 0.206666
+ },
+ {
+  "District": "Kalburgi",
+  "Description": "High (> 20 ppm)",
+  " Area in ha": 13465.94,
+  "  Percentage": 0.070159
+ },
+ {
+  "District": "Kodagu",
+  "Description": "Low (<10 ppm)",
+  " Area in ha": 31.67655,
+  "  Percentage": 0.000165
+ },
+ {
+  "District": "Kodagu",
+  "Description": "Medium (10 – 20 ppm)",
+  " Area in ha": 2310.958,
+  "  Percentage": 0.01204
+ },
+ {
+  "District": "Kodagu",
+  "Description": "High (> 20 ppm)",
+  " Area in ha": 1160.514,
+  "  Percentage": 0.006046
+ },
+ {
+  "District": "Kolara",
+  "Description": "Low (<10 ppm)",
+  " Area in ha": 8921.302,
+  "  Percentage": 0.046481
+ },
+ {
+  "District": "Kolara",
+  "Description": "Medium (10 – 20 ppm)",
+  " Area in ha": 19372.76,
+  "  Percentage": 0.100934
+ },
+ {
+  "District": "Kolara",
+  "Description": "High (> 20 ppm)",
+  " Area in ha": 220.7869,
+  "  Percentage": 0.00115
+ },
+ {
+  "District": "Koppal",
+  "Description": "Low (<10 ppm)",
+  " Area in ha": 63498.71,
+  "  Percentage": 0.330834
+ },
+ {
+  "District": "Koppal",
+  "Description": "Medium (10 – 20 ppm)",
+  " Area in ha": 49216.31,
+  "  Percentage": 0.256421
+ },
+ {
+  "District": "Koppal",
+  "Description": "High (> 20 ppm)",
+  " Area in ha": 30109.42,
+  "  Percentage": 0.156873
+ },
+ {
+  "District": "Mandya",
+  "Description": "Low (<10 ppm)",
+  " Area in ha": 817.6562,
+  "  Percentage": 0.00426
+ },
+ {
+  "District": "Mandya",
+  "Description": "Medium (10 – 20 ppm)",
+  " Area in ha": 11043.56,
+  "  Percentage": 0.057538
+ },
+ {
+  "District": "Mandya",
+  "Description": "High (> 20 ppm)",
+  " Area in ha": 1360.135,
+  "  Percentage": 0.007086
+ },
+ {
+  "District": "Mysuru",
+  "Description": "Low (<10 ppm)",
+  " Area in ha": 1625.664,
+  "  Percentage": 0.00847
+ },
+ {
+  "District": "Mysuru",
+  "Description": "Medium (10 – 20 ppm)",
+  " Area in ha": 8435.081,
+  "  Percentage": 0.043947
+ },
+ {
+  "District": "Mysuru",
+  "Description": "High (> 20 ppm)",
+  " Area in ha": 1127.727,
+  "  Percentage": 0.005876
+ },
+ {
+  "District": "Raichur",
+  "Description": "Low (<10 ppm)",
+  " Area in ha": 120041.3,
+  "  Percentage": 0.625426
+ },
+ {
+  "District": "Raichur",
+  "Description": "Medium (10 – 20 ppm)",
+  " Area in ha": 14863.09,
+  "  Percentage": 0.077438
+ },
+ {
+  "District": "Raichur",
+  "Description": "High (> 20 ppm)",
+  " Area in ha": 3447.059,
+  "  Percentage": 0.017959
+ },
+ {
+  "District": "Ramanagara",
+  "Description": "Low (<10 ppm)",
+  " Area in ha": 1345.24,
+  "  Percentage": 0.007009
+ },
+ {
+  "District": "Ramanagara",
+  "Description": "Medium (10 – 20 ppm)",
+  " Area in ha": 6208.418,
+  "  Percentage": 0.032346
+ },
+ {
+  "District": "Ramanagara",
+  "Description": "High (> 20 ppm)",
+  " Area in ha": 170.5271,
+  "  Percentage": 0.000888
+ },
+ {
+  "District": "Shivamogga",
+  "Description": "Low (<10 ppm)",
+  " Area in ha": 5119.39,
+  "  Percentage": 0.026672
+ },
+ {
+  "District": "Shivamogga",
+  "Description": "Medium (10 – 20 ppm)",
+  " Area in ha": 11421.67,
+  "  Percentage": 0.059508
+ },
+ {
+  "District": "Shivamogga",
+  "Description": "High (> 20 ppm)",
+  " Area in ha": 4247.421,
+  "  Percentage": 0.022129
+ },
+ {
+  "District": "Tumakuru",
+  "Description": "Low (<10 ppm)",
+  " Area in ha": 19034.35,
+  "  Percentage": 0.099171
+ },
+ {
+  "District": "Tumakuru",
+  "Description": "Medium (10 – 20 ppm)",
+  " Area in ha": 91665.08,
+  "  Percentage": 0.477583
+ },
+ {
+  "District": "Tumakuru",
+  "Description": "High (> 20 ppm)",
+  " Area in ha": 29830.75,
+  "  Percentage": 0.155421
+ },
+ {
+  "District": "Udupi",
+  "Description": "Low (<10 ppm)",
+  " Area in ha": 1468.132,
+  "  Percentage": 0.007649
+ },
+ {
+  "District": "Udupi",
+  "Description": "Medium (10 – 20 ppm)",
+  " Area in ha": 4226.639,
+  "  Percentage": 0.022021
+ },
+ {
+  "District": "Udupi",
+  "Description": "High (> 20 ppm)",
+  " Area in ha": 1427.817,
+  "  Percentage": 0.007439
+ },
+ {
+  "District": "Uttara Kannada",
+  "Description": "Low (<10 ppm)",
+  " Area in ha": 230.3739,
+  "  Percentage": 0.0012
+ },
+ {
+  "District": "Uttara Kannada",
+  "Description": "Medium (10 – 20 ppm)",
+  " Area in ha": 1516.887,
+  "  Percentage": 0.007903
+ },
+ {
+  "District": "Uttara Kannada",
+  "Description": "High (> 20 ppm)",
+  " Area in ha": 1770.182,
+  "  Percentage": 0.009223
+ },
+ {
+  "District": "Vijayanagara",
+  "Description": "Low (<10 ppm)",
+  " Area in ha": 21977.63,
+  "  Percentage": 0.114505
+ },
+ {
+  "District": "Vijayanagara",
+  "Description": "Medium (10 – 20 ppm)",
+  " Area in ha": 10180.88,
+  "  Percentage": 0.053043
+ },
+ {
+  "District": "Vijayanagara",
+  "Description": "High (> 20 ppm)",
+  " Area in ha": 13248.95,
+  "  Percentage": 0.069028
+ },
+ {
+  "District": "Vijayapura",
+  "Description": "Low (<10 ppm)",
+  " Area in ha": 22605.34,
+  "  Percentage": 0.117776
+ },
+ {
+  "District": "Vijayapura",
+  "Description": "Medium (10 – 20 ppm)",
+  " Area in ha": 142740.5,
+  "  Percentage": 0.74369
+ },
+ {
+  "District": "Vijayapura",
+  "Description": "High (> 20 ppm)",
+  " Area in ha": 22993.5,
+  "  Percentage": 0.119798
+ },
+ {
+  "District": "Yadgir",
+  "Description": "Low (<10 ppm)",
+  " Area in ha": 73313.78,
+  "  Percentage": 0.381971
+ },
+ {
+  "District": "Yadgir",
+  "Description": "Medium (10 – 20 ppm)",
+  " Area in ha": 48487.44,
+  "  Percentage": 0.252624
+ },
+ {
+  "District": "Yadgir",
+  "Description": "High (> 20 ppm)",
+  " Area in ha": 18142.85,
+  "  Percentage": 0.094526
+ }
+],
+"Zinc":[
+ {
+  "District": "Bagalkot",
+  "Description": "Deficient (< 0.6 ppm)",
+  " Area in ha": 4212.173,
+  "  Percentage": 0.021945
+ },
+ {
+  "District": "Bagalkot",
+  "Description": "Sufficient (> 0.6 ppm) ",
+  " Area in ha": 10837.58,
+  "  Percentage": 0.056464
+ },
+ {
+  "District": "Belagavi",
+  "Description": "Deficient (< 0.6 ppm)",
+  " Area in ha": 19307.02,
+  "  Percentage": 0.10059
+ },
+ {
+  "District": "Belagavi",
+  "Description": "Sufficient (> 0.6 ppm) ",
+  " Area in ha": 17551.98,
+  "  Percentage": 0.091446
+ },
+ {
+  "District": "Bengaluru (Rural)",
+  "Description": "Deficient (< 0.6 ppm)",
+  " Area in ha": 983.1783,
+  "  Percentage": 0.005122
+ },
+ {
+  "District": "Bengaluru (Rural)",
+  "Description": "Sufficient (> 0.6 ppm) ",
+  " Area in ha": 3403.308,
+  "  Percentage": 0.017731
+ },
+ {
+  "District": "Bengaluru (Urban)",
+  "Description": "Sufficient (> 0.6 ppm) ",
+  " Area in ha": 10.15782,
+  "  Percentage": 5.290005
+ },
+ {
+  "District": "Bidar",
+  "Description": "Deficient (< 0.6 ppm)",
+  " Area in ha": 83070.33,
+  "  Percentage": 0.432798
+ },
+ {
+  "District": "Bidar",
+  "Description": "Sufficient (> 0.6 ppm) ",
+  " Area in ha": 81075.96,
+  "  Percentage": 0.422407
+ },
+ {
+  "District": "Chamarajanagara",
+  "Description": "Deficient (< 0.6 ppm)",
+  " Area in ha": 32647.32,
+  "  Percentage": 0.170093
+ },
+ {
+  "District": "Chamarajanagara",
+  "Description": "Sufficient (> 0.6 ppm) ",
+  " Area in ha": 43118.41,
+  "  Percentage": 0.224648
+ },
+ {
+  "District": "Chikkaballapura",
+  "Description": "Deficient (< 0.6 ppm)",
+  " Area in ha": 9544.048,
+  "  Percentage": 0.049725
+ },
+ {
+  "District": "Chikkaballapura",
+  "Description": "Sufficient (> 0.6 ppm) ",
+  " Area in ha": 10075.6,
+  "  Percentage": 0.052494
+ },
+ {
+  "District": "Chikkamagaluru",
+  "Description": "Deficient (< 0.6 ppm)",
+  " Area in ha": 21420.9,
+  "  Percentage": 0.111603
+ },
+ {
+  "District": "Chikkamagaluru",
+  "Description": "Sufficient (> 0.6 ppm) ",
+  " Area in ha": 51937.53,
+  "  Percentage": 0.270595
+ },
+ {
+  "District": "Chitradurga",
+  "Description": "Deficient (< 0.6 ppm)",
+  " Area in ha": 10425.09,
+  "  Percentage": 0.054315
+ },
+ {
+  "District": "Chitradurga",
+  "Description": "Sufficient (> 0.6 ppm) ",
+  " Area in ha": 7903.881,
+  "  Percentage": 0.041179
+ },
+ {
+  "District": "Dakshina Kannada",
+  "Description": "Deficient (< 0.6 ppm)",
+  " Area in ha": 3153.11,
+  "  Percentage": 0.016428
+ },
+ {
+  "District": "Dakshina Kannada",
+  "Description": "Sufficient (> 0.6 ppm) ",
+  " Area in ha": 2784.957,
+  "  Percentage": 0.01451
+ },
+ {
+  "District": "Davanagere",
+  "Description": "Deficient (< 0.6 ppm)",
+  " Area in ha": 22716.05,
+  "  Percentage": 0.118351
+ },
+ {
+  "District": "Davanagere",
+  "Description": "Sufficient (> 0.6 ppm) ",
+  " Area in ha": 38845.2,
+  "  Percentage": 0.202384
+ },
+ {
+  "District": "Dharwad",
+  "Description": "Deficient (< 0.6 ppm)",
+  " Area in ha": 7613.635,
+  "  Percentage": 0.039667
+ },
+ {
+  "District": "Dharwad",
+  "Description": "Sufficient (> 0.6 ppm) ",
+  " Area in ha": 10899.74,
+  "  Percentage": 0.056788
+ },
+ {
+  "District": "Gadag",
+  "Description": "Deficient (< 0.6 ppm)",
+  " Area in ha": 131071.9,
+  "  Percentage": 0.682887
+ },
+ {
+  "District": "Gadag",
+  "Description": "Sufficient (> 0.6 ppm) ",
+  " Area in ha": 26015.33,
+  "  Percentage": 0.13554
+ },
+ {
+  "District": "Hassan",
+  "Description": "Deficient (< 0.6 ppm)",
+  " Area in ha": 4079.072,
+  "  Percentage": 0.021252
+ },
+ {
+  "District": "Hassan",
+  "Description": "Sufficient (> 0.6 ppm) ",
+  " Area in ha": 15080.4,
+  "  Percentage": 0.078569
+ },
+ {
+  "District": "Haveri",
+  "Description": "Deficient (< 0.6 ppm)",
+  " Area in ha": 15065.7,
+  "  Percentage": 0.078493
+ },
+ {
+  "District": "Haveri",
+  "Description": "Sufficient (> 0.6 ppm) ",
+  " Area in ha": 10447.61,
+  "  Percentage": 0.054432
+ },
+ {
+  "District": "Kalburgi",
+  "Description": "Deficient (< 0.6 ppm)",
+  " Area in ha": 147664.1,
+  "  Percentage": 0.769333
+ },
+ {
+  "District": "Kalburgi",
+  "Description": "Sufficient (> 0.6 ppm) ",
+  " Area in ha": 25064.46,
+  "  Percentage": 0.130586
+ },
+ {
+  "District": "Kodagu",
+  "Description": "Deficient (< 0.6 ppm)",
+  " Area in ha": 817.5852,
+  "  Percentage": 0.00426
+ },
+ {
+  "District": "Kodagu",
+  "Description": "Sufficient (> 0.6 ppm) ",
+  " Area in ha": 2699.567,
+  "  Percentage": 0.014065
+ },
+ {
+  "District": "Kolara",
+  "Description": "Deficient (< 0.6 ppm)",
+  " Area in ha": 4878.387,
+  "  Percentage": 0.025416
+ },
+ {
+  "District": "Kolara",
+  "Description": "Sufficient (> 0.6 ppm) ",
+  " Area in ha": 23636.52,
+  "  Percentage": 0.123147
+ },
+ {
+  "District": "Koppal",
+  "Description": "Deficient (< 0.6 ppm)",
+  " Area in ha": 96999.38,
+  "  Percentage": 0.505368
+ },
+ {
+  "District": "Koppal",
+  "Description": "Sufficient (> 0.6 ppm) ",
+  " Area in ha": 45951.43,
+  "  Percentage": 0.239408
+ },
+ {
+  "District": "Mandya",
+  "Description": "Deficient (< 0.6 ppm)",
+  " Area in ha": 2565.111,
+  "  Percentage": 0.013364
+ },
+ {
+  "District": "Mandya",
+  "Description": "Sufficient (> 0.6 ppm) ",
+  " Area in ha": 10656.22,
+  "  Percentage": 0.055519
+ },
+ {
+  "District": "Mysuru",
+  "Description": "Deficient (< 0.6 ppm)",
+  " Area in ha": 5199.8,
+  "  Percentage": 0.027091
+ },
+ {
+  "District": "Mysuru",
+  "Description": "Sufficient (> 0.6 ppm) ",
+  " Area in ha": 6349.961,
+  "  Percentage": 0.033083
+ },
+ {
+  "District": "Raichur",
+  "Description": "Deficient (< 0.6 ppm)",
+  " Area in ha": 97159.06,
+  "  Percentage": 0.5062
+ },
+ {
+  "District": "Raichur",
+  "Description": "Sufficient (> 0.6 ppm) ",
+  " Area in ha": 40139.84,
+  "  Percentage": 0.209129
+ },
+ {
+  "District": "Ramanagara",
+  "Description": "Deficient (< 0.6 ppm)",
+  " Area in ha": 1969.762,
+  "  Percentage": 0.010262
+ },
+ {
+  "District": "Ramanagara",
+  "Description": "Sufficient (> 0.6 ppm) ",
+  " Area in ha": 5754.423,
+  "  Percentage": 0.029981
+ },
+ {
+  "District": "Shivamogga",
+  "Description": "Deficient (< 0.6 ppm)",
+  " Area in ha": 4511.469,
+  "  Percentage": 0.023505
+ },
+ {
+  "District": "Shivamogga",
+  "Description": "Sufficient (> 0.6 ppm) ",
+  " Area in ha": 16298.75,
+  "  Percentage": 0.084917
+ },
+ {
+  "District": "Tumakuru",
+  "Description": "Deficient (< 0.6 ppm)",
+  " Area in ha": 61583.28,
+  "  Percentage": 0.32085
+ },
+ {
+  "District": "Tumakuru",
+  "Description": "Sufficient (> 0.6 ppm) ",
+  " Area in ha": 78934.88,
+  "  Percentage": 0.411252
+ },
+ {
+  "District": "Udupi",
+  "Description": "Deficient (< 0.6 ppm)",
+  " Area in ha": 4082.371,
+  "  Percentage": 0.021269
+ },
+ {
+  "District": "Udupi",
+  "Description": "Sufficient (> 0.6 ppm) ",
+  " Area in ha": 3040.217,
+  "  Percentage": 0.01584
+ },
+ {
+  "District": "Uttara Kannada",
+  "Description": "Deficient (< 0.6 ppm)",
+  " Area in ha": 519.3175,
+  "  Percentage": 0.002706
+ },
+ {
+  "District": "Uttara Kannada",
+  "Description": "Sufficient (> 0.6 ppm) ",
+  " Area in ha": 2998.125,
+  "  Percentage": 0.01562
+ },
+ {
+  "District": "Vijayanagara",
+  "Description": "Deficient (< 0.6 ppm)",
+  " Area in ha": 38105.74,
+  "  Percentage": 0.198532
+ },
+ {
+  "District": "Vijayanagara",
+  "Description": "Sufficient (> 0.6 ppm) ",
+  " Area in ha": 7881.296,
+  "  Percentage": 0.041062
+ },
+ {
+  "District": "Vijayapura",
+  "Description": "Deficient (< 0.6 ppm)",
+  " Area in ha": 99236.64,
+  "  Percentage": 0.517025
+ },
+ {
+  "District": "Vijayapura",
+  "Description": "Sufficient (> 0.6 ppm) ",
+  " Area in ha": 89133.09,
+  "  Percentage": 0.464385
+ },
+ {
+  "District": "Yadgir",
+  "Description": "Deficient (< 0.6 ppm)",
+  " Area in ha": 111933.9,
+  "  Percentage": 0.583178
+ },
+ {
+  "District": "Yadgir",
+  "Description": "Sufficient (> 0.6 ppm) ",
+  " Area in ha": 28010.21,
+  "  Percentage": 0.145934
+ }
+]
+}

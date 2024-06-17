@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Details</title>
+    <title>DPR Abstract</title>
     <!-- Bootstrap CSS -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom CSS -->
@@ -26,155 +26,745 @@
             padding: 10px;
             border-radius: 10px;
         }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
 
-        .image-container {
-          margin-top: 20px;
-          display: flex;
-          flex-wrap: wrap;
+        table {
+          width: 100%;
+          border-collapse: collapse;
       }
-      .image-container img {
-          width: 80%;
-          margin: 5px;
-          border: 1px solid #ddd;
-          padding: 5px;
-          background-color: black;
+      th, td {
+          border: 1px solid #000;
+          padding: 8px;
+          text-align: left;
       }
-      button {
-          padding: 10px 20px;
-          font-size: 16px;
-          cursor: pointer;
+      th {
+          background-color: #f2f2f2;
       }
+      .subtotal, .total {
+          font-weight: bold;
+      }
+      
     </style>
+    <script>
+      function showTable(phase) {
+          // Hide both tables initially
+          document.getElementById('head').style.display = 'none';
+          document.getElementById('dist').style.display = 'none';
+
+
+          // Show the selected phase table
+          if (phase === 1) {
+              document.getElementById('head').style.display = 'table';
+          } else if (phase === 2) {
+              document.getElementById('dist').style.display = 'table';
+    }
+  }
+  </script>
 </head>
 <body>
 
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-custom">
-        <a class="navbar-brand" href="index.html"> REWARD Program </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav mr-auto">
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-custom">
+    <a class="navbar-brand" href="index.html">REWARD Program</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="Galary.html">Galary<span class="sr-only">(current)</a>
+                <a class="nav-link" href="Galary.html">Galary<span class="sr-only">(current)</a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="Dashboard.html">Dashboard</a>
+                <a class="nav-link" href="Dashboard.html">Dashboard</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="Aboutprogram.html">About Program</a>
+                <a class="nav-link" href="Aboutprogram.html">About Program</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="Downloads.html">Downloads</a>
+                <a class="nav-link" href="Downloads.html">Downloads</a>
             </li>
-        </div>
-      </nav>
-      <hr>
-      <button onclick="displayImages(0)">District Office</button>
-      <button onclick="displayImages(1)">Head Office</button>
+        </ul>
+    </div>
+</nav>
 
-      <hr>
-      <div class="image-container" id="imageContainer">
-          <!-- Images will be displayed here -->
-      </div>
-      
-      <script>
-          function displayImages(i) {
-              // List of image URLs
-              if (i == 0) {
-              var imageUrls = [
-                'New/district_office.jpeg',
-                  // Add more image URLs as needed
-              ];
-              }
-              else if (i==1){
-                  var imageUrls = [
-                  'New/Head_office.jpeg',
-                  // Add more image URLs as needed
-              ];
-              }
-              else if (i==5){
-                var imageUrls = [
-                'New/111/9.jpg',
-                'New/111/10.jpg',
-                'New/111/11.jpg',
-                'New/111/12.jpg',
-                // Add more image URLs as needed
-            ];
-            }
-            else if (i==6){
-                var imageUrls = [
-                'New/111/13.jpg',
-                'New/111/18.jpg',
-                'New/111/17.jpg',
-                'New/111/22.jpg',
-                'New/111/23.jpg',
-
-               
-                // Add more image URLs as needed
-            ];
-            }
-              else if (i==2){
-                var imageUrls = [
-                'New/111/21.jpg',
-                'New/S-- Training 2.jpg',
-                'New/S-1 Training.jpg',
-                'New/Trainings.jpg',
-                'New/A1 Training Beglihosahalli.jpg',
-                'New/Gramasabha.jpg',
-                'New/111/14.jpg',
-                'New/111/15.jpg',
-                'New/111/16.jpg',
-                
+<div class="container">
+  <button class="btn btn-primary" onclick="showTable(1)" style="margin: 5px;" >Head Office</button>
+  <button class="btn btn-primary" onclick="showTable(2)" style="margin: 5px;" >District Office</button>
 
 
-                // Add more image URLs as needed
-            ];
-            }
-            else if (i==3){
-                var imageUrls = [
-                'New/111/20.jpg',
-                'New/Awareness 1.jpg',
-                'New/Awareness 2.jpg',
-                'New/Awareness 3.jpg',
-                'New/Awareness 4.jpg',
-                'New/Awareness 5.jpg',
-                'New/Street Play.jpg',
-                'New/Exposure Visit.jpg',
-                'New/Exposure Visit Magadi.jpg',
-                'New/Wall Writting.jpg',
-                'New/PRA 2.jpg',
-                'New/PRA.jpg',
-                'New/Jatha.jpg',
-                'New/111/16.jpg',
-                'New/111/17.jpg',
-                'New/111/20.jpg',
-                // Add more image URLs as needed
-            ];
-            }
-            else if (i==4){
-                var imageUrls = [
-                'New/PPP.jpg',
-                'New/1.jpg',
-                'New/2.jpg',
-                'New/3.jpg',
-                'New/p1.jpg',
-                // Add more image URLs as needed
-            ];
-            }
-      
-              var container = document.getElementById('imageContainer');
-              container.innerHTML = ''; // Clear existing images
-      
-              // Append images to the container
-              imageUrls.forEach(function(url) {
-                  var img = document.createElement('img');
-                  img.src = url;
-                  container.appendChild(img);
-              });
-          }
-      </script>
+
+  <table id="head" style="border-collapse: collapse; width: 560.27pt;" border="0" width="747" cellspacing="0" cellpadding="0">
+    <tbody>
+    <tr style="height: 15.00pt;">
+    <td class="et3" style="height: 30.75pt; width: 47.25pt; border-bottom: 1.0pt solid #DDDDDD;" rowspan="2" width="63" height="41">Sl. No</td>
+    <td class="et3" style="width: 181.50pt;" width="242">Officers Name &amp; Designation</td>
+    <td class="et3" style="width: 100.50pt; border-bottom: 1.0pt solid #DDDDDD;" rowspan="2" width="134">Mobile Number</td>
+    <td class="et3" style="width: 110.25pt; border-bottom: 1.0pt solid #DDDDDD;" rowspan="2" width="147">Office Land line</td>
+    <td class="et3" style="width: 120.75pt; border-bottom: 1.0pt solid #DDDDDD;" rowspan="2" width="161">e-mail address</td>
+    </tr>
+    <tr style="height: 15.75pt;">
+    <td class="et4" style="width: 181.50pt;" width="242">Shrimathi/Shriyuth</td>
+    </tr>
+    <tr style="height: 15.00pt;">
+    <td class="et5" style="height: 30.75pt; width: 47.25pt; border-bottom: 1.0pt solid #DDDDDD;" rowspan="2" width="63" height="41">1</td>
+    <td class="et5" style="width: 181.50pt;" width="242">Girish H C, IFS</td>
+    <td class="et5" style="width: 100.50pt; border-bottom: 1.0pt solid #DDDDDD;" rowspan="2" width="134">&nbsp;</td>
+    <td class="et5" style="width: 110.25pt; border-bottom: 1.0pt solid #DDDDDD;" rowspan="2" width="147">22129601</td>
+    <td class="et6" style="width: 120.75pt; border-bottom: 1.0pt solid #DDDDDD;" rowspan="2" width="161">&nbsp;</td>
+    </tr>
+    <tr style="height: 15.75pt;">
+    <td class="et7" style="width: 181.50pt;" width="242">Commissioner</td>
+    </tr>
+    <tr style="height: 15.00pt;">
+    <td class="et9" style="height: 30.75pt; width: 47.25pt; border-bottom: 1.0pt solid #DDDDDD;" rowspan="2" width="63" height="41">2</td>
+    <td class="et10" style="width: 181.50pt;" width="242">Padmaya Naik A,</td>
+    <td class="et10" style="width: 100.50pt;" width="134">&nbsp;</td>
+    <td class="et10" style="width: 110.25pt;" width="147">&nbsp;</td>
+    <td class="et11" style="width: 120.75pt; border-bottom: 1.0pt solid #DDDDDD;" rowspan="2" width="161">&nbsp;</td>
+    </tr>
+    <tr style="height: 15.75pt;">
+    <td class="et12" style="width: 181.50pt;" width="242">Director</td>
+    <td class="et12" style="width: 100.50pt;" width="134">8277929804</td>
+    <td class="et12" style="width: 110.25pt;" width="147">22100667</td>
+    </tr>
+    <tr style="height: 15.00pt;">
+    <td class="et5" style="height: 30.75pt; width: 47.25pt; border-bottom: 1.0pt solid #DDDDDD;" rowspan="2" width="63" height="41">3</td>
+    <td class="et6" style="width: 181.50pt;" width="242">Dr. Lakshmikanth B P,</td>
+    <td class="et5" style="width: 100.50pt; border-bottom: 1.0pt solid #DDDDDD;" rowspan="2" width="134">8277930318</td>
+    <td class="et5" style="width: 110.25pt; border-bottom: 1.0pt solid #DDDDDD;" rowspan="2" width="147">22129602</td>
+    <td class="et5" style="width: 120.75pt; border-bottom: 1.0pt solid #DDDDDD;" rowspan="2" width="161">&nbsp;</td>
+    </tr>
+    <tr style="height: 15.75pt;">
+    <td class="et8" style="width: 181.50pt;" width="242">JDA (IGA)</td>
+    </tr>
+    <tr style="height: 15.00pt;">
+    <td class="et9" style="height: 30.75pt; width: 47.25pt; border-bottom: 1.0pt solid #DDDDDD;" rowspan="2" width="63" height="41">4</td>
+    <td class="et14" style="width: 181.50pt;" width="242">Renuka D,</td>
+    <td class="et9" style="width: 100.50pt; border-bottom: 1.0pt solid #DDDDDD;" rowspan="2" width="134">8277934173</td>
+    <td class="et9" style="width: 110.25pt; border-bottom: 1.0pt solid #DDDDDD;" rowspan="2" width="147">22100663</td>
+    <td class="et9" style="width: 120.75pt; border-bottom: 1.0pt solid #DDDDDD;" rowspan="2" width="161">&nbsp;</td>
+    </tr>
+    <tr style="height: 15.75pt;">
+    <td class="et13" style="width: 181.50pt;" width="242">JDA (Agronomy)</td>
+    </tr>
+    <tr style="height: 15.00pt;">
+    <td class="et5" style="height: 30.75pt; width: 47.25pt; border-bottom: 1.0pt solid #DDDDDD;" rowspan="2" width="63" height="41">5</td>
+    <td class="et6" style="width: 181.50pt;" width="242">Jayaswamy G S,</td>
+    <td class="et5" style="width: 100.50pt; border-bottom: 1.0pt solid #DDDDDD;" rowspan="2" width="134">8277934097</td>
+    <td class="et5" style="width: 110.25pt; border-bottom: 1.0pt solid #DDDDDD;" rowspan="2" width="147">22100669</td>
+    <td class="et5" style="width: 120.75pt; border-bottom: 1.0pt solid #DDDDDD;" rowspan="2" width="161">&nbsp;</td>
+    </tr>
+    <tr style="height: 15.75pt;">
+    <td class="et8" style="width: 181.50pt;" width="242">JDA (S.C.N)</td>
+    </tr>
+    <tr style="height: 15.00pt;">
+    <td class="et9" style="height: 30.75pt; width: 47.25pt; border-bottom: 1.0pt solid #DDDDDD;" rowspan="2" width="63" height="41">6</td>
+    <td class="et14" style="width: 181.50pt;" width="242">K.R Gurumurthy,</td>
+    <td class="et9" style="width: 100.50pt; border-bottom: 1.0pt solid #DDDDDD;" rowspan="2" width="134">8277934109</td>
+    <td class="et9" style="width: 110.25pt; border-bottom: 1.0pt solid #DDDDDD;" rowspan="2" width="147">22100658</td>
+    <td class="et9" style="width: 120.75pt; border-bottom: 1.0pt solid #DDDDDD;" rowspan="2" width="161">&nbsp;</td>
+    </tr>
+    <tr style="height: 15.75pt;">
+    <td class="et13" style="width: 181.50pt;" width="242">JD (Horticulture)</td>
+    </tr>
+    <tr style="height: 15.00pt;">
+    <td class="et5" style="height: 45.75pt; width: 47.25pt; border-bottom: 1.0pt solid #DDDDDD;" rowspan="2" width="63" height="61">7</td>
+    <td class="et6" style="width: 181.50pt;" width="242">Dr. Umapathi</td>
+    <td class="et5" style="width: 100.50pt; border-bottom: 1.0pt solid #DDDDDD;" rowspan="2" width="134">9901230084</td>
+    <td class="et5" style="width: 110.25pt; border-bottom: 1.0pt solid #DDDDDD;" rowspan="2" width="147">&nbsp;</td>
+    <td class="et5" style="width: 120.75pt; border-bottom: 1.0pt solid #DDDDDD;" rowspan="2" width="161">&nbsp;</td>
+    </tr>
+    <tr style="height: 30.75pt;">
+    <td class="et8" style="width: 181.50pt;" width="242">Joint Director of Animal Husbandry</td>
+    </tr>
+    <tr style="height: 15.00pt;">
+    <td class="et9" style="height: 30.75pt; width: 47.25pt; border-bottom: 1.0pt solid #DDDDDD;" rowspan="2" width="63" height="41">8</td>
+    <td class="et14" style="width: 181.50pt;" width="242">Thimmaiah A G,</td>
+    <td class="et9" style="width: 100.50pt; border-bottom: 1.0pt solid #DDDDDD;" rowspan="2" width="134">8277934174</td>
+    <td class="et9" style="width: 110.25pt; border-bottom: 1.0pt solid #DDDDDD;" rowspan="2" width="147">22100659</td>
+    <td class="et9" style="width: 120.75pt; border-bottom: 1.0pt solid #DDDDDD;" rowspan="2" width="161">&nbsp;</td>
+    </tr>
+    <tr style="height: 15.75pt;">
+    <td class="et13" style="width: 181.50pt;" width="242">Joint Director of Planning</td>
+    </tr>
+    <tr style="height: 15.00pt;">
+    <td class="et5" style="height: 30.75pt; width: 47.25pt; border-bottom: 1.0pt solid #DDDDDD;" rowspan="2" width="63" height="41">9</td>
+    <td class="et6" style="width: 181.50pt;" width="242">Dr. Subhesh S,</td>
+    <td class="et5" style="width: 100.50pt; border-bottom: 1.0pt solid #DDDDDD;" rowspan="2" width="134">&nbsp;</td>
+    <td class="et5" style="width: 110.25pt; border-bottom: 1.0pt solid #DDDDDD;" rowspan="2" width="147">22100668</td>
+    <td class="et5" style="width: 120.75pt; border-bottom: 1.0pt solid #DDDDDD;" rowspan="2" width="161">&nbsp;</td>
+    </tr>
+    <tr style="height: 15.75pt;">
+    <td class="et8" style="width: 181.50pt;" width="242">Chief Accounts Officer</td>
+    </tr>
+    <tr style="height: 15.00pt;">
+    <td class="et9" style="height: 30.75pt; width: 47.25pt; border-bottom: 1.0pt solid #DDDDDD;" rowspan="2" width="63" height="41">10</td>
+    <td class="et14" style="width: 181.50pt;" width="242">B M Sanjana, KAS</td>
+    <td class="et9" style="width: 100.50pt; border-bottom: 1.0pt solid #DDDDDD;" rowspan="2" width="134">9845598765</td>
+    <td class="et9" style="width: 110.25pt; border-bottom: 1.0pt solid #DDDDDD;" rowspan="2" width="147">22100674</td>
+    <td class="et9" style="width: 120.75pt; border-bottom: 1.0pt solid #DDDDDD;" rowspan="2" width="161">&nbsp;</td>
+    </tr>
+    <tr style="height: 15.75pt;">
+    <td class="et13" style="width: 181.50pt;" width="242">Administrative Officer</td>
+    </tr>
+    <tr style="height: 15.00pt;">
+    <td class="et5" style="height: 30.75pt; width: 47.25pt; border-bottom: 1.0pt solid #DDDDDD;" rowspan="2" width="63" height="41">11</td>
+    <td class="et6" style="width: 181.50pt;" width="242">Thimmaiah A G,</td>
+    <td class="et5" style="width: 100.50pt; border-bottom: 1.0pt solid #DDDDDD;" rowspan="2" width="134">8277934166</td>
+    <td class="et5" style="width: 110.25pt; border-bottom: 1.0pt solid #DDDDDD;" rowspan="2" width="147">22105793</td>
+    <td class="et5" style="width: 120.75pt; border-bottom: 1.0pt solid #DDDDDD;" rowspan="2" width="161">&nbsp;</td>
+    </tr>
+    <tr style="height: 15.75pt;">
+    <td class="et8" style="width: 181.50pt;" width="242">Deputy Director (WD Cell)</td>
+    </tr>
+    <tr style="height: 15.00pt;">
+    <td class="et9" style="height: 30.75pt; width: 47.25pt; border-bottom: 1.0pt solid #DDDDDD;" rowspan="2" width="63" height="41">12</td>
+    <td class="et14" style="width: 181.50pt;" width="242">Geetha Halli,</td>
+    <td class="et9" style="width: 100.50pt; border-bottom: 1.0pt solid #DDDDDD;" rowspan="2" width="134">8277930267</td>
+    <td class="et9" style="width: 110.25pt; border-bottom: 1.0pt solid #DDDDDD;" rowspan="2" width="147">22129602</td>
+    <td class="et9" style="width: 120.75pt; border-bottom: 1.0pt solid #DDDDDD;" rowspan="2" width="161">&nbsp;</td>
+    </tr>
+    <tr style="height: 15.75pt;">
+    <td class="et13" style="width: 181.50pt;" width="242">DDA (Sujala)</td>
+    </tr>
+    <tr style="height: 15.00pt;">
+    <td class="et5" style="height: 30.75pt; width: 47.25pt; border-bottom: 1.0pt solid #DDDDDD;" rowspan="2" width="63" height="41">13</td>
+    <td class="et6" style="width: 181.50pt;" width="242">Mahantesh Hanji,</td>
+    <td class="et5" style="width: 100.50pt; border-bottom: 1.0pt solid #DDDDDD;" rowspan="2" width="134">8277934197</td>
+    <td class="et5" style="width: 110.25pt; border-bottom: 1.0pt solid #DDDDDD;" rowspan="2" width="147">22100658</td>
+    <td class="et5" style="width: 120.75pt; border-bottom: 1.0pt solid #DDDDDD;" rowspan="2" width="161">&nbsp;</td>
+    </tr>
+    <tr style="height: 15.75pt;">
+    <td class="et8" style="width: 181.50pt;" width="242">SADH</td>
+    </tr>
+    <tr style="height: 15.00pt;">
+    <td class="et9" style="height: 30.75pt; width: 47.25pt; border-bottom: 1.0pt solid #DDDDDD;" rowspan="2" width="63" height="41">14</td>
+    <td class="et14" style="width: 181.50pt;" width="242">Malathi,</td>
+    <td class="et9" style="width: 100.50pt; border-bottom: 1.0pt solid #DDDDDD;" rowspan="2" width="134">8277934157</td>
+    <td class="et9" style="width: 110.25pt; border-bottom: 1.0pt solid #DDDDDD;" rowspan="2" width="147">22105793</td>
+    <td class="et9" style="width: 120.75pt; border-bottom: 1.0pt solid #DDDDDD;" rowspan="2" width="161">&nbsp;</td>
+    </tr>
+    <tr style="height: 15.75pt;">
+    <td class="et13" style="width: 181.50pt;" width="242">ADA</td>
+    </tr>
+    <tr style="height: 15.00pt;">
+    <td class="et5" style="height: 30.75pt; width: 47.25pt; border-bottom: 1.0pt solid #DDDDDD;" rowspan="2" width="63" height="41">15</td>
+    <td class="et6" style="width: 181.50pt;" width="242">Manjula C,</td>
+    <td class="et5" style="width: 100.50pt; border-bottom: 1.0pt solid #DDDDDD;" rowspan="2" width="134">8277934192</td>
+    <td class="et5" style="width: 110.25pt; border-bottom: 1.0pt solid #DDDDDD;" rowspan="2" width="147">22129671</td>
+    <td class="et5" style="width: 120.75pt; border-bottom: 1.0pt solid #DDDDDD;" rowspan="2" width="161">&nbsp;</td>
+    </tr>
+    <tr style="height: 15.75pt;">
+    <td class="et8" style="width: 181.50pt;" width="242">ADA</td>
+    </tr>
+    <tr style="height: 15.00pt;">
+    <td class="et9" style="height: 30.75pt; width: 47.25pt; border-bottom: 1.0pt solid #DDDDDD;" rowspan="2" width="63" height="41">16</td>
+    <td class="et14" style="width: 181.50pt;" width="242">Savitha Y S,</td>
+    <td class="et9" style="width: 100.50pt; border-bottom: 1.0pt solid #DDDDDD;" rowspan="2" width="134">8277930239</td>
+    <td class="et9" style="width: 110.25pt; border-bottom: 1.0pt solid #DDDDDD;" rowspan="2" width="147">22100669</td>
+    <td class="et9" style="width: 120.75pt; border-bottom: 1.0pt solid #DDDDDD;" rowspan="2" width="161">&nbsp;</td>
+    </tr>
+    <tr style="height: 15.75pt;">
+    <td class="et13" style="width: 181.50pt;" width="242">ADA</td>
+    </tr>
+    <tr style="height: 15.00pt;">
+    <td class="et5" style="height: 30.75pt; width: 47.25pt; border-bottom: 1.0pt solid #DDDDDD;" rowspan="2" width="63" height="41">17</td>
+    <td class="et6" style="width: 181.50pt;" width="242">Rudregowda,</td>
+    <td class="et5" style="width: 100.50pt; border-bottom: 1.0pt solid #DDDDDD;" rowspan="2" width="134">8277829987</td>
+    <td class="et5" style="width: 110.25pt; border-bottom: 1.0pt solid #DDDDDD;" rowspan="2" width="147">22100658</td>
+    <td class="et5" style="width: 120.75pt; border-bottom: 1.0pt solid #DDDDDD;" rowspan="2" width="161">&nbsp;</td>
+    </tr>
+    <tr style="height: 15.75pt;">
+    <td class="et8" style="width: 181.50pt;" width="242">ADH</td>
+    </tr>
+    <tr style="height: 15.00pt;">
+    <td class="et9" style="height: 30.75pt; width: 47.25pt; border-bottom: 1.0pt solid #DDDDDD;" rowspan="2" width="63" height="41">18</td>
+    <td class="et14" style="width: 181.50pt;" width="242">Manjula M,</td>
+    <td class="et9" style="width: 100.50pt; border-bottom: 1.0pt solid #DDDDDD;" rowspan="2" width="134">8277076684</td>
+    <td class="et9" style="width: 110.25pt; border-bottom: 1.0pt solid #DDDDDD;" rowspan="2" width="147">22100659</td>
+    <td class="et9" style="width: 120.75pt; border-bottom: 1.0pt solid #DDDDDD;" rowspan="2" width="161">&nbsp;</td>
+    </tr>
+    <tr style="height: 15.75pt;">
+    <td class="et13" style="width: 181.50pt;" width="242">Assistant Director(Statistics)</td>
+    </tr>
+    <tr style="height: 15.00pt;">
+    <td class="et5" style="height: 30.75pt; width: 47.25pt; border-bottom: 1.0pt solid #DDDDDD;" rowspan="2" width="63" height="41">19</td>
+    <td class="et6" style="width: 181.50pt;" width="242">Naveen L.R,</td>
+    <td class="et5" style="width: 100.50pt; border-bottom: 1.0pt solid #DDDDDD;" rowspan="2" width="134">8277930218</td>
+    <td class="et5" style="width: 110.25pt; border-bottom: 1.0pt solid #DDDDDD;" rowspan="2" width="147">22100673</td>
+    <td class="et5" style="width: 120.75pt; border-bottom: 1.0pt solid #DDDDDD;" rowspan="2" width="161">&nbsp;</td>
+    </tr>
+    <tr style="height: 15.75pt;">
+    <td class="et8" style="width: 181.50pt;" width="242">Agriculture Officer</td>
+    </tr>
+    <tr style="height: 15.00pt;">
+    <td class="et9" style="height: 30.75pt; width: 47.25pt; border-bottom: 1.0pt solid #DDDDDD;" rowspan="2" width="63" height="41">20</td>
+    <td class="et14" style="width: 181.50pt;" width="242">Sukanya C,</td>
+    <td class="et9" style="width: 100.50pt; border-bottom: 1.0pt solid #DDDDDD;" rowspan="2" width="134">8277076572</td>
+    <td class="et9" style="width: 110.25pt; border-bottom: 1.0pt solid #DDDDDD;" rowspan="2" width="147">22100663</td>
+    <td class="et9" style="width: 120.75pt; border-bottom: 1.0pt solid #DDDDDD;" rowspan="2" width="161">&nbsp;</td>
+    </tr>
+    <tr style="height: 15.75pt;">
+    <td class="et13" style="width: 181.50pt;" width="242">Agriculture Officer</td>
+    </tr>
+    <tr style="height: 15.00pt;">
+    <td class="et5" style="height: 30.75pt; width: 47.25pt; border-bottom: 1.0pt solid #DDDDDD;" rowspan="2" width="63" height="41">21</td>
+    <td class="et6" style="width: 181.50pt;" width="242">Roopa,</td>
+    <td class="et5" style="width: 100.50pt; border-bottom: 1.0pt solid #DDDDDD;" rowspan="2" width="134">8277934230</td>
+    <td class="et5" style="width: 110.25pt; border-bottom: 1.0pt solid #DDDDDD;" rowspan="2" width="147">22129602</td>
+    <td class="et5" style="width: 120.75pt; border-bottom: 1.0pt solid #DDDDDD;" rowspan="2" width="161">&nbsp;</td>
+    </tr>
+    <tr style="height: 15.75pt;">
+    <td class="et8" style="width: 181.50pt;" width="242">Agriculture Officer</td>
+    </tr>
+    <tr style="height: 15.00pt;">
+    <td class="et9" style="height: 30.75pt; width: 47.25pt; border-bottom: 1.0pt solid #DDDDDD;" rowspan="2" width="63" height="41">22</td>
+    <td class="et14" style="width: 181.50pt;" width="242">Mamatha P,</td>
+    <td class="et9" style="width: 100.50pt; border-bottom: 1.0pt solid #DDDDDD;" rowspan="2" width="134">8277934158</td>
+    <td class="et9" style="width: 110.25pt; border-bottom: 1.0pt solid #DDDDDD;" rowspan="2" width="147">22100659</td>
+    <td class="et9" style="width: 120.75pt; border-bottom: 1.0pt solid #DDDDDD;" rowspan="2" width="161">&nbsp;</td>
+    </tr>
+    <tr style="height: 15.75pt;">
+    <td class="et13" style="width: 181.50pt;" width="242">Agriculture Officer</td>
+    </tr>
+    <tr style="height: 15.00pt;">
+    <td class="et5" style="height: 30.75pt; width: 47.25pt; border-bottom: 1.0pt solid #DDDDDD;" rowspan="2" width="63" height="41">23</td>
+    <td class="et6" style="width: 181.50pt;" width="242">Deepa Jainpur,</td>
+    <td class="et5" style="width: 100.50pt; border-bottom: 1.0pt solid #DDDDDD;" rowspan="2" width="134">8277934211</td>
+    <td class="et5" style="width: 110.25pt; border-bottom: 1.0pt solid #DDDDDD;" rowspan="2" width="147">22100669</td>
+    <td class="et5" style="width: 120.75pt; border-bottom: 1.0pt solid #DDDDDD;" rowspan="2" width="161">&nbsp;</td>
+    </tr>
+    <tr style="height: 15.75pt;">
+    <td class="et8" style="width: 181.50pt;" width="242">Agriculture Officer</td>
+    </tr>
+    <tr style="height: 15.00pt;">
+    <td class="et9" style="height: 30.75pt; width: 47.25pt; border-bottom: 1.0pt solid #DDDDDD;" rowspan="2" width="63" height="41">24</td>
+    <td class="et14" style="width: 181.50pt;" width="242">Sathish M</td>
+    <td class="et9" style="width: 100.50pt; border-bottom: 1.0pt solid #DDDDDD;" rowspan="2" width="134">8277934219</td>
+    <td class="et9" style="width: 110.25pt; border-bottom: 1.0pt solid #DDDDDD;" rowspan="2" width="147">&nbsp;</td>
+    <td class="et15">&nbsp;</td>
+    </tr>
+    <tr style="height: 15.75pt;">
+    <td class="et13" style="width: 181.50pt;" width="242">Agriculture Officer</td>
+    <td class="et16">&nbsp;</td>
+    </tr>
+    </tbody>
+</table>
+
+<table id="dist" style="border-collapse: collapse; width: 964.52pt;" border="0" width="1286" cellspacing="0" cellpadding="0">
+  <tbody>
+  <tr style="height: 69.75pt;">
+  <td class="et2" style="height: 69.75pt; width: 964.50pt; border-right: 1.0pt solid #B7B5B5;" colspan="8" width="1286" height="93">Contact Details of Distrcit Joint Directors of Agriculture, Deputy Directors of Agriculture and Technical Officers</td>
+  </tr>
+  <tr style="height: 49.50pt;">
+  <td class="et5" style="height: 66.75pt; width: 52.50pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="70" height="89">Sl.No</td>
+  <td class="et5" style="width: 108.00pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="144">Districts</td>
+  <td class="et6" style="width: 260.25pt; border-right: 1.0pt solid #B7B5B5;" colspan="2" width="347">Joint Director of Agriculture</td>
+  <td class="et6" style="width: 259.50pt; border-right: 1.0pt solid #B7B5B5;" colspan="2" width="346">Deputy Director of Agriculture</td>
+  <td class="et6" style="width: 284.25pt; border-right: 1.0pt solid #B7B5B5;" colspan="2" width="379">Technical Officers</td>
+  </tr>
+  <tr style="height: 17.25pt;">
+  <td class="et9" style="width: 152.25pt;" width="203">Names (Sri/Smt)</td>
+  <td class="et9" style="width: 108.00pt;" width="144">Mobile No.</td>
+  <td class="et9" style="width: 151.50pt;" width="202">Names (Sri/Smt)</td>
+  <td class="et9" style="width: 108.00pt;" width="144">Mobile No.</td>
+  <td class="et9" style="width: 176.25pt;" width="235">Names (Sri/Smt)</td>
+  <td class="et9" style="width: 108.00pt;" width="144">Mobile No.</td>
+  </tr>
+  <tr style="height: 15.75pt;">
+  <td class="et10" style="height: 31.50pt; width: 52.50pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="70" height="42">1</td>
+  <td class="et10" style="width: 108.00pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="144">Bagalkote</td>
+  <td class="et10" style="width: 152.25pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="203">Manjunath B Antaravalli</td>
+  <td class="et10" style="width: 108.00pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="144">8277933500</td>
+  <td class="et11" style="width: 151.50pt;" width="202">H D Kolekar</td>
+  <td class="et11" style="width: 108.00pt;" width="144">8277933501</td>
+  <td class="et10" style="width: 176.25pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="235">Smt Shweta Shivanna</td>
+  <td class="et10" style="width: 108.00pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="144">8277927778</td>
+  </tr>
+  <tr style="height: 15.75pt;">
+  <td class="et13" style="width: 151.50pt;" width="202">K S Agasanal</td>
+  <td class="et13" style="width: 108.00pt;" width="144">8277933502</td>
+  </tr>
+  <tr style="height: 15.75pt;">
+  <td class="et11" style="height: 15.75pt; width: 52.50pt;" width="70" height="21">4</td>
+  <td class="et11" style="width: 108.00pt;" width="144">Ballary</td>
+  <td class="et11" style="width: 152.25pt;" width="203">Dr. K. Mallikarjuna</td>
+  <td class="et11" style="width: 108.00pt;" width="144">8277930401</td>
+  <td class="et11" style="width: 151.50pt;" width="202">N. Kengegouda</td>
+  <td class="et11" style="width: 108.00pt;" width="144">8277930402</td>
+  <td class="et11" style="width: 176.25pt;" width="235">Mendi Hanumappa</td>
+  <td class="et11" style="width: 108.00pt;" width="144">8277934298</td>
+  </tr>
+  <tr style="height: 15.75pt;">
+  <td class="et14" style="height: 31.50pt; width: 52.50pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="70" height="42">3</td>
+  <td class="et14" style="width: 108.00pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="144">Belagavi</td>
+  <td class="et14" style="width: 152.25pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="203">Rajashekhar I. Bijapur</td>
+  <td class="et14" style="width: 108.00pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="144">8277934039</td>
+  <td class="et13" style="width: 151.50pt;" width="202">S. B. Kongawad</td>
+  <td class="et13" style="width: 108.00pt;" width="144">8277934044</td>
+  <td class="et14" style="width: 176.25pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="235">Basavaraj</td>
+  <td class="et14" style="width: 108.00pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="144">8277934099</td>
+  </tr>
+  <tr style="height: 15.75pt;">
+  <td class="et11" style="width: 151.50pt;" width="202">L. I. Rudagi</td>
+  <td class="et11" style="width: 108.00pt;" width="144">8277934045</td>
+  </tr>
+  <tr style="height: 15.75pt;">
+  <td class="et13" style="height: 15.75pt; width: 52.50pt;" width="70" height="21">2</td>
+  <td class="et13" style="width: 108.00pt;" width="144">Bengaluru Rural</td>
+  <td class="et13" style="width: 152.25pt;" width="203">Lalithareddy S S</td>
+  <td class="et13" style="width: 108.00pt;" width="144">8277929918</td>
+  <td class="et13" style="width: 151.50pt;" width="202">M.C. Vinutha</td>
+  <td class="et13" style="width: 108.00pt;" width="144">8277929919</td>
+  <td class="et13" style="width: 176.25pt;" width="235">Prabhavathi V Hanchinamata</td>
+  <td class="et13" style="width: 108.00pt;" width="144">8277929926</td>
+  </tr>
+  <tr style="height: 30.75pt;">
+  <td class="et10" style="height: 46.50pt; width: 52.50pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="70" height="62">5</td>
+  <td class="et10" style="width: 108.00pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="144">Bidar</td>
+  <td class="et10" style="width: 152.25pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="203">Ratendranath Sugoor</td>
+  <td class="et10" style="width: 108.00pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="144">8277930501</td>
+  <td class="et11" style="width: 151.50pt;" width="202">Suryakantha Biradar (Incharge)</td>
+  <td class="et11" style="width: 108.00pt;" width="144">8277930502</td>
+  <td class="et10" style="width: 176.25pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="235">Makar Harsh</td>
+  <td class="et10" style="width: 108.00pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="144">8277930572</td>
+  </tr>
+  <tr style="height: 15.75pt;">
+  <td class="et13" style="width: 151.50pt;" width="202">Suryakantha Biradar</td>
+  <td class="et13" style="width: 108.00pt;" width="144">8277930503</td>
+  </tr>
+  <tr style="height: 15.75pt;">
+  <td class="et11" style="height: 15.75pt; width: 52.50pt;" width="70" height="21">6</td>
+  <td class="et11" style="width: 108.00pt;" width="144">Chamarajanagara</td>
+  <td class="et11" style="width: 152.25pt;" width="203">Sri. Madhusudhan.K</td>
+  <td class="et11" style="width: 108.00pt;" width="144">8277930760</td>
+  <td class="et11" style="width: 151.50pt;" width="202">Dr. Somashekar .D.S</td>
+  <td class="et11" style="width: 108.00pt;" width="144">8277930761</td>
+  <td class="et11" style="width: 176.25pt;" width="235">Manohar. V</td>
+  <td class="et11" style="width: 108.00pt;" width="144">8277930763</td>
+  </tr>
+  <tr style="height: 15.75pt;">
+  <td class="et14" style="height: 31.50pt; width: 52.50pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="70" height="42">7</td>
+  <td class="et14" style="width: 108.00pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="144">Chikkaballapur</td>
+  <td class="et14" style="width: 152.25pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="203">Javeeda Naseema Khanum</td>
+  <td class="et14" style="width: 108.00pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="144">8277930801</td>
+  <td class="et13" style="width: 151.50pt;" width="202">Chandra kumar. H.L</td>
+  <td class="et13" style="width: 108.00pt;" width="144">8277930802</td>
+  <td class="et14" style="width: 176.25pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="235">Dyavappa.G.K</td>
+  <td class="et14" style="width: 108.00pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="144">8277930812</td>
+  </tr>
+  <tr style="height: 15.75pt;">
+  <td class="et11" style="width: 151.50pt;" width="202">Anuroopa</td>
+  <td class="et11" style="width: 108.00pt;" width="144">8277930803</td>
+  </tr>
+  <tr style="height: 15.75pt;">
+  <td class="et14" style="height: 31.50pt; width: 52.50pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="70" height="42">8</td>
+  <td class="et14" style="width: 108.00pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="144">Chikkamagaluru</td>
+  <td class="et14" style="width: 152.25pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="203">M.Thirumalesha</td>
+  <td class="et14" style="width: 108.00pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="144">8277930890</td>
+  <td class="et13" style="width: 151.50pt;" width="202">Munegowda R</td>
+  <td class="et13" style="width: 108.00pt;" width="144">8277930891</td>
+  <td class="et14" style="width: 176.25pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="235">Vishwas A.J</td>
+  <td class="et14" style="width: 108.00pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="144">8277928571</td>
+  </tr>
+  <tr style="height: 15.75pt;">
+  <td class="et11" style="width: 151.50pt;" width="202">K.R. Lokesh</td>
+  <td class="et11" style="width: 108.00pt;" width="144">8277930892</td>
+  </tr>
+  <tr style="height: 15.75pt;">
+  <td class="et14" style="height: 31.50pt; width: 52.50pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="70" height="42">9</td>
+  <td class="et14" style="width: 108.00pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="144">Chitradurga</td>
+  <td class="et14" style="width: 152.25pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="203">V. Sadhashiva</td>
+  <td class="et14" style="width: 108.00pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="144">8277930950</td>
+  <td class="et13" style="width: 151.50pt;" width="202">A.G. Thimmaiah</td>
+  <td class="et13" style="width: 108.00pt;" width="144">8277930951</td>
+  <td class="et14" style="width: 176.25pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="235">Girish Reddy N.C</td>
+  <td class="et14" style="width: 108.00pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="144">8277930964</td>
+  </tr>
+  <tr style="height: 15.75pt;">
+  <td class="et11" style="width: 151.50pt;" width="202">B.N. Prabhakar</td>
+  <td class="et11" style="width: 108.00pt;" width="144">8277930952</td>
+  </tr>
+  <tr style="height: 15.75pt;">
+  <td class="et14" style="height: 46.50pt; width: 52.50pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="70" height="62">20</td>
+  <td class="et14" style="width: 108.00pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="144">Dakshina Kannada</td>
+  <td class="et14" style="width: 152.25pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="203">Sri. H. Kempegowda</td>
+  <td class="et14" style="width: 108.00pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="144">8277931060</td>
+  <td class="et13" style="width: 151.50pt;" width="202">Smt. Bharathamma .G.U</td>
+  <td class="et13" style="width: 108.00pt;" width="144">8277931061</td>
+  <td class="et14" style="width: 176.25pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="235">&nbsp;</td>
+  <td class="et14" style="width: 108.00pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="144">8277928884</td>
+  </tr>
+  <tr style="height: 30.75pt;">
+  <td class="et11" style="width: 151.50pt;" width="202">Shivashankar .H. Danegodar</td>
+  <td class="et11" style="width: 108.00pt;" width="144">8277931063</td>
+  </tr>
+  <tr style="height: 15.75pt;">
+  <td class="et14" style="height: 31.50pt; width: 52.50pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="70" height="42">10</td>
+  <td class="et14" style="width: 108.00pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="144">Davanagere</td>
+  <td class="et14" style="width: 152.25pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="203">Sreenivasa V. Chintal</td>
+  <td class="et14" style="width: 108.00pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="144">8277931101</td>
+  <td class="et13" style="width: 151.50pt;" width="202">Thippeswamy R</td>
+  <td class="et13" style="width: 108.00pt;" width="144">8277931102</td>
+  <td class="et14" style="width: 176.25pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="235">Sonali Ksheerasagara</td>
+  <td class="et14" style="width: 108.00pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="144">8277931149</td>
+  </tr>
+  <tr style="height: 15.75pt;">
+  <td class="et11" style="width: 151.50pt;" width="202">Siddeshwara L</td>
+  <td class="et11" style="width: 108.00pt;" width="144">8277931103</td>
+  </tr>
+  <tr style="height: 15.75pt;">
+  <td class="et14" style="height: 31.50pt; width: 52.50pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="70" height="42">11</td>
+  <td class="et14" style="width: 108.00pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="144">Dharwad</td>
+  <td class="et14" style="width: 152.25pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="203">Sri S.S. Patil</td>
+  <td class="et16" style="width: 108.00pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="144">8.28E+09</td>
+  <td class="et13" style="width: 151.50pt;" width="202">Smt Jayashri Hiremath</td>
+  <td class="et13" style="width: 108.00pt;" width="144">8277931271</td>
+  <td class="et14" style="width: 176.25pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="235">Smt Poornima Meghannavar</td>
+  <td class="et14" style="width: 108.00pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="144">8277931299</td>
+  </tr>
+  <tr style="height: 15.75pt;">
+  <td class="et11" style="width: 151.50pt;" width="202">Sri Jayaprakash T.C</td>
+  <td class="et11" style="width: 108.00pt;" width="144">8277931272</td>
+  </tr>
+  <tr style="height: 15.75pt;">
+  <td class="et14" style="height: 31.50pt; width: 52.50pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="70" height="42">12</td>
+  <td class="et14" style="width: 108.00pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="144">Gadag</td>
+  <td class="et14" style="width: 152.25pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="203">G.H Taramani</td>
+  <td class="et14" style="width: 108.00pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="144">8277931400</td>
+  <td class="et13" style="width: 151.50pt;" width="202">Kariyallappa D Korachara</td>
+  <td class="et13" style="width: 108.00pt;" width="144">8277931401</td>
+  <td class="et14" style="width: 176.25pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="235">Shivakumar Kaashappanavar</td>
+  <td class="et14" style="width: 108.00pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="144">8277931408</td>
+  </tr>
+  <tr style="height: 15.75pt;">
+  <td class="et11" style="width: 151.50pt;" width="202">Naganagowda Reddy</td>
+  <td class="et11" style="width: 108.00pt;" width="144">8277931402</td>
+  </tr>
+  <tr style="height: 15.75pt;">
+  <td class="et14" style="height: 31.50pt; width: 52.50pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="70" height="42">14</td>
+  <td class="et14" style="width: 108.00pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="144">Hassan</td>
+  <td class="et14" style="width: 152.25pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="203">M N RAJASULOCHANA</td>
+  <td class="et14" style="width: 108.00pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="144">8277931700</td>
+  <td class="et13" style="width: 151.50pt;" width="202">BHANUPRAKASH U H</td>
+  <td class="et13" style="width: 108.00pt;" width="144">8277931701</td>
+  <td class="et14" style="width: 176.25pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="235">THEERTHA PRASAD A R</td>
+  <td class="et14" style="width: 108.00pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="144">8277931703</td>
+  </tr>
+  <tr style="height: 15.75pt;">
+  <td class="et11" style="width: 151.50pt;" width="202">SUSHMA K C</td>
+  <td class="et11" style="width: 108.00pt;" width="144">8277931702</td>
+  </tr>
+  <tr style="height: 15.75pt;">
+  <td class="et14" style="height: 31.50pt; width: 52.50pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="70" height="42">15</td>
+  <td class="et14" style="width: 108.00pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="144">Haveri</td>
+  <td class="et14" style="width: 152.25pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="203">Smt Chetana Patil</td>
+  <td class="et14" style="width: 108.00pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="144">8277931800</td>
+  <td class="et13" style="width: 151.50pt;" width="202">Shri H Huliraj</td>
+  <td class="et13" style="width: 108.00pt;" width="144">8277931801</td>
+  <td class="et14" style="width: 176.25pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="235">Shri S S Narajji</td>
+  <td class="et14" style="width: 108.00pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="144">8277931807</td>
+  </tr>
+  <tr style="height: 15.75pt;">
+  <td class="et11" style="width: 151.50pt;" width="202">Spoorthi</td>
+  <td class="et11" style="width: 108.00pt;" width="144">8277931802</td>
+  </tr>
+  <tr style="height: 15.75pt;">
+  <td class="et14" style="height: 31.50pt; width: 52.50pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="70" height="42">13</td>
+  <td class="et14" style="width: 108.00pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="144">Kalaburagi</td>
+  <td class="et14" style="width: 152.25pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="203">Samad Patel</td>
+  <td class="et14" style="width: 108.00pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="144">8277931500</td>
+  <td class="et13" style="width: 151.50pt;" width="202">Somashakar Biradar</td>
+  <td class="et13" style="width: 108.00pt;" width="144">8277931501</td>
+  <td class="et14" style="width: 176.25pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="235">Vijaykumar</td>
+  <td class="et14" style="width: 108.00pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="144">8277931545</td>
+  </tr>
+  <tr style="height: 15.75pt;">
+  <td class="et11" style="width: 151.50pt;" width="202">Anusuya Hoogar</td>
+  <td class="et11" style="width: 108.00pt;" width="144">8277931502</td>
+  </tr>
+  <tr style="height: 15.75pt;">
+  <td class="et13" style="height: 15.75pt; width: 52.50pt;" width="70" height="21">16</td>
+  <td class="et13" style="width: 108.00pt;" width="144">Kodagu</td>
+  <td class="et13" style="width: 152.25pt;" width="203">Shabhana M Sheikh</td>
+  <td class="et13" style="width: 108.00pt;" width="144">8277931900</td>
+  <td class="et13" style="width: 151.50pt;" width="202">Balaraj Rangarao</td>
+  <td class="et13" style="width: 108.00pt;" width="144">8277931901</td>
+  <td class="et13" style="width: 176.25pt;" width="235">Somanna P.N.</td>
+  <td class="et13" style="width: 108.00pt;" width="144">8277931908</td>
+  </tr>
+  <tr style="height: 15.75pt;">
+  <td class="et10" style="height: 31.50pt; width: 52.50pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="70" height="42">17</td>
+  <td class="et10" style="width: 108.00pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="144">Kolara</td>
+  <td class="et10" style="width: 152.25pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="203">Roopadevi V. D</td>
+  <td class="et10" style="width: 108.00pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="144">8277932004</td>
+  <td class="et11" style="width: 151.50pt;" width="202">Pankaja H</td>
+  <td class="et11" style="width: 108.00pt;" width="144">8277932006</td>
+  <td class="et10" style="width: 176.25pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="235">K.Pramodh Babu</td>
+  <td class="et10" style="width: 108.00pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="144">8277932055</td>
+  </tr>
+  <tr style="height: 15.75pt;">
+  <td class="et13" style="width: 151.50pt;" width="202">Ashok</td>
+  <td class="et13" style="width: 108.00pt;" width="144">8277932001</td>
+  </tr>
+  <tr style="height: 15.75pt;">
+  <td class="et11" style="height: 15.75pt; width: 52.50pt;" width="70" height="21">18</td>
+  <td class="et11" style="width: 108.00pt;" width="144">Koppala</td>
+  <td class="et11" style="width: 152.25pt;" width="203">Rudreshappa T.S</td>
+  <td class="et11" style="width: 108.00pt;" width="144">8277932100</td>
+  <td class="et11" style="width: 151.50pt;" width="202">Sahadev Yaragoppa</td>
+  <td class="et11" style="width: 108.00pt;" width="144">8277932101</td>
+  <td class="et11" style="width: 176.25pt;" width="235">Nalini</td>
+  <td class="et11" style="width: 108.00pt;" width="144">9663847832</td>
+  </tr>
+  <tr style="height: 15.75pt;">
+  <td class="et14" style="height: 31.50pt; width: 52.50pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="70" height="42">19</td>
+  <td class="et14" style="width: 108.00pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="144">Mandya</td>
+  <td class="et14" style="width: 152.25pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="203">Chandrashekar B.S</td>
+  <td class="et14" style="width: 108.00pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="144">8277933600</td>
+  <td class="et13" style="width: 151.50pt;" width="202">Mamatha H.N</td>
+  <td class="et13" style="width: 108.00pt;" width="144">8277933601</td>
+  <td class="et14" style="width: 176.25pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="235">Anil K.S</td>
+  <td class="et14" style="width: 108.00pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="144">8277933607</td>
+  </tr>
+  <tr style="height: 15.75pt;">
+  <td class="et11" style="width: 151.50pt;" width="202">K. Malathi</td>
+  <td class="et11" style="width: 108.00pt;" width="144">8277933602</td>
+  </tr>
+  <tr style="height: 15.75pt;">
+  <td class="et14" style="height: 31.50pt; width: 52.50pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="70" height="42">21</td>
+  <td class="et14" style="width: 108.00pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="144">Mysuru</td>
+  <td class="et14" style="width: 152.25pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="203">B.S.Chandrashekar</td>
+  <td class="et14" style="width: 108.00pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="144">8277933100</td>
+  <td class="et13" style="width: 151.50pt;" width="202">D.Raju</td>
+  <td class="et13" style="width: 108.00pt;" width="144">8277933101</td>
+  <td class="et14" style="width: 176.25pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="235">Nagendra.S</td>
+  <td class="et14" style="width: 108.00pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="144">8277933170</td>
+  </tr>
+  <tr style="height: 15.75pt;">
+  <td class="et11" style="width: 151.50pt;" width="202">B.N. Dhananjaya</td>
+  <td class="et11" style="width: 108.00pt;" width="144">8277933102</td>
+  </tr>
+  <tr style="height: 15.75pt;">
+  <td class="et14" style="height: 31.50pt; width: 52.50pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="70" height="42">23</td>
+  <td class="et14" style="width: 108.00pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="144">Raichuru</td>
+  <td class="et14" style="width: 152.25pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="203">Devika R</td>
+  <td class="et14" style="width: 108.00pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="144">8277932300</td>
+  <td class="et13" style="width: 151.50pt;" width="202">Naheem Hussain</td>
+  <td class="et13" style="width: 108.00pt;" width="144">8277932301</td>
+  <td class="et14" style="width: 176.25pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="235">Rahiman Sab.L</td>
+  <td class="et14" style="width: 108.00pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="144">9113292160</td>
+  </tr>
+  <tr style="height: 15.75pt;">
+  <td class="et11" style="width: 151.50pt;" width="202">Saraswathi N</td>
+  <td class="et11" style="width: 108.00pt;" width="144">8277932302</td>
+  </tr>
+  <tr style="height: 15.75pt;">
+  <td class="et13" style="height: 15.75pt; width: 52.50pt;" width="70" height="21">22</td>
+  <td class="et13" style="width: 108.00pt;" width="144">Ramanagara</td>
+  <td class="et13" style="width: 152.25pt;" width="203">Somasundhra K M</td>
+  <td class="et13" style="width: 108.00pt;" width="144">8277932400</td>
+  <td class="et13" style="width: 151.50pt;" width="202">Umesha D</td>
+  <td class="et13" style="width: 108.00pt;" width="144">8277932401</td>
+  <td class="et13" style="width: 176.25pt;" width="235">Radhakrishna K R</td>
+  <td class="et13" style="width: 108.00pt;" width="144">8277932446</td>
+  </tr>
+  <tr style="height: 15.75pt;">
+  <td class="et10" style="height: 31.50pt; width: 52.50pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="70" height="42">24</td>
+  <td class="et10" style="width: 108.00pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="144">Shivamogga</td>
+  <td class="et10" style="width: 152.25pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="203">Smt Poornima G C</td>
+  <td class="et10" style="width: 108.00pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="144">8277932600</td>
+  <td class="et11" style="width: 151.50pt;" width="202">Sri D.T. Manjunath</td>
+  <td class="et11" style="width: 108.00pt;" width="144">8277932601</td>
+  <td class="et10" style="width: 176.25pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="235">Sri Govinda Naik</td>
+  <td class="et10" style="width: 108.00pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="144">8277932608</td>
+  </tr>
+  <tr style="height: 15.75pt;">
+  <td class="et13" style="width: 151.50pt;" width="202">Sri D M Basavaraj</td>
+  <td class="et13" style="width: 108.00pt;" width="144">8277932602</td>
+  </tr>
+  <tr style="height: 15.75pt;">
+  <td class="et10" style="height: 31.50pt; width: 52.50pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="70" height="42">25</td>
+  <td class="et10" style="width: 108.00pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="144">Tumakuru</td>
+  <td class="et10" style="width: 152.25pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="203">Rajasulochana M.N</td>
+  <td class="et10" style="width: 108.00pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="144">8277932800</td>
+  <td class="et11" style="width: 151.50pt;" width="202">D. Umesh</td>
+  <td class="et11" style="width: 108.00pt;" width="144">8277932801</td>
+  <td class="et10" style="width: 176.25pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="235">C.A. Raheem Shareef</td>
+  <td class="et10" style="width: 108.00pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="144">8277932807</td>
+  </tr>
+  <tr style="height: 15.75pt;">
+  <td class="et13" style="width: 151.50pt;" width="202">T.N. Ashoka</td>
+  <td class="et13" style="width: 108.00pt;" width="144">8277932802</td>
+  </tr>
+  <tr style="height: 15.75pt;">
+  <td class="et11" style="height: 15.75pt; width: 52.50pt;" width="70" height="21">27</td>
+  <td class="et11" style="width: 108.00pt;" width="144">Udupi</td>
+  <td class="et11" style="width: 152.25pt;" width="203">Seetha M.C</td>
+  <td class="et11" style="width: 108.00pt;" width="144">8277932500</td>
+  <td class="et11" style="width: 151.50pt;" width="202">K. Chandrashekar Nayak</td>
+  <td class="et11" style="width: 108.00pt;" width="144">8277932501</td>
+  <td class="et11" style="width: 176.25pt;" width="235">Sathish Shetty</td>
+  <td class="et11" style="width: 108.00pt;" width="144">8277932502</td>
+  </tr>
+  <tr style="height: 15.75pt;">
+  <td class="et13" style="height: 15.75pt; width: 52.50pt;" width="70" height="21">26</td>
+  <td class="et13" style="width: 108.00pt;" width="144">Uttara Kannada</td>
+  <td class="et13" style="width: 152.25pt;" width="203">Honnappa Govinde Gowda</td>
+  <td class="et13" style="width: 108.00pt;" width="144">8277933001</td>
+  <td class="et13" style="width: 151.50pt;" width="202">T.H.Nataraj</td>
+  <td class="et13" style="width: 108.00pt;" width="144">8277933004</td>
+  <td class="et13" style="width: 176.25pt;" width="235">Smt. Tanuja Naik</td>
+  <td class="et13" style="width: 108.00pt;" width="144">8277933005</td>
+  </tr>
+  <tr style="height: 15.75pt;">
+  <td class="et11" style="height: 15.75pt; width: 52.50pt;" width="70" height="21">30</td>
+  <td class="et11" style="width: 108.00pt;" width="144">Vijayanagara</td>
+  <td class="et11" style="width: 152.25pt;" width="203">Sharanappa B Mudagal</td>
+  <td class="et11" style="width: 108.00pt;" width="144">8277929660</td>
+  <td class="et11" style="width: 151.50pt;" width="202">Basavaraddy Manjula</td>
+  <td class="et11" style="width: 108.00pt;" width="144">8277930445</td>
+  <td class="et11" style="width: 176.25pt;" width="235">Manohar Gowda.S</td>
+  <td class="et11" style="width: 108.00pt;" width="144">9900470550</td>
+  </tr>
+  <tr style="height: 15.75pt;">
+  <td class="et14" style="height: 31.50pt; width: 52.50pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="70" height="42">28</td>
+  <td class="et14" style="width: 108.00pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="144">Vijayapura</td>
+  <td class="et14" style="width: 152.25pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="203">Shivakumar Prasar</td>
+  <td class="et14" style="width: 108.00pt; border-bottom: 1.0pt solid #B7B5B5;" rowspan="2" width="144">8277930601</td>
+  <td class="et13" style="width: 151.50pt;" width="202">Prakash Chawan</td>
+  <td class="et13" style="width: 108.00pt;" width="144">8277930602</td>
+  <td class="et13" style="width: 176.25pt;" width="235">Ashok Hanumashetty</td>
+  <td class="et13" style="width: 108.00pt;" width="144">9448928291</td>
+  </tr>
+  <tr style="height: 15.75pt;">
+  <td class="et11" style="width: 151.50pt;" width="202">Raghavendra</td>
+  <td class="et11" style="width: 108.00pt;" width="144">8277930603</td>
+  <td class="et11" style="width: 176.25pt;" width="235">Shivanand Hiremat</td>
+  <td class="et11" style="width: 108.00pt;" width="144">9448336214</td>
+  </tr>
+  <tr style="height: 15.75pt;">
+  <td class="et13" style="height: 15.75pt; width: 52.50pt;" width="70" height="21">29</td>
+  <td class="et13" style="width: 108.00pt;" width="144">Yadgir</td>
+  <td class="et13" style="width: 152.25pt;" width="203">Abid. S. S</td>
+  <td class="et13" style="width: 108.00pt;" width="144">8277933400</td>
+  <td class="et13" style="width: 151.50pt;" width="202">Mutharaju. S</td>
+  <td class="et13" style="width: 108.00pt;" width="144">8277933401</td>
+  <td class="et13" style="width: 176.25pt;" width="235">Kedarnath Hiremath</td>
+  <td class="et13" style="width: 108.00pt;" width="144">8277933412</td>
+  </tr>
+  </tbody>
+  </table>
+
+
+
 <!-- Bootstrap JS and dependencies -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
