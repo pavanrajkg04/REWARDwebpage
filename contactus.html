@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Details</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <style>
+        .navbar-custom {
+            background-color: #343a40;
+        }
+        .navbar-custom .navbar-brand,
+        .navbar-custom .nav-link {
+            color: #fff;
+        }
+        .navbar-custom .nav-link:hover {
+            color: #f8f9fa;
+        }
+        .search-bar {
+            width: 200px;
+        }
+        .carousel-caption {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        .image-container {
+          margin-top: 20px;
+          display: flex;
+          flex-wrap: wrap;
+      }
+      .image-container img {
+          width: 80%;
+          margin: 5px;
+          border: 1px solid #ddd;
+          padding: 5px;
+          background-color: black;
+      }
+      button {
+          padding: 10px 20px;
+          font-size: 16px;
+          cursor: pointer;
+      }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-custom">
+        <a class="navbar-brand" href="index.html"> REWARD Program </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="Galary.html">Galary<span class="sr-only">(current)</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="Dashboard.html">Dashboard</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Aboutprogram.html">About Program</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Downloads.html">Downloads</a>
+            </li>
+        </div>
+      </nav>
+      <hr>
+      <button onclick="displayImages(0)">District Office</button>
+      <button onclick="displayImages(1)">Head Office</button>
+
+      <hr>
+      <div class="image-container" id="imageContainer">
+          <!-- Images will be displayed here -->
+      </div>
+      
+      <script>
+          function displayImages(i) {
+              // List of image URLs
+              if (i == 0) {
+              var imageUrls = [
+                'New/district_office.jpeg',
+                  // Add more image URLs as needed
+              ];
+              }
+              else if (i==1){
+                  var imageUrls = [
+                  'New/Head_office.jpeg',
+                  // Add more image URLs as needed
+              ];
+              }
+              else if (i==5){
+                var imageUrls = [
+                'New/111/9.jpg',
+                'New/111/10.jpg',
+                'New/111/11.jpg',
+                'New/111/12.jpg',
+                // Add more image URLs as needed
+            ];
+            }
+            else if (i==6){
+                var imageUrls = [
+                'New/111/13.jpg',
+                'New/111/18.jpg',
+                'New/111/17.jpg',
+                'New/111/22.jpg',
+                'New/111/23.jpg',
+
+               
+                // Add more image URLs as needed
+            ];
+            }
+              else if (i==2){
+                var imageUrls = [
+                'New/111/21.jpg',
+                'New/S-- Training 2.jpg',
+                'New/S-1 Training.jpg',
+                'New/Trainings.jpg',
+                'New/A1 Training Beglihosahalli.jpg',
+                'New/Gramasabha.jpg',
+                'New/111/14.jpg',
+                'New/111/15.jpg',
+                'New/111/16.jpg',
+                
+
+
+                // Add more image URLs as needed
+            ];
+            }
+            else if (i==3){
+                var imageUrls = [
+                'New/111/20.jpg',
+                'New/Awareness 1.jpg',
+                'New/Awareness 2.jpg',
+                'New/Awareness 3.jpg',
+                'New/Awareness 4.jpg',
+                'New/Awareness 5.jpg',
+                'New/Street Play.jpg',
+                'New/Exposure Visit.jpg',
+                'New/Exposure Visit Magadi.jpg',
+                'New/Wall Writting.jpg',
+                'New/PRA 2.jpg',
+                'New/PRA.jpg',
+                'New/Jatha.jpg',
+                'New/111/16.jpg',
+                'New/111/17.jpg',
+                'New/111/20.jpg',
+                // Add more image URLs as needed
+            ];
+            }
+            else if (i==4){
+                var imageUrls = [
+                'New/PPP.jpg',
+                'New/1.jpg',
+                'New/2.jpg',
+                'New/3.jpg',
+                'New/p1.jpg',
+                // Add more image URLs as needed
+            ];
+            }
+      
+              var container = document.getElementById('imageContainer');
+              container.innerHTML = ''; // Clear existing images
+      
+              // Append images to the container
+              imageUrls.forEach(function(url) {
+                  var img = document.createElement('img');
+                  img.src = url;
+                  container.appendChild(img);
+              });
+          }
+      </script>
+<!-- Bootstrap JS and dependencies -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
