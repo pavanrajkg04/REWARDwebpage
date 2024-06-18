@@ -72,12 +72,14 @@
       </nav>
       <hr>
       <button onclick="displayImages(0)">LRI Activities</button>
+      <button onclick="displayImages(7)">GIS Maps</button>
       <button onclick="displayImages(1)">Hydrological Activities</button>
       <button onclick="displayImages(5)">CoE Activites</button>
       <button onclick="displayImages(2)">Trainings</button>
       <button onclick="displayImages(3)">Awareness</button>
       <button onclick="displayImages(4)">Meetings</button>
       <button onclick="displayImages(6)">others</button>
+      <button onclick="displayImages(7)">GIS Maps</button>
       <hr>
       <div class="image-container" id="imageContainer">
           <!-- Images will be displayed here -->
@@ -177,6 +179,26 @@
                 // Add more image URLs as needed
             ];
             }
+            else if (i==7){
+              var imageUrls = [
+              'New/LRI.png',
+              'New/rameshsir/PROJECT WISE LRI AREA OF KARNATAKA1.jpg',
+              'New/rameshsir/SUJALA-3 & REWARD LRI ARE OF KARNATAKA.jpg',
+              'New/rameshsir/REWARD PROGRAM AREA MAP.jpg',
+              'New/maps/boron.jpg',
+              'New/maps/iron.jpg',
+              'New/maps/nitrogen.jpg',
+              'New/maps/organic carbon.jpg',
+              'New/maps/phosphorus.jpg',
+              'New/maps/pottassium.jpg',
+              'New/maps/soil_depth.jpg',
+              'New/maps/sulpur.jpg',
+              'New/maps/zinc.jpg',
+              'New/maps/soil_erosion.jpg'
+
+              // Add more image URLs as needed
+          ];
+          }
       
               var container = document.getElementById('imageContainer');
               container.innerHTML = ''; // Clear existing images
