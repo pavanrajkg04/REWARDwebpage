@@ -8,98 +8,32 @@
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom CSS -->
     <style>
-        .navbar-custom {
-            background-color: #343a40;
-        }
-        .navbar-custom .navbar-brand,
-        .navbar-custom .nav-link {
-            color: #fff;
-        }
-        .navbar-custom .nav-link:hover {
-            color: #f8f9fa;
-        }
-        .search-bar {
-            width: 200px;
-        }
-        
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            background-color: #f9f9f9;
-            color: #333;
-        }
-        .content-wrapper {
-            display: flex;
-            justify-content: space-around;
-            padding: 20px;
-            background: #fff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        .section {
-            padding: 0px;
-            box-sizing: border-box;
-            background-color: #f0f0f0;
-        }
-        .section-left-left{
-            flex: 0.15;
-            padding: 0px;
-            box-sizing: border-box;
-            background-color: white;
-            
-        }
-        .section-left,
-        .section-right {
-            flex: 0.25;
-            margin: 0;
-            background-color: rgb(255, 255, 255);
-        }
-        .section-middle {
-            flex: 0.35;
-            margin:0px;
-            background-color: white;
-        }
-        .card {
-            border: 1px solid #ccc;
-            padding: 12px;
+	
+	
+	
+	
+
+
+#container {
+  display: grid;
+  grid-template-columns: fit-content(250px) fit-content(300px) fit-content(200px) 1fr;
+  grid-gap: 5px;
+  box-sizing: border-box;
+  height: 260px;
+  width: 100%;
+  background-color: #FFFFFF;
+  padding: 5px;
+}
+
+
+  
+     .image-container {
+            text-align: left;
             margin-bottom: 10px;
-            background-color: #fff;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-            text-align: center;
-            width: 100%; /* Adjust card width to fill section */
-        }
-        .card h6 {
-            margin-bottom: 10px;
-        }
-        .card-1 {
-            border-left: 5px solid #007bff;
-        }
-        .card-2 {
-            border-left: 5px solid #28a745;
-        }
-        .card-3 {
-            border-left: 5px solid #ffc107;
-        }
-        .card-4 {
-            border-left: 5px solid #dc3545;
-        }
-        .card-5 {
-            border-left: 5px solid #17a2b8;
-        }
-        .card-6 {
-            border-left: 5px solid #6c757d;
-        }
-        .card-7 {
-            border-left: 5px solid #fd7e14;
-        }
-        .image-container {
-            text-align: center;
-            margin-bottom: 20px;
-            align-content: center;
+            align-content: left;
         }
         .carousel-item img {
-            max-width: 50%;
+            max-width: 73%;
             height: auto;
             object-fit: contain; /* Ensure the image covers the carousel item */
         }
@@ -344,34 +278,22 @@
             text-decoration: none; /* Remove underline from text */
             margin: 10px;
           }
-            /* Style for the container div */
-  .image-container {
-    display: flex; /* Use flexbox for easy alignment */
-    justify-content:space-around; /* Space items evenly, pushing them to the sides */
-    align-items:baseline; /* Center items vertically */
-  }
+}
 
-  /* Style for each image */
-  .image-container img {
-    height: auto; /* Set height of the images */
-    
-  }
-
-  button {
-    margin: 0;
-  }
+	  
     </style>
 </head>
 <body>
-
+<div class="container_new" >
 <div class="image-container">
-    <img src="New/Reward New (1).jpg" style="width:100%;" alt="Image 1">
-     </div>
+    <img src="New/Reward Website.jpg" style="width:810px;height:120px" alt="Image 1">
+    <img src="New/Image.jpg" style="width:810px;height:120px" alt="Image 2">
+  </div>
+  
+  <!-- header -->
 <!-- Flexbox Container for Sections -->
-<div class="content-wrapper">
-    <div class="section section-left-left">
-        
-        <button class="image-button-Dashboard"><a class="nav-link" href="Dashboard.html" target="_blank"></a></button>
+<div id="container">
+  <div> <button class="image-button-Dashboard"><a class="nav-link" href="Dashboard.html" target="_blank"></a></button>
         <button class="image-button-About_program"><a class="nav-link" href="Aboutprogram.html" target="_blank"></a></button>
         <button class="image-button-Activity_status"><a class="nav-link" href="DPR_abstract.html" target="_blank"></a></button>
         <button class="image-button-Agro_advice"><a class="nav-link" href="Agroadvice.html" target="_blank"><span class="sr-only"></a></button>
@@ -383,27 +305,24 @@
         <button class="image-button-Lri_card"><a class="nav-link" href="https://sujala3lri.karnataka.gov.in/LRICard/LRICardByHissaNO" target="_blank"></a></a></button>
         <button class="image-button-Lri_portal"><a class="nav-link" href="https://sujala3lri.karnataka.gov.in" target="_blank"></a><span class="sr-only"></a></button>
         <button class="image-button-contact_us"><a class="nav-link" href="contactus.html" target="_blank"></a><span class="sr-only"></a></button>
-        <button class="image-button-Feed_back"><a class="nav-link" href="feedback.html" target="_blank"></a><span class="sr-only"></a></button>
-        
-    </div>
-    <div class="section section-left">
-        <img src="New/RP (2).jpg" style="width: 320px; height:810px"  alt="Image 1">
-    </div>
+        <button class="image-button-Feed_back"><a class="nav-link" href="feedback.html" target="_blank"></a><span class="sr-only"></a></button></div>
+  <div>
+     <img src="New/RP.jpg" style="width: 420px; height:810px"  alt="Image 1">
+  </div>
+  <div><img src="New/rameshsir/PROJECT WISE LRI AREA OF KARNATAKA1.jpg" style="width: 520px; height:810px"  alt="Image 1">
+        <a href="maps.html"> Maps</a></div>
+   <div><img src="New/KO_1.jpg" style="width: 420px; height:810px"  alt="Image 1"></div>
+</div>
+<!-- <div class="content-wrapper" > -->
 
-
-    <div class="section section-middle">
-        
-        <img src="New/rameshsir/PROJECT WISE LRI AREA OF KARNATAKA1.jpg" style="width: 80%; height:810px"  alt="Image 1">
-        <a href="maps.html"> Maps</a>
-      
-    </div>
-
-    <div class="section section-right">
-        <div class="section section-left">
-            <img src="New/KO (3).jpg" style="width: 286px; height:810px"  alt="Image 1">
-        </div>
+   
     
 </div>
+
+
+
+
+<!-- header -->
 
 <!-- Bootstrap JS and dependencies -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
